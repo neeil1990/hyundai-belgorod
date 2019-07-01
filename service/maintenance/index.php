@@ -164,7 +164,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     <div class="total">
                                         <span class="total-default">Выберите<br/>дилера</span>
                                         <span class="calc-total-value"></span>
-                                        <a class="request-service-btn maintenance_form_toggler disabled" target="_blank">запись на сервис</a>
+                                        <a href="/service-request/" class="request-service-btn" target="_blank">запись на сервис</a>
                                     </div>
                                 </div>
                                 <p class="disclaimer">

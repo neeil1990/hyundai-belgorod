@@ -249,7 +249,7 @@ $APPLICATION->SetTitle("shell");
                         </div>
                     </div>
 
-                    <a class="fast-menu-button fast-menu-button--child" data-role="service-request-open">
+                    <a href="/service-request/" class="fast-menu-button fast-menu-button--child" target="_blank">
                         <span class="fast-menu-button__text">Запись на сервис</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg>
                     </a>

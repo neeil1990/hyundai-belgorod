@@ -3,10 +3,12 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Запись на сервис");
 ?>
 
+
     <link type="text/css" href="https://www.hyundai.ru/media/css/newalloffers.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
     <link type="text/css" href="https://www.hyundai.ru/media/css/forms/service-request.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
+    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=4.0">
+
 
     <!--
     Контент страницы начнется тут
@@ -96,11 +98,14 @@ $APPLICATION->SetTitle("Запись на сервис");
                                 </div>
                             </div>
                             <!-- year-->
-                            <div class="yearlistdropdown">
+                            <!--
+            <div class="yearlistdropdown">
                                 <div id="dropdown-yearlisting" class="drop-it-down" tabindex="0">
                                     <ul class="dropdown-list first"><li  data-value="" class="dropdown-item first">Год выпуска*</li></ul>
                                     <div class="nano">
                                         <ul class="dropdown-list nano-content">
+                                            <li data-value="2018" class="dropdown-item">2018</li>
+                                            <li data-value="2017" class="dropdown-item">2017</li>
                                             <li data-value="2016" class="dropdown-item">2016</li>
                                             <li data-value="2015" class="dropdown-item">2015</li>
                                             <li data-value="2014" class="dropdown-item">2014</li>
@@ -117,8 +122,10 @@ $APPLICATION->SetTitle("Запись на сервис");
                                     </div>
                                 </div>
                             </div>
+            -->
                             <!-- engine type -->
-                            <div class="typelistdropdown">
+                            <!--
+            <div class="typelistdropdown">
                                 <div id="dropdown-typelisting" class="drop-it-down" tabindex="0">
                                     <ul class="dropdown-list first"><li  data-value="" class="dropdown-item first">Тип записи</li></ul>
                                     <div class="nano">
@@ -129,6 +136,7 @@ $APPLICATION->SetTitle("Запись на сервис");
                                     </div>
                                 </div>
                             </div>
+            -->
                             <!-- engine capacity -->
                             <!--
                                             <div class="capacitylistdropdown">
@@ -162,9 +170,11 @@ $APPLICATION->SetTitle("Запись на сервис");
                                             </div>
                             -->
                             <!-- mileage -->
-                            <div class="controls__wrap" data-content="Пожалуйста, &#xa; введите Имя.">
+                            <!--
+            <div class="controls__wrap" data-content="Пожалуйста, &#xa; введите Имя.">
                                 <input type="text" name="mileage" id="mileage" placeholder="Пробег автомобиля">
                             </div>
+            -->
                             <!-- vin -->
                             <!--
                                             <div class="controls__wrap" data-content="Пожалуйста, &#xa; введите Имя.">
@@ -180,7 +190,7 @@ $APPLICATION->SetTitle("Запись на сервис");
                                     <div class="nano">
                                         <ul class="dropdown-list nano-content">
                                             <li  data-value="" class="dropdown-item divider">&mdash;</li>
-                                            <li data-value="36" class="dropdown-item">Белгород</li>
+                                            <li data-value="36" class="dropdown-item active">Белгород</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -203,11 +213,12 @@ $APPLICATION->SetTitle("Запись на сервис");
                         </div>
                         <br clear="all"/>
                         <div class="info-gather__row info-gather__row--comment fleft">
-                            <h2 class="info-gather__col__title">Опишите ваш запрос</h2>
+                            <!--
+            <h2 class="info-gather__col__title">Опишите ваш запрос</h2>
                             <div class="controls__wrap add-comment-wrap" data-content="">
                                 <textarea type="" name="comment" id="сomment" placeholder="Введите комментарий" autocapitalize="sentences" maxlength="255"></textarea>
                             </div>
-                            <div class="send-req fright">Отправить заявку</div>
+            -->
                         </div>
                     </div>
                     <div class="info-gather__col info-gather__col__personal fleft">
@@ -234,6 +245,8 @@ $APPLICATION->SetTitle("Запись на сервис");
                             <input type="checkbox" class="agree_rules" id="agree_rules"><label for="agree_rules">Я согласен на обработку данных</label>
                             <a href="#" class="show-legal skyblue dashedskyblue">Смотреть правила</a>
                         </div>
+
+                        <div class="send-req fright">Отправить заявку</div>
                     </div>
                 </div><!-- //info-gather__body -->
                 <!-- map canvas -->
@@ -296,7 +309,7 @@ $APPLICATION->SetTitle("Запись на сервис");
                         <span class="dealer-site"><%= site %></span>
                     </div>
                     <div class="test-drive___select-dealer-btn">
-                        <a href="#" class="test-drive___select-dealer-btn__act-link" data-name="<%= name %>" data-address="<%= address %>"data-code="<%= code %>">Выбрать дилера</a>
+                        <a href="#" class="test-drive___select-dealer-link js-dealer-map-selector" data-name="<%= name %>" data-address="<%= address %>"data-code="<%= code %>">Выбрать дилера</a>
                     </div>
                 </div>
             </div>
@@ -319,6 +332,31 @@ $APPLICATION->SetTitle("Запись на сервис");
             var _rutarget = window._rutarget || [];
             _rutarget.push({'event': 'otherPage', 'tag': 'service_request'});
         </script>
+
+        <!-- ---------------------Maps----------------------- -->
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+        <style>
+            [class*="ymaps-2-1"][class*="-ground-pane"] {
+                filter: grayscale(100%) brightness(65%) contrast(110%) invert(100%);
+            }
+            [class*="ymaps-2-1"][class*="-balloon__content"] {
+                overflow: hidden !important;
+                width: 220px !important;
+                height: auto !important;
+                padding: 25px !important;
+                position: relative !important;
+                box-sizing: content-box;
+                margin: 0 !important;
+            }
+            [class*="ymaps-2-1"][class*="-balloon__layout"] {
+                left: -20px !important;
+            }
+            [class*="ymaps-2-1"][class*="-balloon_layout_normal"] {
+                box-shadow: none !important;
+            }
+        </style>
+
     </main>
 
 
@@ -327,12 +365,14 @@ $APPLICATION->SetTitle("Запись на сервис");
     -->
 
     <!-- ! specific stuff for current page only ! -->
-    <script type="text/javascript" src="https://maps.google.ru/maps/api/js?key=AIzaSyCg3II6UgahN4akFiKCe1Vjrm4wRMBPp8A"></script>
+    <script type="text/javascript" src="https://maps.google.ru/maps/api/js?key=AIzaSyDX8W8BnupAAQjlKYfnq8J51ZLY3hpnxgA"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/underscore.js"></script>
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
     <script type="text/javascript" src="js/service-request.js?v=1"></script>
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/forms/test-drive-ring.js"></script>
+
+
 
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

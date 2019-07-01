@@ -21,7 +21,7 @@ $this->setFrameMode(true);
 			<p><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_1']['VALUE']?></p>
 			<p class="blue"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_2']['VALUE']?></p>
 			<p class="smole"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_3']['VALUE']?></p>
-			<a href="" class="zing_form_toggler_spec" for="newslist"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_LINK']['VALUE']?></a>
+			<a href="/service-request/" class="" target="_blank"><?=$arResult['PROPERTIES']['TOP_BANNER_TEXT_LINK']['VALUE']?></a>
 		</div>
 
 	</div>
@@ -104,7 +104,7 @@ $this->setFrameMode(true);
 		<div class="vin-check-content">
 			<div class="vin-check-heading"><?=$arResult['PROPERTIES']["BOTTOM_BANER_TEXT"]['VALUE']?></div>
 			<div class="vin-check-form-wrap">
-				<a href="<?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK']['VALUE']?>" class="zing_form_toggler_spec" for="newslist" ><?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK_TEXT']['VALUE']?></a>
+				<a href="/service-request/" class="" target="_blank"><?=$arResult['PROPERTIES']['BOTTOM_BANER_LINK_TEXT']['VALUE']?></a>
 			</div>
 		</div>
 	</div>

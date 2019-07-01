@@ -150,7 +150,7 @@ $APPLICATION->SetTitle("H-1");
 						<li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li><!--
-					 --><li><a class="configurator" href="/configurator/" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" title="КОНФИГУРАЦИИ">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Каталог"><a data-gtm-havas-model="h1" href="http://hyundai.mx-studio.ru/?car=H1&size=1" target="_blank" class="broshure" target="_blank">КАТАЛОГ</a></li>
 					</ul>
 				</div>
@@ -1143,41 +1143,13 @@ $APPLICATION->SetTitle("H-1");
 		<div class="promo-slider_wrap">
 	<div class="promo-slider_cut">
 		<ul class="promo-slider">
-			<li>
-				<a href="/Elantra/" class="promo-slider-link">
-					<img src="https://www.hyundai.ru/media/images/carmodels/Elantra_7505a0ed5f602de8.png" alt="ELANTRA">
-					<span class="model">ELANTRA</span>
-					<span class="price">от  984 000  &#8381;</span>
-				</a>
-			</li>
-			<li>
-				<a href="/Creta/" class="promo-slider-link">
-					<img src="https://www.hyundai.ru/media/images/carmodels/Creta_6495a0ed61140503.png" alt="CRETA">
-					<span class="model">CRETA</span>
-					<span class="price">от  879 900  &#8381;</span>
-				</a>
-			</li>
-			<li>
-				<a href="/Tucson/" class="promo-slider-link">
-					<img src="https://www.hyundai.ru/media/images/carmodels/Tucson_8655a0ed607025b4.png" alt="TUCSON">
-					<span class="model">TUCSON</span>
-					<span class="price">от 1 369 000  &#8381;</span>
-				</a>
-			</li>
-			<li>
-				<a href="/SantaFe/" class="promo-slider-link">
-					<img src="https://www.hyundai.ru/media/images/carmodels/SANTA FE_9295b644eb4a3ca7.png" alt="SANTA FE">
-					<span class="model">SANTA FE</span>
-					<span class="price">от 1 964 000  &#8381;</span>
-				</a>
-			</li>
-			<li>
-				<a href="/GrandSantaFe/" class="promo-slider-link">
-					<img src="https://www.hyundai.ru/media/images/carmodels/Grand Santa fe_2625a0ed5fb73033.png" alt="Grand SANTA FE">
-					<span class="model">Grand SANTA FE</span>
-					<span class="price">от 2 439 000  &#8381;</span>
-				</a>
-			</li>
+            <li>
+                <a href="/Creta/" class="promo-slider-link">
+                    <img src="https://www.hyundai.ru/media/images/carmodels/CRETA_9905d120c0ca3f1e.png" alt="CRETA">
+                    <span class="model">CRETA</span>
+                    <span class="price">от  957 000  ₽</span>
+                </a>
+            </li>
 
             		</ul>
 	</div>

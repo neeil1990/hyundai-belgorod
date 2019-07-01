@@ -528,7 +528,7 @@ $APPLICATION->SetTitle("Программа Старт");
 
                                     <span>Отправить на почту</span>
                                 </a>
-                                <a href="#" @click.prevent = "openTestForm" class="aside__dealers">
+                                <a href="/test-drive/" target="_blank" class="aside__dealers">
                                     <span>Тест-драйв</span>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 1L4.89793 5.33104C5.24021 5.71134 5.24021 6.28866 4.89793 6.66896L1 11" stroke-width="2"/>

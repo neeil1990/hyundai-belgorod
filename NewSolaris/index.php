@@ -333,7 +333,7 @@ $APPLICATION->SetTitle("NewSolaris");
             <div class="container">
                 <div class="fast-menu is-expanded" role="navigation">
                     <a href="#" role="button" class="fast-menu-button fast-menu-button--parent" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-car"><use xlink:href="#fast-menu-car"></use></svg><svg xmlns="http://www.w3.org/2000/svg" class="svg fast-menu-close"><use xlink:href="#fast-menu-close"></use></svg></a>
-                    <a href="#" class="fast-menu-button fast-menu-button--child zing_form_toggler_spec" for="testdrive"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
+                    <a href="/test-drive/" target="_blank" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Тест-драйв</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-test-drive"></use></svg></a>
                     <a href="/configurator/" target="_blank" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Конфигуратор</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-config"></use></svg></a>
                     <a href="/contacts/" class="fast-menu-button fast-menu-button--child"><span class="fast-menu-button__text">Контакты</span><svg xmlns="http://www.w3.org/2000/svg" class="svg"><use xlink:href="#fast-menu-dealers"></use></svg></a>
                 </div>

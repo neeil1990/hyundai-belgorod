@@ -223,7 +223,7 @@ $APPLICATION->SetTitle("best");
                         </div>
                         <div class="grid-el grid-el-50 bottom-area-line__inner-right">
                             <a href="/service-request/" class="request-service-btn">запись на сервис</a>
-                            <a href="/all-offers/" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
+                            <a href="/all-offers/#service-offers" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
                         </div>
                     </div>
                 </div>

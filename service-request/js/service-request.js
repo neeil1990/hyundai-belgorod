@@ -2,8 +2,11 @@ $(document).ready(function () {
 	var isFinded = false,
 		isDisableIcons = false,
 		isDealersLoaded = false,
+		mapLoaded = false,
 		mapReady = false,
 		currentDealer,
+		currentSelectedDealer,
+		currentDealerId,
 		currentCity,
 		currentCar,
 		salutation = 'Mr.',
@@ -28,22 +31,18 @@ $(document).ready(function () {
 			this.markers = [];
 			this.searchType = "city"; // dealer or city
 			this.dealersArray = [];
-			this.geocoder = new google.maps.Geocoder();
-			this.mapOptions = {
-				zoom: 6,
-				scrollwheel: false,
-				backgroundColor: '#fff',
-				zoomControl: true,
-				zoomControlOptions: {
-					position: google.maps.ControlPosition.LEFT_BOTTOM
-				},
-				scaleControl: true,
-				streetViewControl: false,
-				mapTypeControl: false,
-				mapTypeId: google.maps.MapTypeId.ROADMAP,
-				styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-100},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":-60},{"lightness":10}]},{"featureType":"landscape.natural","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":-60},{"lightness":60}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"},{"saturation":-100},{"lightness":60}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-100},{"lightness":40}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"},{"saturation":-100},{"lightness":60}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-10},{"lightness":30}]}]
-			};
-			this.map = new google.maps.Map(document.getElementById("map_canvas"), self.mapOptions);
+			this.points = [];
+			this.myMap = new ymaps.Map("map_canvas", {
+				center: [55.753559, 37.609218],
+				zoom: 8,
+				controls: ['zoomControl']
+			}, {
+					suppressMapOpenBlock: true,
+				});
+			this.objectManager = new ymaps.ObjectManager({
+				clusterize: false
+			});
+
 			this.getAllPoints(this.renderMarkers);
 //			this._setMapCenterRussia();
 			return this;
@@ -53,55 +52,84 @@ $(document).ready(function () {
 			$.getJSON('https://www.hyundai.ru/request/getalldealers', function (data) {
 				callback(data, self);
 			})
-			.done(function() {
-				// actions on map loaded
-					if(!isDealersLoaded){
-						if (currentDealerName) {
-							currentDealer = currentDealerName;
-							isDealerselected = true;
-							var currentDealerFr = currentDealer.toString().toLowerCase();
-							if (currentDealerCity) {
-								 currentDealerCity = currentDealerCity.toLowerCase();
-								currentDealerCity = currentDealerCity.split(',');
-								dealerCityCurrentFinded = currentDealerCity[0].replace('г. ','');
-							}
+			.done(function () {
+				// map onLoad
+				if (!mapLoaded) {
+					$('.dropdown-item.active').trigger('click');
 
-							$('#dropdown-dealercitylisting .dropdown-item').each(function () {
-								var self = this,
-								searchValue =  $(self).text().toString();
-								searchValue = searchValue.toLowerCase();
+					if (currentDealerId) {
+						isDealerselected = true;
+						var currentDealerFr = currentDealer.toString().toLowerCase();
+						currentDealerCity = currentDealerCity.toLowerCase();
+						currentDealerCity = currentDealerCity.split(',');
+						dealerCityCurrentFinded = currentDealerCity[0].replace('г. ', '');
 
-								if (searchValue === 'москва и подмосковье') {
-									searchValue = 'москва';
-								};
-								if (dealerCityCurrentFinded.indexOf(searchValue) != -1) {
-									changeZoomPlease = false;
-									$(self).trigger('click');
-								};
-							});
+						$('#dropdown-dealercitylisting .dropdown-item').each(function () {
+							var self = this,
+								searchValue = $(self).text().toString();
+							searchValue = searchValue.toLowerCase();
 
-							$('#dropdown-dealerlisting .dropdown-item').each(function () {
-								var self = this,
-								popupselected =	 $(self).text().toString().toLowerCase();
-								if (popupselected == currentDealerFr) {
-									changeZoomPlease = false;
-									$(self).trigger('click');
-								}
-							});
-							if (!isDealerselected) {
-									$('#dropdown-dealerlisting').removeClass('isDealerselected');
-									$('.controls__wrap input').addClass('inactive');
-							} else {
-									$('#dropdown-dealerlisting').addClass('isDealerselected');
-									$('.controls__wrap input').removeClass('inactive');
+							if (searchValue === 'москва и подмосковье') {
+								searchValue = 'москва';
 							};
-						};
-						self._setMapCenterRussia();
-						isDealersLoaded = true;
-					};
+							if (dealerCityCurrentFinded.indexOf(searchValue) != -1) {
+								$(self).trigger('click');
+							};
+						});
+
+						// А тут поиск дилера по ID
+						$('#dropdown-dealerlisting .dropdown-item').each(function () {
+							var self = this,
+								popupselected = $(self).attr('data-id');
+							if (popupselected == currentDealerId) {
+								$(self).trigger('click');
+							}
+						});
+						if (!isDealerselected) {
+							$('#dropdown-dealerlisting').removeClass('isDealerselected');
+						} else {
+							$('#dropdown-dealerlisting').addClass('isDealerselected');
+						}
+					}
+					else if (currentDealerName) {
+						currentDealer = currentDealerName;
+						isDealerselected = true;
+						var currentDealerFr = currentDealer.toString().toLowerCase();
+						currentDealerCity = currentDealerCity.toLowerCase();
+						currentDealerCity = currentDealerCity.split(',');
+						dealerCityCurrentFinded = currentDealerCity[0].replace('г. ', '');
+
+						$('#dropdown-dealercitylisting .dropdown-item').each(function () {
+							var self = this,
+								searchValue = $(self).text().toString();
+							searchValue = searchValue.toLowerCase();
+
+							if (searchValue === 'москва и подмосковье') {
+								searchValue = 'москва';
+							};
+							if (dealerCityCurrentFinded.indexOf(searchValue) != -1) {
+								$(self).trigger('click');
+							};
+						});
+
+						$('#dropdown-dealerlisting .dropdown-item').each(function () {
+							var self = this,
+								popupselected = $(self).text().toString().toLowerCase();
+							if (popupselected == currentDealerFr) {
+								$(self).trigger('click');
+							}
+						});
+						if (!isDealerselected) {
+							$('#dropdown-dealerlisting').removeClass('isDealerselected');
+						} else {
+							$('#dropdown-dealerlisting').addClass('isDealerselected');
+						}
+					}
+					mapLoaded = true;
+				}
 			})
-			.fail(function() {
-				if (confirm( "Something went wrong :(\n Let's try to reload this page." )) {
+			.fail(function () {
+				if (confirm("Something went wrong :(\n Let's try to reload this page.")) {
 					location.reload(true);
 				} else {
 					return false;
@@ -112,140 +140,121 @@ $(document).ready(function () {
 		renderMarkers: function (data, self) {
 			var numPoint;
 			var markerId = 0;
-			var kk = 0, ll = 0, dd = {};
 			self.dealersArray = data;
-			for (numPoint in data) {
-				var marker = new google.maps.Marker({
-					position: new google.maps.LatLng(data[numPoint].latitude, data[numPoint].longitude),
-					map: self.map,
-					title: data[numPoint].name,
-					email: data[numPoint].email,
-					phone: data[numPoint].phone,
-					encodePhone: data[numPoint].encode_phone,
-					address: data[numPoint].address,
-					site: data[numPoint].site,
-					code: data[numPoint].code,
-					icon: '/media/img/icon_df_map_dealer_hyundai_off_new.png',
-					cityId: data[numPoint].city_id,
-					markerId: data[numPoint].id,
-					special: data[numPoint].special,
-                    wa: data[numPoint].wa,
-                    rating: data[numPoint].rating,
-				});
-				self.markers.push(marker);
 
-				kk = marker.address.length;
-				if (kk > ll) {
-					ll = kk;
-					dd = {
-						a: marker.address,
-						b: numPoint,
-						c: marker,
-						n: marker.title,
-						l: ll
-					}
+			for (pointNum in data) {
+				let dp = data[pointNum];
 
+				let pointImage = '/media/img/icon_df_map_dealer_hyundai_on_new.png';
+				if (dp.special === '1') {
+					pointImage = '/media/img/icon_df_map_dealer_special_on.png';
 				}
 
-				var infoWindowOptions = {
-					content: 'nocontent',
-					pixelOffset: new google.maps.Size(180,180)
+				if (dp.id == 223) {
+					pointImage = '/media/img/avilon.png';
 				}
-				var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
 
-				// close infoWindows by clickin
-				// before define changing icon as function
-				var removeMarkersActivity = function (){
-					for (var i = 0; i < self.markers.length; i++) {
-						self.markers[i].setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
-					};
+				var dealerCity = dp.address;
+				dealerCity = dealerCity.split(',');
+				dealerCity = dealerCity[0];
+
+				dealerCity = dealerCity.toLowerCase();
+				if (dealerCity === 'москва и подмосковье') {
+					dealerCity = 'москва';
 				};
-					// on map
-					google.maps.event.addListener(mapObj.map, 'click', function(){
-						infoWindow.close();
-					});
-				google.maps.event.addListener(marker, 'click', (function (marker, numPoint) {
-					return function () {
-						if (isDisableIcons === false) {
-							removeMarkersActivity();
-							if (marker.special === '1') {
-								  marker.setIcon('/media/img/icon_df_map_dealer_special_on.png');
-							 } else {
-								  marker.setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
-							 }
-						} else {
-							removeMarkersActivity();
-							if (isFinded) {
-								if (marker.special === '1') {
-								  marker.setIcon('/media/img/icon_df_map_dealer_special_on.png');
-								 } else {
-									  marker.setIcon('/media/img/icon_df_map_dealer_hyundai_on_new.png');
-								 }
-							};
-						};
+				var specialClass = dp.special === '1' ? 'special' : '';
+				var waClass = dp.wa === '1' ? 'wa' : '';
+				var ratingClass = dp.rating === '1' ? 'rating' : '';
 
-						var template = _.template($('#dealerTemplate').html(), {
-							name: marker.getTitle(),
-							address: marker.address,
-							phone: marker.phone,
-							site: '<a target="_blank" href="' + marker.site + '" >' + marker.site + '</a>',
-							email: '<a href="mailto:' + marker.email + '">' + marker.email + '</a>',
-							encodePhone: marker.encodePhone,
-							code: marker.code
-						});
-						var dealerListTemp = _.template($('#dealerListTemp').html(), {
-							name: marker.getTitle(),
-							id: marker.markerId
-						});
-						var dealerTemplateInfo = _.template($('#dealerTemplateInfo').html(), {
-							address: marker.address,
-							phone: marker.phone,
-							site: '<a target="_blank" href="' + marker.site + '" >' + marker.site + '</a>'
-						});
-						var selectedDealer = $('#selected-dealer');
-						var dealerListDdown = $('#dropdown-dealerlisting .nano .dropdown-list');
+				var template = _.template($('#dealerTemplate').html(), {
+					name: dp.name,
+					address: dp.address,
+					phone: dp.phone,
+					site: '<a target="_blank" href="' + dp.site + '" >Перейти на сайт</a>',
+					email: '<a href="mailto:' + dp.email + '">' + dp.email + '</a>',
+					encodePhone: dp.encodePhone,
+					city: dealerCity,
+					special: specialClass,
+					wa: waClass,
+					id: dp.id,
+					rating: ratingClass,
+					code: dp.code
+				});
 
-						if (isDisableIcons === false) {
-							infoWindow.setContent(template);
-							infoWindow.open(self.map,marker);
-							// google infoWindow style hook
-							$('.gm-style-iw').removeAttr('style');
-							$('.gm-style-parent').css({ 'width' : '', 'height' : '' });
-							$('.gm-style-iw').addClass('gm-style-iw__testdrive');
-							$('.gm-style-iw').parent().addClass('gm-style-parent');
-							$('.gm-style-parent div').eq(-1).children().addClass('hideThis');
-							$('.gm-style-parent div').eq(-1).addClass('infoWindow-close');
-							$('.gm-style-parent div').first().addClass('hideThis');
-						} else {
-							if (!isFinded) {
-								infoWindow.close();
-								$(dealerListDdown).append(dealerListTemp);
+				myBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+					template
+				);
 
-								   $("#dropdown-dealerlisting .nano").nanoScroller({
-									   alwaysVisible: true,
-									   sliderMinHeight: 45,
-									   sliderMaxHeight: 45,
-									   preventPageScrolling: true
-								   });
-
-							} else {
-								$(selectedDealer).html(dealerTemplateInfo);
-								infoWindow.setContent(template);
-								infoWindow.open(self.map,marker);
-								// google infoWindow style hook
-								$('.gm-style-iw').removeAttr('style');
-								$('.gm-style-parent').css({ 'width' : '', 'height' : '' });
-								$('.gm-style-iw').addClass('gm-style-iw__testdrive');
-								$('.gm-style-iw').parent().addClass('gm-style-parent');
-								$('.gm-style-parent div').eq(-1).children().addClass('hideThis');
-								$('.gm-style-parent div').eq(-1).addClass('infoWindow-close');
-								$('.gm-style-parent div').first().addClass('hideThis');
-							};
-						if (isDealerselected) { $('.test-drive___select-dealer-btn__act-link').text('Дилер выбран') };
-						};
+				let point = {
+					type: 'Feature',
+					id: pointNum,
+					geometry: {
+						type: 'Point',
+						coordinates: [dp.latitude, dp.longitude]
+					},
+					properties: {
+						pointId: dp.id,
+						hintContent: dp.name,
+						address: dp.address,
+						phone: dp.phone,
+						site: dp.site,
+						dealerId: dp.code,
+						code: dp.code,
+						balloonContent: 'Содержание балуна'
+					},
+					options: {
+						iconLayout: 'default#image',
+						iconImageHref: pointImage,
+						hideIconOnBalloonOpen: false,
+						balloonShadow: false,
+						// balloonLayout: MyBalloonLayout,
+						balloonContentLayout: myBalloonContentLayout,
+						balloonMaxWidth: 220,
 					}
-				})(marker, numPoint));
+				};
+
+
+				self.points.push(point);
 			}
+
+
+			self.objectManager.add(self.points);
+			self.myMap.geoObjects.add(self.objectManager);
+
+			self.objectManager.events.add('click_', function (e) {
+				var objectId = e.get('objectId');
+
+				obj = self.objectManager.objects.getById(objectId);
+
+				if (!obj) {
+					obj = e.originalEvent;
+				}
+
+
+				//Если дилер найден, записываем информацию о нём
+
+				var dealerTemplateInfo = _.template($('#dealerTemplateInfo').html(), {
+					address: obj.properties.address,
+					phone: obj.properties.phone,
+					site: '<a target="_blank" href="' + obj.properties.site + '" >' + obj.properties.site + '</a>'
+				});
+
+				if (obj.properties.code !== "C40AF11027") {
+					$('#selected-dealer').html(dealerTemplateInfo);
+				}
+
+				//открыть попап у точки
+				self.objectManager.objects.each(function (item) {
+					if (obj.properties.pointId == item.properties.pointId && item.properties.code !== "C40AF11027") {
+						self.objectManager.objects.balloon.open(item.id);
+
+						//Записываем выбранного дилера
+						currentSelectedDealer = item.properties.dealerId;
+						console.log(currentSelectedDealer);
+
+					}
+				})
+			})
 		},
 		findDealers: function (searchValue, searchId) {
 			var self = this,
@@ -256,11 +265,8 @@ $(document).ready(function () {
 			if (self.searchType === 'city') {
 				$('#dropdown-dealerlisting .nano .dropdown-list').html('');
 			};
-			for (var i = 0; i < self.markers.length; i++) {
-				self.markers[i].setIcon('https://www.hyundai.ru/media/img/icon_df_map_dealer_hyundai_off_new.png');
-			}
 
-			// so will find
+			// find it
 			if (self.searchType === 'dealer') { // process dealer dropdown item click
 				var findNum;
 				isFinded = true;
@@ -269,83 +275,141 @@ $(document).ready(function () {
 					var dealerName = self.dealersArray[dealerNum].name.toLowerCase();
 					var dealerId = self.dealersArray[dealerNum].id;
 
-					if(searchId > 0)
-					{
-						 if(dealerId == searchId)
-						 {
-							  findedList.push({dealer: self.dealersArray[dealerNum], num: dealerNum});
+					if (searchId > 0) {
+						if (dealerId == searchId) {
+							findedList.push({ dealer: self.dealersArray[dealerNum], num: dealerNum });
 						}
 					}
 					else if (dealerName.indexOf(searchValue.toLowerCase()) != -1) {
-						findedList.push({dealer: self.dealersArray[dealerNum], num: dealerNum});
+						findedList.push({ dealer: self.dealersArray[dealerNum], num: dealerNum });
 					}
 				}
 				for (findNum in findedList) {
-					google.maps.event.trigger(self.map, 'resize');
-					var findItem = findedList[findNum];
-					var latLng = new google.maps.LatLng(findItem.dealer.latitude, findItem.dealer.longitude);
-						self.map.setCenter(latLng);
-						self.map.setZoom(10);
-					new google.maps.event.trigger(self.markers[findItem.num], 'click');
+
 				}
 				isDisableIcons = false;
+
+				if ('util' in ymaps) {
+					if (findedList.length != 0) {
+						if (self.objectManager.setFilter(function (object) { return findedList.some(function (obj) { return obj.dealer.id == object.properties.pointId }); })) {
+							var obj = ymaps.util.bounds.getCenterAndZoom(self.objectManager.setFilter(function (object) {
+								return findedList.some(function (obj) { return obj.dealer.id == object.properties.pointId });
+							}).getBounds(), self.myMap.container.getSize());
+
+							self.myMap.setCenter(obj.center, obj.zoom);
+
+							//Чтобы с карты ну убирались точки вне целевого региона
+							self.objectManager.setFilter(function (object) { return findedList.some(function (obj) { return true }); })
+						}
+					}
+
+					if (findedList.length === 1) {
+						self.myMap.setZoom(15);
+					}
+				}
+
+				for (findNum in findedList) {
+					var findItem = findedList[findNum];
+					var target;
+
+					//console.log(findItem);
+
+					self.objectManager.objects.each(function (item) {
+						if (findItem.dealer.id == item.properties.pointId) {
+							target = item;
+						}
+					})
+
+					self.objectManager.events.fire('click_', target);
+				}
+
 			} else { // or find dealers in selected location
 				var findNum;
 				isFinded = false;
 				isDisableIcons = true;
-				bounds = new google.maps.LatLngBounds ();
 
 				for (dealerNum in self.dealersArray) {
-					 var dealerCityId = self.dealersArray[dealerNum].city_id;
-					if (typeof(searchValue) == 'string') {
+					var dealerCityId = self.dealersArray[dealerNum].city_id;
+					if (typeof (searchValue) == 'string') {
 						var findedCitiesList = searchValue.split(',');
-						   for (var i = 0; i < findedCitiesList.length; i++) {
+						for (var i = 0; i < findedCitiesList.length; i++) {
 							if (findedCitiesList[i] == dealerCityId) {
-							 	findedList.push({dealer: self.dealersArray[dealerNum], num: dealerNum});
+								findedList.push({ dealer: self.dealersArray[dealerNum], num: dealerNum });
 							}
 						}
 					} else {
-						   if (searchValue == dealerCityId && dealerNum == "94") {
-							findedList.push({dealer: self.dealersArray[dealerNum], num: dealerNum});
-						   }
+						if (searchValue == dealerCityId) {
+							findedList.push({ dealer: self.dealersArray[dealerNum], num: dealerNum });
+						}
 					}
 				}
 
+				//Добавляем дилеров в список
 				for (findNum in findedList) {
 					var findItem = findedList[findNum];
-					new google.maps.event.trigger(self.markers[findItem.num], 'click');
-					var latLngPoint = new google.maps.LatLng(findItem.dealer.latitude, findItem.dealer.longitude);
-					bounds.extend(latLngPoint);
-					var icon = self.markers[findItem.num].special === '1' ? '/media/img/icon_df_map_dealer_special_on.png' : '/media/img/icon_df_map_dealer_hyundai_on_new.png';
-					self.markers[findItem.num].setIcon(icon)
+					var $container = $('.dealerlistdropdown #dropdown-dealerlisting .nano .dropdown-list');
+					var item = document.createElement('li');
 
+					$(item).attr('data-id', findItem.dealer.id);
+					$(item).html(findItem.dealer.name);
+					$(item).addClass('dropdown-item');
+
+					//оставляем только одного дилера белгород
+					if(findItem.dealer.id !== "249"){
+						continue;
+					}
+
+					//Всех кроме Hyundai City Store Авилон code: C40AF11027
+					if (findItem.dealer.code !== "C40AF11027") {
+						$container.append(item);
+					}
+
+					$("#dropdown-dealerlisting .nano").nanoScroller({
+						alwaysVisible: true,
+						sliderMinHeight: 45,
+						sliderMaxHeight: 45,
+						preventPageScrolling: true
+					});
 				}
-				for (findNum in findedList) {
-					var findItem = findedList[findNum];
-					var icon = self.markers[findItem.num].special === '1' ? '/media/img/icon_df_map_dealer_special_on.png' : '/media/img/icon_df_map_dealer_hyundai_on_new.png';
-					self.markers[findItem.num].setIcon(icon)
-				}
+
+
 				// sort result
-				   var $elements = $('.dealerlistdropdown #dropdown-dealerlisting .nano .dropdown-list .dropdown-item');
-				   var $target = $('.dealerlistdropdown #dropdown-dealerlisting .nano .dropdown-list');
-				   $elements.sort(function (a, b) {
-					   var an = $(a).text(),
-						   bn = $(b).text();
-					   if (an && bn) {
-						   return an.toUpperCase().localeCompare(bn.toUpperCase());
-					   }
-					   return 0;
-				   });
-				   $elements.detach().appendTo($target);
+				var $elements = $('.dealerlistdropdown #dropdown-dealerlisting .nano .dropdown-list .dropdown-item');
+				var $target = $('.dealerlistdropdown #dropdown-dealerlisting .nano .dropdown-list');
+				$elements.sort(function (a, b) {
+					var an = $(a).text(),
+						bn = $(b).text();
+					if (an && bn) {
+						return an.toUpperCase().localeCompare(bn.toUpperCase());
+					}
+					return 0;
+				});
+				$elements.detach().appendTo($target);
 
 				isDisableIcons = false;
-				if (findedList.length == 1) {
-					self.map.setCenter(latLngPoint);
-					self.map.setZoom(8);
-				} else {
-					self.map.fitBounds(bounds);
+
+				if ('util' in ymaps) {
+					if (findedList.length != 0) {
+						if (self.objectManager.setFilter(function (object) { return findedList.some(function (obj) { return obj.dealer.id == object.properties.pointId }); })) {
+							var obj = ymaps.util.bounds.getCenterAndZoom(self.objectManager.setFilter(function (object) {
+								return findedList.some(function (obj) { return obj.dealer.id == object.properties.pointId });
+							}).getBounds(), self.myMap.container.getSize());
+
+							self.myMap.setCenter(obj.center, obj.zoom);
+
+							//Чтобы с карты ну убирались точки вне целевого региона
+							self.objectManager.setFilter(function (object) { return findedList.some(function (obj) { return true }); })
+						}
+					}
+
+					if (findedList.length === 1) {
+						self.myMap.setZoom(12);
+					}
 				}
+
 			}
+
+			if (isDealerselected) { $('.js-dealer-map-selector').text('Дилер выбран') }
 		},
 
 		_setMapCenterRussia: function () {
@@ -385,7 +449,8 @@ $(document).ready(function () {
 				 });
 		}
 	};
-	mapObj.initialize();
+
+	ymaps.ready(mapObj.initialize.bind(mapObj));
 
 // document functionality
 //--------------------------------------------------------------------------------------
@@ -406,12 +471,6 @@ $(document).ready(function () {
 
 
 // dropdown slider plugin init
-	setTimeout(function () {
-		google.maps.event.trigger(mapObj.map, 'resize');
-	}, 5000);
-	$(document).on('click', '.offers__content-title', function () {
-		google.maps.event.trigger(mapObj.map, 'resize');
-	});
 		 $("#dropdown-carlisting .nano").nanoScroller({
 			 alwaysVisible: true,
 			 sliderMinHeight: 45,
@@ -450,10 +509,9 @@ $(document).ready(function () {
 		 });
 
 	if (!mapReady) {
-			  google.maps.event.trigger(mapObj.map, 'resize');
-			 currentCity = $('#dropdown-dealercitylisting .dropdown-item.active').text();
-			mapObj.searchType = 'city';
-			mapObj.findDealers(currentCity);
+		currentCity = $('#dropdown-dealercitylisting .dropdown-item.active').text();
+		mapObj.searchType = 'city';
+		mapObj.findDealers(currentCity);
 		mapReady = true;
 	};
 // popups
@@ -466,7 +524,7 @@ $(document).ready(function () {
 		changeZoomPlease = true;
 		$('.map-overlayed').fadeIn();
 		$('.map_canvas_wrap').addClass('vis');
-		google.maps.event.trigger(mapObj.map, 'resize');
+
 		if (isDealerselected) {
 			var currentDealer = $('#dropdown-dealerlisting .dropdown-item.active').text();
 			var currentDealerId = $('#dropdown-dealerlisting .dropdown-item.active').attr('data-id');
@@ -542,7 +600,7 @@ $(document).ready(function () {
 			$('.typelistdropdown').removeClass('incorrect');
 			$('.capacitylistdropdown').removeClass('incorrect');
 			//$this.parent().removeClass('incorrect');
-			if (isDealersLoaded) { // open droppers
+			if (mapLoaded) { // open droppers
 				if ( $this.hasClass('is-dropped') ) {
 					$this.trigger('focus');
 					$this.removeClass('is-dropped');
@@ -657,7 +715,7 @@ $(document).ready(function () {
 	});
 
 // select dealer on map listener
-	$(document).on('click', '.test-drive___select-dealer-btn__act-link', function(e) {
+	$(document).on('click', '.js-dealer-map-selector', function(e) {
 		e.preventDefault();
 		isDealerselected = true;
 		var currentDealerFromPopUp = $(this).data('name').toString().toLowerCase(),
@@ -692,6 +750,10 @@ $(document).ready(function () {
 		} else {
 				$('#dropdown-dealerlisting').addClass('isDealerselected');
 				$('.controls__wrap input').removeClass('inactive')
+
+			//Закрыть попап
+			$('.map-overlayed').fadeOut();
+			$('.map_canvas_wrap').removeClass('vis');
 		};
 
 		$(dropDownMenu).each( function () {
@@ -818,11 +880,13 @@ $('.controls__wrap input').on('input', function() {
 			$('.carlistdropdown').addClass('incorrect');
 			return;
 		}
+/*
 		if(!isYearselected)
 		{
 			$('.yearlistdropdown').addClass('incorrect');
 			return;
 		}
+*/
 /*
 		if(!isCapacityselected)
 		{
@@ -904,12 +968,13 @@ $('.controls__wrap input').on('input', function() {
 					//model_engine_capacity: $('#dropdown-capacitylisting .dropdown-item.first').text(),
 					model_mileage: $mileage.val(),
 					//model_vin: $vin.val(),
-					dealer: $('.test-drive___select-dealer-btn__act-link').data('code'),
+					dealer: currentSelectedDealer,
 					dealername: $('#dropdown-dealerlisting').find('li.first').html(),
 					salutation: $('input[name=mrOrms]:checked').val(),
-					campaignCode: !!window.campaignCode
+					campaignCode: !!window.campaignCode,
 				},
 				function(response) {
+
 					 isResult = true;
 					 respFlag = response;
 					 //$('.layout-black').hide();
@@ -1014,9 +1079,11 @@ function showResult()
 		 $phone = $('#phone'),
 		 $email = $('#email'),
 		 $comment = $('textarea#сomment'),
+/*
 		 enginetype = $('#dropdown-typelisting .dropdown-item.first').text(),
 		 $mileage = $('#mileage'),
 		 $vin = $('#vin'),
+*/
 		 $agree = $('#agree_rules');
 
 	$('.layout-black').hide();
