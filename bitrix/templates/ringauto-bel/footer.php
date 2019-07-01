@@ -944,7 +944,19 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
 <noscript><div><img src="https://mc.yandex.ru/watch/49717819" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+<!-- StreamWood code -->
+<link href="https://clients.streamwood.ru/StreamWood/sw.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://clients.streamwood.ru/StreamWood/sw.js" charset="utf-8"></script>
+<script type="text/javascript">
+  swQ(document).ready(function(){
+    swQ().SW({
+      swKey: '38f55a3075ec53b4b58de7814c425247',
+      swDomainKey: 'f50cd93840df35c3d177121ad4fc0652'
+    });
+    swQ('body').SW('load');
+  });
+</script>
+<!-- /StreamWood code -->
 
 </body>
-    
 </html>
