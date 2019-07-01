@@ -866,7 +866,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
     Контент страницы закончится тут
     -->
 
-    <script src="https://www.hyundai.ru/assets/js/vendors.js?v=1"></script>
+
 
     <!-- ! specific stuff for current page only ! -->
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/inner.js"></script>

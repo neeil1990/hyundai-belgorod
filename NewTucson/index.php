@@ -2230,10 +2230,19 @@ $APPLICATION->SetTitle("Новый TUCSON.");
     Контент страницы закончится тут
     -->
 
-    <script src="https://www.hyundai.ru/assets/js/config_layout.js?v=2"></script>
+
 
     <!-- ! specific stuff for current page only ! -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+
+    <script>
+        $('#header-primary').mouseenter(function() {
+            $( this ).addClass('_active');
+        })
+        $('#header-primary').mouseleave(function() {
+            $( this ).removeClass('_active');
+        });
+    </script>
 
 
     <script type="text/javascript" src="https://www.hyundai.ru/assets/libs/greensock/CustomEase.min.js"></script>

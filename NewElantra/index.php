@@ -29,7 +29,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 max-width: 100%;
             }
             .main{
-                padding-top: 0px;
+                padding-top: 50px;
             }
             .nav {
                 z-index: 100

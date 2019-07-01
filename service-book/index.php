@@ -221,7 +221,7 @@ $APPLICATION->SetTitle("Электронная сервисная книжка �
     Контент страницы закончится тут
     -->
 
-    <script src="https://www.hyundai.ru/assets/js/vendors.js?v=1"></script>
+
 
 
 

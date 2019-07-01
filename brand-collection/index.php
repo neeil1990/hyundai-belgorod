@@ -1149,8 +1149,14 @@ $APPLICATION->SetTitle("Бренд-коллекция.");
     Контент страницы закончится тут
     -->
 
-    <script src="https://www.hyundai.ru/assets/js/vendors.js?v=1"></script>
-    <script src="https://www.hyundai.ru/assets/js/config_layout.js?v=2"></script>
+    <script>
+        $('#header-primary').mouseenter(function() {
+            $( this ).addClass('_active');
+        })
+        $('#header-primary').mouseleave(function() {
+            $( this ).removeClass('_active');
+        });
+    </script>
 
     <!-- ! specific stuff for current page only ! -->
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/underscore.js"></script>
