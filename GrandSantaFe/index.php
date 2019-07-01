@@ -162,7 +162,7 @@ $APPLICATION->SetTitle("GrandSantaFe");
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li><!--
-					 --><li><a class="configurator" href="https://www.hyundai.ru/configurator/car/13" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="каталог"><a data-gtm-havas-model="grandsantafe" href="#" data-model="Grand Santa Fe" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
 					 -->
                                 </ul>
@@ -1318,9 +1318,9 @@ $APPLICATION->SetTitle("GrandSantaFe");
                         </div>
                         <div class="promo-grid">
                             <ul class="clearfix">
-                                <li><a href="https://www.hyundai.ru/configurator/car/13"><span>Конфигуратор Grand Santa Fe</span></a></li>
+                                <li><a href="/configurator/"><span>Конфигуратор Grand Santa Fe</span></a></li>
                                 <li><a target="_blank" href="https://www.hyundai.ru/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                                <li><a href="https://www.hyundai.ru/configurator/car/13#calculator"><span>Рассчитать кредит</span></a></li>
+                                <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
                             </ul>
                         </div>
                     </div>

@@ -154,7 +154,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
             </div>
             <div class="sub-menu__right">
                 <a href="/test-drive/" class="sub-menu__test">тест-драйв</a>
-                <a href="https://www.hyundai.ru/configurator/car/25" class="sub-menu__conf">конфигуратор и цены</a>
+                <a href="/configurator/" class="sub-menu__conf">конфигуратор и цены</a>
             </div>
         </div>
 
@@ -1192,7 +1192,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                                 White
                             </div>
                         </div>
-                        <a href="https://www.hyundai.ru/configurator/car/25" class="price" style="display: inline-block;">
+                        <a href="/configurator/" class="price" style="display: inline-block;">
                             <div class="price__value">
                                 <span>от</span> 2 0499 000  &#8381;
                             </div>

@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("Победная выгода на автомобили 
                                 </div>
                                 <div class="row row-right">
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/24/modification" class="offer-actions__button config">Конфигуратор</a>
+                                        <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
 
 
 
@@ -66,7 +66,7 @@ $APPLICATION->SetTitle("Победная выгода на автомобили 
 
 
                                 <div class="offer-actions__button-span">
-                                    <a href="http://www.hyundai.ru/configurator/car/24/modification#calculator" class="offer-actions__button credit">Кредит</a>
+                                    <a href="/configurator/" class="offer-actions__button credit">Кредит</a>
                                     <a href="/test-drive/" class="offer-actions__button testdrive">Тест-драйв</a>
                                 </div>
                                 <a class="offer-actions__description" href="/Sonata/">Описание модели ></a>
@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Победная выгода на автомобили 
                                 </div>
                                 <div class="row row-right">
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/18/modification" class="offer-actions__button config">Конфигуратор</a>
+                                        <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
 
 
 
@@ -95,7 +95,7 @@ $APPLICATION->SetTitle("Победная выгода на автомобили 
 
 
                                 <div class="offer-actions__button-span">
-                                    <a href="http://www.hyundai.ru/configurator/car/18/modification#calculator" class="offer-actions__button credit">Кредит</a>
+                                    <a href="/configurator/" class="offer-actions__button credit">Кредит</a>
                                     <a href="/test-drive/" class="offer-actions__button testdrive">Тест-драйв</a>
                                 </div>
                                 <a class="offer-actions__description" href="/Tucson/">Описание модели ></a>

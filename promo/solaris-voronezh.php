@@ -76,7 +76,7 @@
 
             <div class="col-md-3">
                 <div class="config-header">
-                   <a href="http://www.hyundai.ru/configurator/car?compl_id=336&packets=" target="_blank"> <img src="img/conf.png">
+                   <a href="/configurator/" target="_blank"> <img src="img/conf.png">
                     Конфигуратор
 					</a>
                 </div>
@@ -106,7 +106,7 @@
 			   <li><a href="#">Покупка</a></li>
 			   -->
                 <li><a href="http://www.hyundai-ringauto.ru/all-offers#service-offers" target="_blank">Сервис</a></li>
-                <li><a href="http://www.hyundai.ru/configurator/car?compl_id=336&packets=" target="_blank">Конфигуратор</a></li>
+                <li><a href="/configurator/" target="_blank">Конфигуратор</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

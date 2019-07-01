@@ -54,20 +54,20 @@ $APPLICATION->SetTitle("Это пять!");
 
                         <div class="offer-actions clearfix">
                             <div class="row row-left" style="text-align: center;">
-                                <a href="http://www.hyundai.ru/configurator/car/23/#calculator"><img src="img/Solaris.jpg" alt="Solaris" width="400" height="230"><br>Рассчитать кредит</a>
+                                <a href="/configurator/"><img src="img/Solaris.jpg" alt="Solaris" width="400" height="230"><br>Рассчитать кредит</a>
                             </div>
                             <div class="row row-right" style="text-align: center;">
                                 <div class="offer-actions__button-span">
-                                    <a href="http://www.hyundai.ru/configurator/car/22/#calculator"><img src="img/Creta.jpg" alt="Creta" width="400" height="230"><br>Рассчитать кредит</a>
+                                    <a href="/configurator/"><img src="img/Creta.jpg" alt="Creta" width="400" height="230"><br>Рассчитать кредит</a>
                                 </div></div>
 
                             <div class="offer-actions clearfix">
                                 <div class="row row-left" style="margin-top: 50px; text-align: center;">
-                                    <a href="http://www.hyundai.ru/configurator/car/18/#calculator"><img src="img/Tucson.jpg" alt="Tucson" width="400" height="230"><br>Рассчитать кредит</a>
+                                    <a href="/configurator/"><img src="img/Tucson.jpg" alt="Tucson" width="400" height="230"><br>Рассчитать кредит</a>
                                 </div>
                                 <div class="row row-right" style="margin-top: 50px; text-align: center;">
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/7/#calculator"><img src="img/Elantra.jpg" alt="Elantra" width="400" height="230"><br>Рассчитать кредит</a>
+                                        <a href="/configurator/"><img src="img/Elantra.jpg" alt="Elantra" width="400" height="230"><br>Рассчитать кредит</a>
                                     </div></div>
 
                                 <!-- additional terms as footer -->

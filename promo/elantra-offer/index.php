@@ -80,11 +80,11 @@ $APPLICATION->SetTitle("elantra_offer");
 
                         <div class="row row-right">
                             <div class="offer-actions__button-span">
-                                <a href="http://www.hyundai.ru/configurator/?car_id=18" class="offer-actions__button config">Конфигуратор</a>
+                                <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
                                 <div id="brochure_requester"><a data-gtm-havas-model="elantra" href="#" data-model="Elantra" for="brochures_request" target="_blank" class="zing_form_toggler offer-actions__button brosh">Брошюра</a></div>
                             </div>
                             <div class="offer-actions__button-span">
-                                <a href="http://www.hyundai.ru/configurator/?car_id=18?calc_open=1" class="offer-actions__button credit">Кредит</a>
+                                <a href="/configurator/" class="offer-actions__button credit">Кредит</a>
                                 <a href="#" class="offer-actions__button testdrive">Тест-драйв</a>
                             </div>
                             <a class="offer-actions__description" href="http://www.hyundai.ru/Elantra">Описание модели &gt;</a>

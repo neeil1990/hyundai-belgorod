@@ -105,7 +105,7 @@ $APPLICATION->SetTitle("Solaris");
                                     <div class="title-price">
                                         <? price_to_url($APPLICATION->GetCurPage()); ?> <br>
                                         <? profit_to_url($APPLICATION->GetCurPage()); ?> <br>
-                                        <a href="http://www.hyundai.ru/configurator/?car_id=147" class="title-price-notice">В кредит от 11 857 &#8381; / месяц</a>
+                                        <a href="/configurator/" class="title-price-notice">В кредит от 11 857 &#8381; / месяц</a>
                                     </div>
                                     <a href="#" class="btn-flat">Все предложения</a>
                                     <div class="title-list">
@@ -182,7 +182,7 @@ $APPLICATION->SetTitle("Solaris");
                                 <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li><!--
-					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator/?car_id=147" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Брошюра"><a data-gtm-havas-model="solaris" href="#" data-model="Solaris" for="brochures_request" class="zing_form_toggler broshure" target="_blank">БРОШЮРА</a></li>
                             </ul>
                         </div>
@@ -1320,9 +1320,9 @@ $APPLICATION->SetTitle("Solaris");
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
-                            <li><a href="http://www.hyundai.ru/configurator/?car_id=147"><span>Конфигуратор Solaris</span></a></li>
+                            <li><a href="/configurator/"><span>Конфигуратор Solaris</span></a></li>
                             <li><a target="_blank" href="/media/downloads/accessoires/Solaris_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="http://www.hyundai.ru/configurator/?car_id=147"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>

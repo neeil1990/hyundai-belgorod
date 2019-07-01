@@ -201,7 +201,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
             </div>
             <div class="sub-menu__right">
                 <a href="/test-drive/" class="sub-menu__test">тест-драйв</a>
-                <a href="https://www.hyundai.ru/configurator/car/26" class="sub-menu__conf">конфигуратор и цены</a>
+                <a href="/configurator/" class="sub-menu__conf">конфигуратор и цены</a>
             </div>
         </div>
 
@@ -1074,7 +1074,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                                 White
                             </div>
                         </div>
-                        <a href="https://www.hyundai.ru/configurator/car/26" class="price" style="display: inline-block;">
+                        <a href="/configurator/" class="price" style="display: inline-block;">
                             <div class="price__value">
                                 <span>от</span> 1 444 000  &#8381;
                             </div>

@@ -148,7 +148,7 @@ $APPLICATION->SetTitle("SantaFe");
                                 <ul>
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
-					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator/car/17" target="_blank" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" target="_blank" title="Цены комплектации">ЦЕНЫ И КОНФИГУРАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Каталог"><a data-gtm-havas-model="santafe" href="#" data-model="Santa Fe" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
 					 --><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                                 </ul>
@@ -1244,7 +1244,7 @@ $APPLICATION->SetTitle("SantaFe");
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="http://www.hyundai.ru/configurator/car/17" target="_blank" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="/configurator/" target="_blank" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
@@ -1271,9 +1271,9 @@ $APPLICATION->SetTitle("SantaFe");
                         </div>
                         <div class="promo-grid">
                             <ul class="clearfix">
-                                <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Конфигуратор Santa Fe</span></a></li>
+                                <li><a href="/configurator/" target="_blank"><span>Конфигуратор Santa Fe</span></a></li>
                                 <li><a target="_blank" href="http://www.hyundai.ru/media/downloads/accessoires/SantaFe_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                                <li><a href="http://www.hyundai.ru/configurator" target="_blank"><span>Рассчитать кредит</span></a></li>
+                                <li><a href="/configurator/" target="_blank"><span>Рассчитать кредит</span></a></li>
                             </ul>
                         </div>
                     </div>

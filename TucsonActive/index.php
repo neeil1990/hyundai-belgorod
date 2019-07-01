@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("TucsonActive");
                         <svg role="presentation" class="svg icon_svg--wheel-fullsize link__icon">
                             <use xlink:href="/media/tucson_landing/images/symbols.svg?v=2#wheel"></use>
                         </svg><span class="link__text"><span>Записаться<br/>на тест драйв</span></span></a>
-                    <a href="http://www.hyundai.ru/configurator" target="_blank" class="plus__link plus__link_scroll link">
+                    <a href="/configurator/" target="_blank" class="plus__link plus__link_scroll link">
                         <svg role="presentation" class="svg icon_svg--calc-fullsize link__icon">
                             <use xlink:href="/media/tucson_landing/images/symbols.svg?v=2#calc"></use>
                         </svg><span class="link__text"><span>Рассчитать<br/>кредит</span></span></a>
@@ -504,7 +504,7 @@ $APPLICATION->SetTitle("TucsonActive");
                     </div>
                 </div>
                 <ul class="tile-menu tile-menu--in-video">
-                    <li class="tile-menu__item"><a href="http://www.hyundai.ru/configurator/car/18/modification" target="_blank" class="tile-menu__link">
+                    <li class="tile-menu__item"><a href="/configurator/" target="_blank" class="tile-menu__link">
                             <div class="tile-menu__icon">
                                 <svg role="presentation" class="svg icon_svg--car-fullsize">
                                     <use xlink:href="/media/tucson_landing/images/symbols.svg?v=2#car"></use>
@@ -528,7 +528,7 @@ $APPLICATION->SetTitle("TucsonActive");
                             </div>
                             <h4 class="tile-menu__title">Тест-драйв</h4>
                             <p class="tile-menu__text">Моментальная заявка в удобное для вас время</p></a></li>
-                    <li class="tile-menu__item"><a href="http://www.hyundai.ru/configurator/car/18/modification#calculator" target="_blank" class="tile-menu__link">
+                    <li class="tile-menu__item"><a href="/configurator/" target="_blank" class="tile-menu__link">
                             <div class="tile-menu__icon">
                                 <svg role="presentation" class="svg icon_svg--calc-fullsize">
                                     <use xlink:href="/media/tucson_landing/images/symbols.svg?v=2#calc"></use>

@@ -206,7 +206,7 @@ $(document).ready(function() {
 		}
 
 		//var confLink = "/configurator/car/?compl_id=" + getConfigIdByCarId(Number(id)) + "&packets=";
-		var confLink = "https://www.hyundai.ru/configurator/car/" + id;
+		var confLink = "/configurator/";
 		$(".so-calc__item-conf").attr("href", confLink);
 	}
 

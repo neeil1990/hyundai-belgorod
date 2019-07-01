@@ -150,7 +150,7 @@ $APPLICATION->SetTitle("H-1");
 						<li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li><!--
-					 --><li><a class="configurator" href="https://www.hyundai.ru/configurator" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Каталог"><a data-gtm-havas-model="h1" href="http://hyundai.mx-studio.ru/?car=H1&size=1" target="_blank" class="broshure" target="_blank">КАТАЛОГ</a></li>
 					</ul>
 				</div>

@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Выгода 30 000 Р. на Hyundai Tucson");
                                 </div>
                                 <div class="row row-right">
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/18/modification" class="offer-actions__button config">Конфигуратор</a>
+                                        <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
 
 
 
@@ -72,7 +72,7 @@ $APPLICATION->SetTitle("Выгода 30 000 Р. на Hyundai Tucson");
 
 
                                 <div class="offer-actions__button-span">
-                                    <a href="http://www.hyundai.ru/configurator/car/18/modification" class="offer-actions__button credit">Кредит</a>
+                                    <a href="/configurator/" class="offer-actions__button credit">Кредит</a>
                                     <a href="/test-drive/" class="offer-actions__button testdrive">Тест-драйв</a>
                                 </div>
                                 <a class="offer-actions__description" href="/Tucson/">Описание модели ></a>

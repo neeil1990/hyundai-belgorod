@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Hyundai Grand Santa fe");
                                 </div>
                                 <div class="row row-right">
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/13/modification" target="_blank" class="offer-actions__button config">Конфигуратор</a>
+                                        <a href="/configurator/" target="_blank" class="offer-actions__button config">Конфигуратор</a>
 
 
 
@@ -72,7 +72,7 @@ $APPLICATION->SetTitle("Hyundai Grand Santa fe");
 
 
                                 <div class="offer-actions__button-span">
-                                    <a href="http://www.hyundai.ru/configurator/car/13/modification" target="_blank" class="offer-actions__button credit">Кредит</a>
+                                    <a href="/configurator/" target="_blank" class="offer-actions__button credit">Кредит</a>
                                     <a href="" class="offer-actions__button testdrive zing_form_toggler_spec" for="testdrive">Тест-драйв</a>
                                 </div>
                                 <a class="offer-actions__description" href="/GrandSantaFe/">Описание модели ></a>

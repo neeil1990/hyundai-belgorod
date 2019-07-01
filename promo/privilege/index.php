@@ -51,7 +51,7 @@ $APPLICATION->SetTitle("КАСКО 3,8% + пакет Привилегия");
                                     </div>
                                     <div class="row row-right">
                                         <div class="offer-actions__button-span">
-                                            <a href="http://www.hyundai.ru/configurator/car/24/modification" class="offer-actions__button config">Конфигуратор</a>
+                                            <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
 
 
 
@@ -67,7 +67,7 @@ $APPLICATION->SetTitle("КАСКО 3,8% + пакет Привилегия");
 
 
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/24/modification" class="offer-actions__button credit">Кредит</a>
+                                        <a href="/configurator/" class="offer-actions__button credit">Кредит</a>
                                         <a href="/test-drive/" class="offer-actions__button testdrive">Тест-драйв</a>
                                     </div>
                                     <a class="offer-actions__description" href="/Sonata/">Описание модели ></a>

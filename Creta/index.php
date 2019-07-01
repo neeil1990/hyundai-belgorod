@@ -167,7 +167,7 @@ $APPLICATION->SetTitle("Creta");
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">Обзор</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">Характеристики</a></li><!--
 					 --><li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">Галерея</a></li><!--
-					 --><li><a class="configurator" href="http://www.hyundai.ru/configurator/car/22" target="_blank" title="Цены комплектации">Цены и конфигурации</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" target="_blank" title="Цены комплектации">Цены и конфигурации</a></li><!--
 					 --><li class="broshure-item" title="каталог"><a data-gtm-havas-model="Creta" href="#" data-model="Creta" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
 					 -->
                                 </ul>

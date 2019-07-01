@@ -56,7 +56,7 @@
 
 
 <!--					<li class="main-nav__item">-->
-<!--						<a target="_blank" href="http://www.hyundai.ru/configurator" class="main-nav__link">Конфигуратор</a>-->
+<!--						<a target="_blank" href="/configurator/" class="main-nav__link">Конфигуратор</a>-->
 <!--					</li>-->
 <!---->
 <!--					<li class="main-nav__item main-nav__item--go-leave">-->

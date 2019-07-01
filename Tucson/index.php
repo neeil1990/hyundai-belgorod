@@ -167,7 +167,7 @@ $APPLICATION->SetTitle("Tucson");
                                     <li class="on"><a class="main-toggler main-toggler__explore" href="#" data-href="#content-type__explore" title="Обзор">ОБЗОР</a></li><!--
 					 --><li><a class="main-toggler main-toggler__specs" href="#" data-href="#content-type__specs" title="Характеристики">ХАРАКТЕРИСТИКИ</a></li><!--
 					 --><!-- <li><a class="main-toggler main-toggler__gallery" href="#" data-href="#content-type__gallery" title="Галерея">ГАЛЕРЕЯ</a></li> --><!--
-					 --><li><a class="configurator" href="https://www.hyundai.ru/configurator/car/18" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
+					 --><li><a class="configurator" href="/configurator/" title="Цены комплектации">ЦЕНЫ И КОМПЛЕКТАЦИИ</a></li><!--
 					 --><li class="broshure-item" title="Каталог"><a data-gtm-havas-model="tucson" href="#" data-model="Tucson" for="brochures_request" class="zing_form_toggler broshure" target="_blank">КАТАЛОГ</a></li><!--
 					 --><li>       </li>
                                 </ul>
@@ -1408,9 +1408,9 @@ $APPLICATION->SetTitle("Tucson");
                     </div>
                     <div class="promo-grid">
                         <ul class="clearfix">
-                            <li><a href="https://www.hyundai.ru/configurator/car/18"><span>Конфигуратор Tucson</span></a></li>
+                            <li><a href="/configurator/"><span>Конфигуратор Tucson</span></a></li>
                             <li><a target="_blank" href="https://www.hyundai.ru/media/downloads/accessoires/Tucson_Acc.pdf"><span>Каталог аксессуаров</span></a></li>
-                            <li><a href="https://www.hyundai.ru/configurator/car/18#calculator"><span>Рассчитать кредит</span></a></li>
+                            <li><a href="/configurator/"><span>Рассчитать кредит</span></a></li>
                         </ul>
                     </div>
                 </div>
