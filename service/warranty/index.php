@@ -471,7 +471,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Solaris.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Solaris.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="creta" style="display: none;">
@@ -564,7 +564,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Creta.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="elantra" style="display: none;">
@@ -657,7 +657,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <!-- <div class="avaible-documents" data-model="equus" style="display: none;">
@@ -746,7 +746,7 @@ $APPLICATION->SetTitle("Гарантия");
                                         </div>
                                     </div>
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Equus.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div> -->
                             <div class="avaible-documents" data-model="genesis" style="display: none;">
@@ -835,7 +835,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Genesis.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="h1" style="display: none;">
@@ -942,7 +942,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="i40" style="display: none;">
@@ -1049,7 +1049,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="santafe" style="display: none;">
@@ -1156,7 +1156,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="new_santafe" style="display: none;">
@@ -1263,7 +1263,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="grandsantafe" style="display: none;">
@@ -1370,7 +1370,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="new_tucson" style="display: none;">
@@ -1477,7 +1477,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                             <div class="avaible-documents" data-model="sonata" style="display: none;">
@@ -1570,7 +1570,7 @@ $APPLICATION->SetTitle("Гарантия");
                                     </div>
                                 </div> <!-- //spoilers -->
                                 <div class="warranty-dl">
-                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/media/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
+                                    <div class="warranty-file">Подробная информация о всех гарантийных условиях<a href="/service/warranty/Other.pdf" rel="download" class="file-dl" target="_blank">Скачать</a></div>
                                 </div>
                             </div>
                         </div>
