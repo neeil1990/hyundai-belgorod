@@ -177,7 +177,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		var $zing_form = $("#blabla-back_tel"),
 			what = $(this).attr("for");
-		console.log(what);
+
 		$zing_form.children(".zing_form").first().attr("for", what);
 		switch (what) {
 			default:
@@ -406,19 +406,41 @@ $(document).ready(function() {
 				ajax_url = "/ajax/testdrive.php";
 				break;
 			case "zing_cuzov_btn":
+				yaCounter49157044.reachGoal('otsenit_avto_ok', false, function () {
+					console.log('goal otsenit_avto_ok');
+				});
+				gtag('event', 'otsenit_avto_ok', {
+					event_category: 'otsenit_avto',
+					event_label: 'otsenit_avto'
+				});
 				ajax_url = "/ajax/zing_cuzov_btn.php";
 				break;
 			case "feedback_home":
+				yaCounter49157044.reachGoal('obratnaya_svyaz_ok', false, function () {
+					console.log('goal obratnaya_svyaz_ok');
+				});
+				gtag('event', 'obratnaya_svyaz_ok', {
+					event_category: 'obratnaya_svyaz_form',
+					event_label: 'obratnaya_svyaz'
+				});
 				ajax_url = "/ajax/feedback.php";
 				break;
 			default:
+				yaCounter49157044.reachGoal('zabronirovat_avto_ok', false, function () {
+					console.log('goal zabronirovat_avto_ok');
+				});
+				gtag('event', 'zabronirovat_avto_ok', {
+					event_category: 'zabronirovat_avto_form',
+					event_label: 'zabronirovat_avto'
+				});
 				ajax_url = "/ajax/zing_hotline_btn.php";
+
 				if (what == 'zing_dealer_btn') {
 					$parent.find("#" + what).trigger("click");
 				} else $("#" + what).trigger("click");
 				console.log($("#" + what).attr('class'));
 		}
-		console.log(ajax_url);
+
 		$.ajax({
 			url: ajax_url,
 			type: "POST",

@@ -46,4 +46,5 @@ $APPLICATION->SetTitle("configurator");
     <script type="text/javascript" src="js/config_layout.js"></script>
 
 
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

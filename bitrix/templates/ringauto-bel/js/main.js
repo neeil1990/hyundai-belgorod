@@ -65,6 +65,24 @@ $(document).ready(function(){
 		$(".videoPopup").fadeOut();
 		$(".videoFrame").attr("src", '');
 	});
+
+	$('body').on('click','.send-email-form__submit',function () {
+		var form = $(this).closest('.send-email-form');
+		var send = true;
+		form.find('input').each(function (li,el) {
+			if(!$(el).val())
+				send = false;
+		});
+		if(send){
+			yaCounter49157044.reachGoal('credit_email_ok', false, function () {
+				console.log('goal credit_email_ok');
+			});
+			gtag('event', 'credit_email_ok', {
+				event_category : 'credit_email_form',
+				event_label : 'credit_email'
+			});
+		}
+	});
 });
 
 /*!

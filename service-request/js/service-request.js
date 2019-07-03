@@ -953,6 +953,14 @@ $('.controls__wrap input').on('input', function() {
 
 			drawProcessSlow();
 
+			yaCounter49157044.reachGoal('service_ok', false, function () {
+				console.log('goal service_ok');
+			});
+			gtag('event', 'service_ok', {
+				event_category : 'service_form',
+				event_label : 'service'
+			});
+
 			$.post(
 				'https://www.hyundai.ru/requestnew/ServiceRequestToCRM',
 				{

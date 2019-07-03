@@ -909,6 +909,14 @@ $(function () {
 
 			drawProcessSlow();
 
+			yaCounter49157044.reachGoal('testdrive_ok', false, function () {
+				console.log('goal testdrive_ok');
+			});
+			gtag('event', 'testdrive_ok', {
+				event_category : 'testdrive_form',
+				event_label : 'testdrive'
+			});
+
 			$.post(
 				'https://www.hyundai.ru/requestnew/sendcrm',
 				{
