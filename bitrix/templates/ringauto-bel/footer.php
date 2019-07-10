@@ -958,5 +958,9 @@ if(!empty($ar['IMG_SLIDE']) and $APPLICATION->GetCurPage() != '/'){
 </script>
 <!-- /StreamWood code -->
 
+
+<!-- по просьбе клиента от 03.072019 -->
+<script id="wJumpToCars" src="https://cars.hyundai-belgorod.ru/widgets/jumpToCars.js"></script>
+</body>
 </body>
 </html>

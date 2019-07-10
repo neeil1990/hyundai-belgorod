@@ -259,7 +259,7 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div>
-<div class="insection-offer-unit">
+<!--<div class="insection-offer-unit">
 							<a href="/promo/robocar" class="insection-offer-unit__link">
 								<img src="http://www.hyundai.ru/media/offers_image/1fd7981dc76075cad486d796a5340354_465х330.jpg" alt="" class="insection-offer-unit__back-img">
 								<div class="insection-offer-unit__info">
@@ -267,7 +267,7 @@ $APPLICATION->SetTitle("all-offers");
 	 								<span class="addinfo"></span>
 								</div>
 							</a>
-						</div>
+						</div>-->
 
             </div>
             <!-- service stuff next -->

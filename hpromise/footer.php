@@ -152,5 +152,8 @@
   });
 </script>
 <!-- /StreamWood code -->
+
+<!-- по просьбе клиента от 03.072019 -->
+<script id="wJumpToCars" src="https://cars.hyundai-belgorod.ru/widgets/jumpToCars.js"></script>
 </body>
 </html>
