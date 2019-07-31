@@ -78,7 +78,7 @@ $APPLICATION->SetTitle("Тест-драйв");
                     <img src="https://www.hyundai.ru/media/img/test_drive_imgs/gsf.png" alt="">
                     <img src="https://www.hyundai.ru/media/img/test_drive_imgs/solaris_td.png" alt="">
                     <img src="https://www.hyundai.ru/media/img/test_drive_imgs/new-elantra.png" alt="">
-                    <img src="https://www.hyundai.ru/media/img/test_drive_imgs/i30N.png" alt="">
+                    <!--<img src="https://www.hyundai.ru/media/img/test_drive_imgs/i30N.png" alt="">-->
                 </div>
                 <h1 class="offers__content-title skyblue">Тест-драйв автомобилей Hyundai</h1>
                 <div class="info-gather__body clearfix">
@@ -99,7 +99,7 @@ $APPLICATION->SetTitle("Тест-драйв");
                                         <!-- 								<li data-model="Tucson"				model="TUCSON"			class="dropdown-item " >TUCSON</li> -->
                                         <li data-model="New Tucson"				model="NEW TUCSON"			class="dropdown-item " >Новый TUCSON</li>
                                         <li data-model="New Santa Fe"	 		model="NEW SANTA FE"		class="dropdown-item " >Новый SANTA FE</li>
-                                        <li data-model="i30 N"	 		model="i30 N"		class="dropdown-item" >i30 N</li>
+                                         <!--<li data-model="i30 N"	 		model="i30 N"		class="dropdown-item" >i30 N</li>-->
                                         <li data-model="H-1"		model="H-1"	class="dropdown-item active" >H-1</li>
                                     </ul>
                                 </div>
