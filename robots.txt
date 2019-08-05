@@ -52,5 +52,5 @@ Disallow: /*.pdf
 Disallow: /*.xls
 Disallow: /promo-new/*
 
-Host: hyundai-ringauto.ru
-Sitemap: http://hyundai-ringauto.ru/sitemap.xml
+Host: hyundai-belgorod.ru
+Sitemap: http://hyundai-belgorod.ru/sitemap.xml
