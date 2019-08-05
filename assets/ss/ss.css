@@ -1,0 +1,228 @@
+.title-offer {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 55px;
+}
+
+h2.title-offer {
+	font-family: HyundaiSansHead;
+	font-size: 42px;
+	line-height: 48px;
+	color: #666;
+	margin-top: 10px !important;
+	margin-bottom: 40px !important;
+}
+
+.offer-terms__text {
+	font-family: HyundaiSansText;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.content_area {
+	background: #fff;
+}
+
+.cnt_grey {
+	background: #F8F8F8 !important;
+}
+
+.dyn_data {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	font-family: HyundaiSansText;
+}
+
+.dyn_b1 {
+	float: left;
+	width: 50%;
+	height: auto;
+	font-family: HyundaiSansText;
+	font-size: 16px;
+	line-height: 24px;
+	color: #B7B7B7;
+	padding-right: 100px;
+}
+
+.dyn_b2 {
+	float: right;
+	text-align: right;
+	width: 20%;
+}
+
+.dyn_b2 .val {
+	font-family: HyundaiSansHead;
+	font-size: 30px;
+	line-height: 36px;
+	color: #E63312;
+}
+.label {
+	font-family: HyundaiSansText;
+	font-size: 16px;
+	line-height: 24px;
+	color: #B7B7B7;
+}
+
+.dyn_b3 {
+	float: right;
+	text-align: right;
+	width: 20%;
+}
+
+.dyn_b3 .val {
+	font-family: HyundaiSansHead;
+	font-size: 30px;
+	line-height: 36px;
+	color: #00AAD2;
+}
+
+.dyn_pic1 {
+	float: left;
+	max-width: 48%;
+}
+
+.dyn_pic2 {
+	float: right;
+	max-width: 48%;
+}
+
+
+
+
+.request-service-btn {
+    -moz-user-select: none;
+    background: #103a71 none repeat scroll 0 0;
+    border: 2px solid #103a71;
+    color: #fff !important;
+    display: inline-block;
+    font-family: "Arial",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 16px 29px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, border-color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s;
+    text-decoration: none !important;
+border-radius: 28px;
+}
+.request-service-btn:hover {
+    opacity: 0.8;
+}
+
+.inverse-service-btn {
+    -moz-user-select: none;
+    background: #transparent none repeat scroll 0 0;
+    border: 2px solid #fff;
+    color: #1d88ce !important;
+    display: inline-block;
+    font-family: "Arial",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 16px 29px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, border-color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s, color 0.15s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s;
+    text-decoration: none !important;
+}
+.inverse-service-btn:hover {
+    /*background: rgba(f, 136, 206, 0.8) none repeat scroll 0 0;
+    color: #1d88ce !mportant;
+    text-decoration: none;
+    border: 2px solid #1d88ce;*/
+    opacity: 0.8;
+}
+
+.title-offer img {
+	max-width: 150px;
+	margin-bottom: 20px;
+}
+
+.promo-head-mobile {
+    display: none;
+}
+
+
+
+@media only screen and (max-width : 950px) {
+    .promo-head {
+        height: 265px;
+        min-height: 265px;
+        width: 950px;
+        margin-left: -475px;
+    }
+
+    .title-offer {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 100%;
+        font-size: 40px;
+    }
+
+    .offers-block {
+        width: auto;
+    }
+
+    .offer-terms__text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .mlr {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .dyn_data {
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .dyn_b1 {
+        width: 100%;
+    }
+
+    .dyn_b2 {
+        width: 50%;
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    .dyn_b3 {
+        width: 50%;
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    .tip-supscript {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+@media only screen and (max-width : 640px) {
+    .dyn_pic1, .dyn_pic2 {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 10px;
+    }
+    .promo-head {
+        display: none;
+    }
+    .promo-head-mobile {
+        display: block;
+        max-width: 100%;
+    }
+
+    h1.title-offer {
+        font-size: 36px;
+    }
+
+    h2.title-offer {
+        font-size: 30px;
+    }
+}

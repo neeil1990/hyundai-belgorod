@@ -40,9 +40,6 @@ RewriteRule ^index\.html$ http://%{HTTP_HOST}/ [R=301,L]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP
 RewriteRule ^index\.html\/$ http://%{HTTP_HOST}/ [R=301,L]
 
-RewriteCond %{THE_REQUEST} \?\ HTTP [NC] 
-RewriteRule ^/?(index\.cfm)? /? [R=301,L]
-
 Redirect 301 /car/Solaris /Solaris/
 Redirect 301 /car/new_Solaris5DR /Solaris-5dr/
 Redirect 301 /car/i30-3DR /i30-3dr/
