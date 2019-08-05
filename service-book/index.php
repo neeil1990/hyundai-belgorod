@@ -3,234 +3,213 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Электронная сервисная книжка в Мире Хёндэ");
 ?>
 
-    <link type="text/css" href="https://www.hyundai.ru/assets/css/servicebook.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=4.0">
+    <content-data>
+        <div class="content">
 
-    <!--
-    Контент страницы начнется тут
-    -->
-
-    <main class="main" data-model="home">
-
-        <section class="main-banner">
-            <div class="main-banner__center section">
-                <h1 class="h1 main-banner__title">
-                    Электронная<br />
-                    сервисная книжка<br />
-                    в&nbsp;Мире Хёндэ
-                </h1>
-                <div class="main-banner__text">
-                    Это защищенная база данных, которая хранит информацию о&nbsp;вашем Hyundai.
+            <section class="head">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="head__banner">
+                                <div class="head__composition">
+                                    <h1 class="head__title">Электронная сервисная книжка.</h1>
+                                    <div class="head__subtitle">
+                                        Защищенная база данных с информацией о вашем Hyundai.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="#access" class="main-banner__button default-button js-scroll">Как воспользоваться</a>
-            </div>
-        </section>
+            </section>
 
-        <section class="advantages section">
-            <h2 class="h2">Преимущества</h2>
-            <ul class="advantages__list">
-                <li class="advantages__item">
-                    <div class="advantages__icon">
-                        <img src="https://www.hyundai.ru/assets/img/servicebook/svg/01_TO.svg" alt="">
-                    </div>
-                    <div class="advantages__description">
-                        Контролируйте<br />
-                        техническое состояние<br />
-                        вашего автомобиля
-                    </div>
-                </li>
-                <li class="advantages__item">
-                    <div class="advantages__icon">
-                        <img src="https://www.hyundai.ru/assets/img/servicebook/svg/02_history.svg" alt="">
-                    </div>
-                    <div class="advantages__description">
-                        Храните сервисную<br />
-                        историю
-                    </div>
-                </li>
-                <li class="advantages__item">
-                    <div class="advantages__icon">
-                        <img src="https://www.hyundai.ru/assets/img/servicebook/svg/03_garanty.svg" alt="">
-                    </div>
-                    <div class="advantages__description">
-                        Следите за&nbsp;гарантийным<br />
-                        статусом
-                    </div>
-                </li>
-                <li class="advantages__item">
-                    <div class="advantages__icon">
-                        <img src="https://www.hyundai.ru/assets/img/servicebook/svg/04_process.svg" alt="">
-                    </div>
-                    <div class="advantages__description">
-                        Упрощайте процесс<br />
-                        обслуживания
-                    </div>
-                </li>
-            </ul>
-            <ul class="advantages__list advantages__list--mt">
-                <li class="advantages__item">
-                    <div class="advantages__text">
-                        Информация о&nbsp;пройденных&nbsp;ТО записывается автоматически
-                        в&nbsp;хронологическом порядке.
-                    </div>
-                </li>
-                <li class="advantages__item">
-                    <div class="advantages__text">
-                        Все данные об&nbsp;автомобиле надежно защищены.
-                    </div>
-                </li>
-                <li class="advantages__item">
-                    <div class="advantages__text">
-                        Электронная сервисная книжка всегда под рукой в&nbsp;профиле
-                        в&nbsp;Мире Хёндэ.
-                    </div>
-                </li>
-                <li class="advantages__item">
-                    <div class="advantages__text">
-                        Комфортное и&nbsp;быстрое обслуживание автомобиля в&nbsp;дилерских центрах Hyundai.
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section id="access" class="access">
-            <div class="access__center section">
-                <h2 class="h2">
-                    Получите доступ к&nbsp;Электронной сервисной <br />
-                    книжке удобным для вас способом
-                </h2>
-                <div class="access__subtitle">Самостоятельно онлайн</div>
-                <ul class="access__numbers">
-                    <li class="access__number">
-                        <div class="access__circle">
-                            01
+            <!-- Слайдер с OwlCarousel -->
+            <!-- Подключить карусель, подключить файл со стилями _slider-1.sass, подключить код slider-1.js -->
+            <section class="slider-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider-1__center">
+                                <h2 class="slider-1__title">Преимущества</h2>
+                                <ul class="slider-1__list owl-carousel js-slider-1">
+                                    <li class="slider-1__item slider-1__item--0">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/book/slider/0.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Контролируйте техническое состояние вашего автомобиля
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Информация о пройденных ТО записывается автоматически в хронологическом порядке
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--1">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/book/slider/1.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Храните сервисную историю
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Все данные об автомобиле надежно защищены
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--2">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/book/slider/2.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Следите за гарантийным статусом
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Электронная сервисная книжка всегда под рукой в профиле в Мире Хёндэ
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--3">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/book/slider/3.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Упрощайте процесс обслуживания
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Комфортное и быстрое обслуживание автомобиля в дилерских центрах Hyundai
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </li>
-                    <li class="access__number">
-                        <div class="access__circle">
-                            02
+                    </div>
+                </div>
+            </section>
+            <section class="access">
+                <div class="access__title">
+                    <div class="df-banner-subline">Получите доступ к Электронной сервисной книжке удобным для вас способом</div>
+                </div>
+                <div class="access__block">
+                    <h3 class="access__block__title">Онлайн</h3>
+                    <div class="access__block__content container">
+                        <div class="row">
+                            <div class="block-data col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div class="circle h5 hidden-mobile">01</div>
+                                <div class="circle-mobile hidden-desctop">
+                                    <svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M45.7276 37.2427L45.0205 37.9498L45.7276 38.6569L56.3342 49.2635L49.2632 56.3345L38.6566 45.7279L37.9495 45.0208L37.2424 45.7279L29.1459 53.8244L14.2092 14.2095L53.8241 29.1462L45.7276 37.2427Z" stroke="#666666" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="block-text df-text-main-16px">
+                                    Зарегистрируйтесь в программе привилегий Мир Хёндэ
+                                </div>
+                                <a href="https://mir.hyundai.ru" class="df-button">Зарегистрироваться</a>
+                                <div class="show-more hidden-desctop">
+                                    <a href="https://mir.hyundai.ru" class="df-iconed-link js-show-more">
+                                        <span>Узнать больше</span>
+                                        <svg>
+                                            <use xlink:href="#arrow-link"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="block-data col-xl-4 col-lg-4 col-md-4 col-sm-12 collapsed">
+                                <div class="circle h5">02</div>
+                                <div class="block-text df-text-main-16px">
+                                    В разделе «Гараж» введите vin-номер автомобиля, загрузите документы, подтверждающие владение автомобилем: фотографии СТС или ПТС с двух сторон в хорошем качестве
+                                </div>
+                            </div>
+                            <div class="block-data col-xl-4 col-lg-4 col-md-4 col-sm-12 collapsed">
+                                <div class="circle h5">03</div>
+                                <div class="block-text df-text-main-16px">
+                                    После прохождения верификации автомобиля вы получите доступ к информации о вашем автомобиле и остальным возможностям программы привилегий Мир Хёндэ
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                    <li class="access__number">
-                        <div class="access__circle">
-                            03
+                    </div>
+                </div>
+                <div class="access__block access__block--bottom">
+                    <div class="access__block__content container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr>
+                                <h3 class="access__block__title">В дилерском центре</h3>
+                            </div>
+                            <div class="block-data col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                <div class="circle h5 hidden-mobile">01</div>
+                                <div class="circle-mobile hidden-desctop">
+                                    <svg width="62" height="52" viewBox="0 0 62 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M31.6572 40.7048C32.2654 40.0057 46.5319 23.4733 46.5319 15.2847C46.5329 6.8566 39.5641 0 30.9993 0C22.4346 0 15.4668 6.8566 15.4668 15.2847C15.4668 23.4723 29.7342 40.0048 30.3415 40.7048C30.6704 41.084 31.3292 41.084 31.6572 40.7048ZM30.9993 1.70361C38.6104 1.70361 44.8006 7.79507 44.8006 15.2847C44.8006 22.1068 32.7121 36.7795 31.3341 38.4295L30.9993 38.8307L30.6655 38.4295C29.2866 36.7795 17.198 22.1068 17.198 15.2847C17.198 7.79603 23.3902 1.70361 30.9993 1.70361Z" fill="#66645F"/>
+                                        <path d="M36.968 15.2846C36.968 12.0459 34.2899 9.4115 30.9996 9.4115C27.7094 9.4115 25.0312 12.0459 25.0312 15.2846C25.0312 18.5233 27.7094 21.1577 30.9996 21.1577C34.2899 21.1577 36.968 18.5233 36.968 15.2846ZM26.7644 15.2846C26.7644 12.9863 28.664 11.1151 31.0006 11.1151C33.3371 11.1151 35.2377 12.9854 35.2377 15.2846C35.2377 17.5839 33.3371 19.4541 31.0006 19.4541C28.664 19.4532 26.7644 17.5829 26.7644 15.2846Z" fill="#66645F"/>
+                                        <path d="M61.526 50.8269L52.6975 29.4067C52.5642 29.084 52.2489 28.8752 51.8956 28.8752H43.8029C43.326 28.8752 42.9358 29.2564 42.9358 29.7275C42.9358 30.1968 43.325 30.5798 43.8029 30.5798H51.3127L59.4385 50.2964H2.56342L10.6893 30.5798H18.1991C18.676 30.5798 19.0652 30.1977 19.0652 29.7275C19.0652 29.2573 18.6769 28.8752 18.1991 28.8752H10.1054C9.75212 28.8752 9.43585 29.084 9.3035 29.4067L0.475999 50.8269C0.367005 51.0893 0.399119 51.3881 0.55969 51.6227C0.721234 51.8582 0.989825 52 1.27788 52H60.7212C61.0102 52 61.2778 51.8592 61.4394 51.6236C61.6019 51.3881 61.634 51.0902 61.526 50.8269Z" fill="#66645F"/>
+                                    </svg>
+                                </div>
+                                <div class="block-text df-text-main-16px">
+                                    Найдите удобный для вас дилерский центр Hyundai
+                                </div>
+                                <a href="/find-dealer" class="df-button">Найти дилера</a>
+                                <div class="show-more hidden-desctop">
+                                    <a href="/find-dealer" class="df-iconed-link js-show-more">
+                                        <span>Узнать больше</span>
+                                        <svg>
+                                            <use xlink:href="#arrow-link"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="block-data col-xl-4 col-lg-4 col-md-4 col-sm-12 collapsed">
+                                <div class="circle h5">02</div>
+                                <div class="block-text df-text-main-16px">
+                                    Сотрудник дилерского центра заполнит за вас все данные для регистрации. Моментально добавит ваш автомобиль в профиль на сайте без загрузки документов
+                                </div>
+                            </div>
+                            <div class="block-data col-xl-4 col-lg-4 col-md-4 col-sm-12 collapsed">
+                                <div class="circle h5">03</div>
+                                <div class="block-text df-text-main-16px">
+                                    Пользуйтесь сервисной книжкой онлайн или получите pdf-версию у дилера, а также остальными возможностями программы привилегий Мира Хёндэ
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                </ul>
-                <ul class="access__list">
-                    <li class="access__item">
-                        Зарегистрируйтесь в программе привилегий Мир Хёндэ.
-                        <br>
-                        <a href="https://mir.hyundai.ru/login" target="_blank" class="default-button default-button--large access__button">Зарегистрироваться</a>
-                    </li>
-                    <li class="access__item">
-                        В&nbsp;разделе &laquo;Гараж&raquo; введите vin-номер автомобиля, загрузите документы, подтверждающие владение автомобилем: фотографии СТС или ПТС с&nbsp;двух сторон в&nbsp;хорошем качестве.
-                    </li>
-                    <li class="access__item">
-                        После прохождения верификации автомобиля вы&nbsp;получите доступ к&nbsp;информации о&nbsp;вашем автомобиле и&nbsp;остальным возможностям программы привилегий Мир Хёнде.
-                    </li>
-                </ul>
-                <div class="access__subtitle access__subtitle--mt">В официальном дилерском центре</div>
-                <ul class="access__numbers">
-                    <li class="access__number">
-                        <div class="access__circle">
-                            01
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="slider-1 important-things">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider-1__center">
+                                <h2 class="slider-1__title">Важно знать</h2>
+                            </div>
                         </div>
-                    </li>
-                    <li class="access__number">
-                        <div class="access__circle">
-                            02
+                        <div class="col-md-6">
+                            <ul class="df-list">
+                                <li class="df-list__item df-text-main-16px">
+                                    Электронная сервисная книжка доступна всем зарегистрированным пользователям Мира Хёндэ с верифицированным автомобилем
+                                    <br>
+                                    Если было проведено техническое обслуживание, оно будет отображено в Электронной сервисной книжке.
+                                </li>
+                                <li class="df-list__item df-text-main-16px">
+                                    Ваши персональные данные надежно защищены.
+                                    <br>
+                                    Для получения печатной версии Электронной сервисной книжки мы используем верификацию через код подтверждения из смс.
+                                </li>
+
+                            </ul>
                         </div>
-                    </li>
-                    <li class="access__number">
-                        <div class="access__circle">
-                            03
+                        <div class="col-md-6">
+                            <ul class="df-list">
+                                <li class="df-list__item df-text-main-16px">
+                                    Пользуйтесь Электронной сервисной книжкой любым удобным способом.
+                                    <br>
+                                    Вы можете распечать, сохранить PDF или отправить на e-mail документ Электронной сервисной книжки в разделе «Гараж» или обратиться к любому официальному дилеру.
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                </ul>
-                <ul class="access__list">
-                    <li class="access__item">
-                        Найдите удобный для вас дилерский центр Hyundai.
-                        <br>
-                        <a href="/contacts/" target="_blank" class="default-button default-button--large access__button">Найти дилера</a>
-                    </li>
-                    <li class="access__item">
-                        Сотрудник дилерского центра заполнит за&nbsp;вас все данные для регистрации. Моментально добавит ваш автомобиль в&nbsp;профиль на&nbsp;сайте без загрузки документов.
-                    </li>
-                    <li class="access__item">
-                        Пользуйтесь сервисной книжкой онлайн или получите pdf-версию у&nbsp;дилера, а&nbsp;также остальными возможностями программы привилегий Мира Хёндэ.
-                    </li>
-                </ul>
-            </div>
-        </section>
+                    </div>
+                </div>
+            </section>
 
-        <section class="last-block section">
-            <h2 class="h2">Важно знать</h2>
-            <ul class="last-block__list">
-                <li class="last-block__item">
-                    <div class="last-block__icon">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 26 18" style="enable-background:new 0 0 26 18;" xml:space="preserve">
-                <path d="M9.5,18c-0.9,0-1.8-0.3-2.5-1l-6.3-6.3c-1-1-1-2.7,0-3.7c1-1,2.7-1,3.7,0l5.1,5.1l12-11.3c1-1,2.7-1,3.7,0c1,1,1,2.7,0,3.7
-                    L12,17C11.3,17.7,10.4,18,9.5,18z"/>
-                </svg>
-                    </div>
-                    <div class="last-block__description">
-                        Электронная сервисная книжка доступна всем зарегистрированным пользователям Мира Хёндэ с&nbsp;верифицированным автомобилем
-                    </div>
-                    <div class="last-block__text">
-                        Если было проведено техническое обслуживание, оно будет отображено в&nbsp;Электронной сервисной книжке.
-                    </div>
-                </li>
-                <li class="last-block__item">
-                    <div class="last-block__icon">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 26 18" style="enable-background:new 0 0 26 18;" xml:space="preserve">
-                <path d="M9.5,18c-0.9,0-1.8-0.3-2.5-1l-6.3-6.3c-1-1-1-2.7,0-3.7c1-1,2.7-1,3.7,0l5.1,5.1l12-11.3c1-1,2.7-1,3.7,0c1,1,1,2.7,0,3.7
-                    L12,17C11.3,17.7,10.4,18,9.5,18z"/>
-                </svg>
-                    </div>
-                    <div class="last-block__description">
-                        Пользуйтесь Электронной сервисной книжкой любым удобным способом
-                    </div>
-                    <div class="last-block__text">
-                        Вы&nbsp;можете распечать, сохранить PDF или отправить на&nbsp;e-mail документ Электронной сервисной книжки в&nbsp;разделе &laquo;Гараж&raquo; или обратиться к&nbsp;любому официальному дилеру.
-                    </div>
-                </li>
-                <li class="last-block__item">
-                    <div class="last-block__icon">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 26 18" style="enable-background:new 0 0 26 18;" xml:space="preserve">
-                <path d="M9.5,18c-0.9,0-1.8-0.3-2.5-1l-6.3-6.3c-1-1-1-2.7,0-3.7c1-1,2.7-1,3.7,0l5.1,5.1l12-11.3c1-1,2.7-1,3.7,0c1,1,1,2.7,0,3.7
-                    L12,17C11.3,17.7,10.4,18,9.5,18z"/>
-                </svg>
-                    </div>
-                    <div class="last-block__description">
-                        Ваши персональные данные надежно защищены
-                    </div>
-                    <div class="last-block__text">
-                        Для получения печатной версии Электронной сервисной книжки мы&nbsp;используем верификацию через код подтверждения из&nbsp;смс.
-                    </div>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-
-    <!--
-    Контент страницы закончится тут
-    -->
-
-
-
-
-
-    <!-- ! specific stuff for current page only ! -->
-    <script type="text/javascript" src="https://maps.google.ru/maps/api/js?key=AIzaSyDX8W8BnupAAQjlKYfnq8J51ZLY3hpnxgA"></script>
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/underscore.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/assets/js/servicebook.js"></script>
+        </div>
+    </content-data>
 
 
 

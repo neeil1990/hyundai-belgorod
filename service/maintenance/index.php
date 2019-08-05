@@ -3,271 +3,218 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Обслуживание");
 ?>
 
-    <link type="text/css" href="https://www.hyundai.ru/media/css/dropit.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.hyundai.ru/media/css/service_styles.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.hyundai.ru/media/css/service_overrides.css?v=1" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
+    <content-data>
+        <div class="content">
 
-    <!--
-    Контент страницы начнется тут
-    -->
-
-    <main class="main" data-model="home">
-
-        <div class="content-wrapper">
-            <div class="content content--maintenance">
-                <div class="content-header-fw">
-                    <div class="maintenance-additional-layout">
-                        <div class="content-header-fw__text clearfix">
-                            <div class="content-title">Обслуживание</div>
-                            <div class="content-descr">Большинство организаций, занимающихся техническим обслуживанием автомобилей подтвердят, что большей части поломок, с которыми сталкиваются владельцы автомобилей, можно избежать, придерживаясь рекомендаций производителя по регулярному обслуживанию и ремонту автомобиля. Надлежащий уход за автомобилем позволит улучшить его ходовые характеристики, снизить расход топлива и повысить безопасность.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="maintenance-calculator-wrapper" id="maintenance-calculator-wrapper">
-                    <div class="maintenance-calculator grid">
-                        <div class="grid-el grid-el-50 maintenance-car">
-                            <div class="car-wrap">
-                                <div class="heading heading-02">Ваш автомобиль</div>
-                                <div id="models" class="models drop-down drop-down--models" tabindex="0" data-current="">
-                                    <div class="drop-down-active-item"></div>
-                                    <div class="drop-down-list">
-                                        <ul class="drop-down-items">
-                                            <li data-value="Solaris New"       	data-type="2"	class="drop-down-item active">Solaris New</li>
-                                            <li data-value="Solaris"       	data-type="2"	class="drop-down-item">Solaris</li>
-                                            <li data-value="Sonata"       	data-type="4"	class="drop-down-item">Sonata</li>
-                                            <li data-value="i30"           	data-type="1"	class="drop-down-item">i30</li>
-                                            <li data-value="Elantra"       	data-type="1"	class="drop-down-item">Elantra</li>
-                                            <li data-value="Elantra New"   	data-type="1"	class="drop-down-item">Elantra New</li>
-                                            <li data-value="Veloster"      	data-type="1"	class="drop-down-item">Veloster</li>
-                                            <li data-value="i40"           	data-type="1"	class="drop-down-item">i40</li>
-                                            <li data-value="Creta"         	data-type="3"	class="drop-down-item">Creta</li>
-                                            <li data-value="ix35"          	data-type="3"	class="drop-down-item">ix35</li>
-                                            <li data-value="Tucson"        	data-type="3"	class="drop-down-item">Tucson</li>
-                                            <li data-value="Santa Fe"	   	data-type="3"	class="drop-down-item">Santa Fe</li>
-                                            <li data-value="New Santa Fe"	   	data-type="3"	class="drop-down-item">Новый Santa Fe</li>
-                                            <li data-value="Grand Santa Fe"	data-type="3"	class="drop-down-item">Grand Santa Fe</li>
-                                            <li data-value="H1"           	data-type="3"	class="drop-down-item">H-1</li>
-                                        </ul>
+            <script src="https://api-maps.yandex.ru/2.1/?apikey=ffa519d3-303f-463c-afa2-29eec493cd33&lang=ru_RU" type="text/javascript"></script>
+            <section class="head">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="head__banner">
+                                <div class="head__composition">
+                                    <h1 class="head__title">Обслуживание.</h1>
+                                    <div class="df-text-main-16px">
+                                        Большинство организаций, занимающихся техническим обслуживанием автомобилей подтвердят, что большей части поломок, с которыми сталкиваются владельцы автомобилей, можно избежать, придерживаясь рекомендаций производителя по регулярному обслуживанию и ремонту автомобиля. Надлежащий уход за автомобилем позволит улучшить его ходовые характеристики, снизить расход топлива и повысить безопасность.
                                     </div>
                                 </div>
-                                <div class="car-image">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/cars/car-image--solarisnew.png" class="car-image__img" alt=""/>
-                                </div>
-                                <div class="materials-pdf-wrap">
-                                    <div class="heading heading-02">Материалы</div>
-                                    <a href="#" target="_blank" class="materials-pdf docs-link docs-link--base-works">Базовые работы, входящие в периодическое ТО</a>
-                                    <a href="/media/downloads/pdf/maintenance/maintenance-harsh-conditions.pdf" download="" class="docs-link docs-link--harsh-conditions">Тяжелые условия эксплуатации</a>
-                                    <a href="/media/downloads/pdf/Sonata(LF).pdf" download="" class="docs-link docs-link--sonata-reglament">Регламент технического обслуживания</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid-el grid-el-50 maintenance-calc">
-                            <div class="calc-wrap">
-                                <div class="heading heading-02 heading-light">Калькулятор ТО</div>
-                                <!--
-                                                        <div class="calc-controls-title">Автомобиль</div>
-                                                            <ul class="calc-controls auto-type clearfix" data-count="2" data-current="">
-                                                                <li class="auto-type-item active" data-value="1">Гарантийный</li>
-                                                                <li class="auto-type-item" data-value="0">Постгарантийный</li>
-                                                            </ul>
-                                -->
-                                <div class="calc-controls clearfix">
-                                    <div class="calc-controls-title">Двигатель</div>
-                                    <ul class="calc-controls engine-control clearfix" data-count="4" data-current="">
-                                        <li class="engine-control-item active" data-value="2.0 MPi">2.0 MPi</li>
-                                        <li class="engine-control-item" data-value="1.6 GDi">1.6 GDi</li>
-                                        <li class="engine-control-item" data-value="1.6 T-GDi">1.6 T-GDi</li>
-                                        <li class="engine-control-item" data-value="2.0 CRDi">2.0 CRDi</li>
-                                    </ul>
-
-                                    <div class="calc-controls-title">Тип двигателя</div>
-                                    <ul class="calc-controls engine-type clearfix" data-count="2" data-current="">
-                                        <li class="engine-control-item active" data-value="Бензиновый">Бензиновый</li>
-                                        <li class="engine-control-item" data-value="Дизельный">Дизельный</li>
-                                    </ul>
-
-                                    <div class="calc-controls-title">Пробег, тыс. км</div>
-                                    <div class="calc-controls mileage-control">
-                                        <div class="mileage-control-value"><span class="mileage-control-value-nums">45 000</span> км</div>
-                                        <div class="mileage-control-item" data-current="45"></div>
-                                        <div class="mileage-control-scale">
-                                            <span class="mileage-control-scale__item">15</span>
-                                            <span class="mileage-control-scale__item">30</span>
-                                            <span class="mileage-control-scale__item">45</span>
-                                            <span class="mileage-control-scale__item">60</span>
-                                            <span class="mileage-control-scale__item">75</span>
-                                            <span class="mileage-control-scale__item">90</span>
-                                        </div>
-                                    </div>
-                                    <div class="calc-controls-city-dealer clearfix">
-                                        <div id="dealer-city" class="dealer-city drop-down drop-down--dealer-city" tabindex="0" data-current="">
-                                            <div class="drop-down-active-item"></div>
-                                            <div class="drop-down-list">
-                                                <ul class="drop-down-items">
-                                                    <li class="drop-down-item" data-value="36">Белгород</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div id="dealers" class="dealers drop-down drop-down--dealers" tabindex="0" data-current="">
-                                            <div class="drop-down-active-item"></div>
-                                            <div class="drop-down-list">
-                                                <ul class="drop-down-items">
-                                                    <li class="drop-down-item disabled" data-value="">Выберите город</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="calc-block-free clearfix">
-                                        <div class="calc-block-header">
-                                            Вам доступны следующие бесплатные услуги&nbsp;<img src="https://www.hyundai.ru/media/img/service-pages/arrow-down.jpg">
-                                        </div>
-
-                                        <div class="calc-block-free-content">
-                                            <div class="calc-block-free-row row-mileage">Комплексная диагностика автомобиля
-                                                по 36 ключевым пунктам<sup>**</sup></div>
-                                            <div class="calc-block-free-row">Проверка аккумуляторной батареи</div>
-                                            <div class="calc-block-free-row">Замена внешних ламп освещения</div>
-                                            <div class="calc-block-free-row">Замена щеток стеклоочистителя</div>
-                                            <div class="calc-block-free-row">Регулировка уровня рабочих жидкостей</div>
-                                            <div class="calc-block-free-row">Установка салонного фильтра</div>
-                                            <div class="calc-block-free-link"><a href="/service/best">Узнать подробнее&nbsp;&nbsp;&nbsp;<img src="https://www.hyundai.ru/media/img/service-pages/arrow-left.png"></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="sums" style="display:none">
-                                        <div class="sum">
-                                            <span class="sum__text">Стоимость работ</span>
-                                            <span class="sum__repairs"></span>
-                                        </div>
-                                        <div class="sum">
-                                            <input id="original-spares" name="sum-spares" checked type="radio" class="sum-spares__input" value="0">
-                                            <label for="original-spares" class="sum-spares__circle">
-                                                <span class="sum__text">Стоимость оригинальных зап. частей</span>
-                                                <span class="sum__spares"></span>
-                                            </label>
-
-                                            <input id="pl2-spares" name="sum-spares" type="radio" class="sum-spares__input" value="1">
-                                            <label for="pl2-spares" class="sum-spares__circle sum-spares_visible">
-                                                <span class="sum__text">Стоимость зап. частей Product&nbsp;Line&nbsp;2<span class="sum-spares__about"></span></span>
-                                                <span class="sum__spares"></span>
-                                                <div class="sum-spare__popup">
-                                                    <div class="sum-spare__popup-close"></div>
-                                                    <div class="sum-spare__popup-text">
-                                                        Запасные части PL2 — уникальное предложение для автомобилей HYUNDAI старше 3-х лет.<br>
-                                                        PL2 - это качественная альтернатива основной линейке запасных частей, рекомендованная для автомобилей старше 3-х лет, по сниженным ценам.<br>
-                                                        PL2 производятся на тех же предприятиях и по тем же технологиям, которые используются при производстве оригинальных запасных частей Hyundai.
-                                                    </div>
-                                                </div>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="total">
-                                        <span class="total-default">Выберите<br/>дилера</span>
-                                        <span class="calc-total-value"></span>
-                                        <a href="/service-request/" class="request-service-btn" target="_blank">запись на сервис</a>
-                                    </div>
-                                </div>
-                                <p class="disclaimer">
-                                    <sup>*</sup>  &mdash; Стоимость Технического обслуживания носит исключительно информационный характер, указана на основании данных, предоставленных официальными дилерами Hyundai, и может отличаться от действительных цен официальных дилеров Hyundai.
-                                </p>
-                                <p class="disclaimer disclaimer_zakaz">
-                                    <sup>**</sup>  &mdash; Точную стоимость вам необходимо узнать обратившись в дилерский центр.
-                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="content--roadside" style="margin-bottom: 50px;">
-                    <div class="content-inner">
-                        <div class="subject subject-wa">
-                            <div class="subject-blackboard">
-                                <div class="subject-wa-left" id="wa-block">
-                                    <div class="subject-wa-title content-inner-title">Workshop Automation</div>
-                                    <div class="subject-wa-text">– это автоматизированная система обслуживания клиентов и контроля за рабочими процессами в дилерском центре, реализованная как мобильное приложение для планшетных компьютеров.
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section id="app">
+                            <div v-if="!init">
+                                <div class="placeholder">
+                                    <ul class="placeholder__list">
+                                        <li class="placeholder__item">
+                                            <div class="placeholder__img"></div>
+                                            <div class="placeholder__content">
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                            </div>
+                                        </li>
+                                        <li class="placeholder__item">
+                                            <div class="placeholder__img"></div>
+                                            <div class="placeholder__content">
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                            </div>
+                                        </li>
+                                        <li class="placeholder__item">
+                                            <div class="placeholder__img"></div>
+                                            <div class="placeholder__content">
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                            </div>
+                                        </li>
+                                        <li class="placeholder__item">
+                                            <div class="placeholder__img"></div>
+                                            <div class="placeholder__content">
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                                <div class="placeholder__line"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>				</div>
+                            <service-calculator v-else></service-calculator>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <section class="find-dealer">
+                            <div class="find-dealer__left"></div>
+                            <div class="find-dealer__right">
+                                <div class="find-dealer__composition">
+                                    <h3 class="find-dealer__title">Workshop Automation</h3>
+                                    <div class="find-dealer__text df-text-main-16px">
+                                        Автоматизированная система обслуживания клиентов и&nbsp;контроля за&nbsp;рабочими процессами в&nbsp;дилерском центре, реализованная как мобильное приложение для планшетных компьютеров.
                                     </div>
-                                    <div class="subject-wa-link"><a href="/contacts/">найти дилера<img src="https://www.hyundai.ru/media/img/service-pages/wa_arrow.png"></a></div>
-                                </div>
-                                <div class="subject-wa-right">
-                                    <img src="https://www.hyundai.ru/media/img/service-pages/wa_pic.jpg">
+                                    <a href="/find-dealer" class="df-iconed-link">
+                                        Найти дилера
+                                        <svg>
+                                            <use xlink:href="#arrow-link"></use>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
-                        </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
 
-
-                        <div class="subject subject-wa-icons">
-                            <div class="subject-blackboard">
-                                <div class="subject-wa-ico-33 wa-title">Преимущества
-                                    системы WA</div>
-                                <div class="subject-wa-ico-33">
-                                    <div class="wa-ico-pic ico1"></div>
-                                    <div class="wa-ico-title">Отслеживание<br/>хода работ</div>
-                                    <div class="wa-ico-text">Онлайн информация в клиентской зоне о статусе выполнения работ</div>
-                                </div>
-                                <div class="subject-wa-ico-33">
-                                    <div class="wa-ico-pic ico2"></div>
-                                    <div class="wa-ico-title">Всегда<br/>вовремя</div>
-                                    <div class="wa-ico-text">Отсутствие задержек благодаря системе он-лайн оповещений о ходе выполнения работ между мастером-консультантом и механиком</div>
-                                </div>
-                                <div class="subject-wa-ico-33">
-                                    <div class="wa-ico-pic ico3"></div>
-                                    <div class="wa-ico-title">Фото<br/>и голосовая запись</div>
-                                    <div class="wa-ico-text">Фото и аудио фиксация ваших пожеланий и состояния вашего автомобиля. Фотографии до и после ремонта</div>
-                                </div>
-                                <div class="subject-wa-ico-33">
-                                    <div class="wa-ico-pic ico4"></div>
-                                    <div class="wa-ico-title">Специальные<br/>предложения</div>
-                                    <div class="wa-ico-text">Интерактивное отображение наших специальных предложений для вас</div>
-                                </div>
-                                <div class="subject-wa-ico-33">
-                                    <div class="wa-ico-pic ico5"></div>
-                                    <div class="wa-ico-title">Обратная<br/>связь</div>
-                                    <div class="wa-ico-text">Интерактивный опрос при выдаче автомобиля о качестве обслуживания</div>
-                                </div>
+            <!-- Слайдер с OwlCarousel -->
+            <!-- Подключить карусель, подключить файл со стилями _slider-1.sass, подключить код slider-1.js -->
+            <section class="slider-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider-1__center">
+                                <h2 class="slider-1__title">Преимущества системы WA</h2>
+                                <ul class="slider-1__list owl-carousel js-slider-1">
+                                    <li class="slider-1__item slider-1__item--0">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/slider-1/0.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Обратная связь
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Интерактивный опрос при выдаче автомобиля о качестве обслуживания
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--1">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/slider-1/1.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Отслеживание хода работ
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Онлайн информация в клиентской зоне о статусе выполнения работ
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--2">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/slider-1/2.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Всегда вовремя
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Отсутствие задержек благодаря системе он-лайн оповещений о ходе выполнения работ между мастером-консультантом и механиком
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--3">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/slider-1/3.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Фото и голосовая запись
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Фото и аудио фиксация ваших пожеланий и состояния вашего автомобиля. Фотографии до и после ремонта
+                                        </div>
+                                    </li>
+                                    <li class="slider-1__item slider-1__item--4">
+                                        <div class="slider-1__img">
+                                            <img src="/images/service/slider-1/4.svg" alt="">
+                                        </div>
+                                        <div class="slider-1__sub-title">
+                                            Специальные предложения
+                                        </div>
+                                        <div class="slider-1__description df-text-main-16px">
+                                            Интерактивное отображение наших специальных предложений для вас
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div style="float: left; width: 100%;">
-                        <div class="maintenance-slider">
-                            <div class="slide_nav-wrap">
-                                <div class="views-title">Принципы периодического обслуживания</div>
-                                <div class="slide_nav">
-                                    <div class="slider-prev"></div>
-                                    <span class="paginator"></span>
-                                    <div class="slider-next"></div>
-                                </div>
-                            </div>
-                            <div class="maintenance-slider-cut">
-                                <ul class="views clearfix">
-                                    <li class="view view1 alive">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/maintenance-slider-1.png" class="view-image"/>
-                                        <div class="view-inner">
-                                            <div class="view-text">
-                                                <p>Чтобы владение автомобилем приносило только положительные эмоции необходимо регулярно проводить техническое обслуживание в соответствии с регламентом завода-изготовителя.</p>
+                </div>
+            </section>
+            <!-- Слайдер с OwlCarousel -->
+            <!-- Подключить карусель, подключить файл со стилями _slider-2.sass, подключить код slider-2.js -->
+            <section class="slider-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-10 offset-lg-1">
+                            <div class="slider-2__center">
+                                <h2 class="slider-2__title">Принципы периодического обслуживания</h2>
+                                <ul class="slider-2__list owl-carousel js-slider-2">
+                                    <li class="slider-2__item slider-2__item--0" style="background-image: url(/images/service/slider-2/0.png)">
+                                        <div class="slider-2__wrap">
+                                            <div class="slider-2__sub-title">
+                                                Регулярность
+                                            </div>
+                                            <div class="slider-2__description df-text-main-16px">
+                                                Чтобы владение автомобилем приносило только положительные эмоции необходимо регулярно проводить техническое обслуживание в соответствии с регламентом завода-изготовителя.
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="view view2">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/maintenance-slider-2.png" class="view-image"/>
-                                        <div class="view-inner">
-                                            <div class="view-text">
-                                                <p>При нормальных условиях эксплуатации периодическое техническое обслуживание нужно проходить каждые 15000 км или 1 раз в год в зависимости от того, что наступит раньше.</p>
+                                    <li class="slider-2__item slider-2__item--1" style="background-image: url(/images/service/slider-2/1.png)">
+                                        <div class="slider-2__wrap">
+                                            <div class="slider-2__sub-title">
+                                                Периодичность
+                                            </div>
+                                            <div class="slider-2__description df-text-main-16px">
+                                                При нормальных условиях эксплуатации периодическое техническое обслуживание нужно проходить каждые 15000 км или 1 раз в год в зависимости от того, что наступит раньше.
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="view view3">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/maintenance-slider-3.png" class="view-image"/>
-                                        <div class="view-inner">
-                                            <div class="view-text">
-                                                <p>Невыполнение или ненадлежащее выполнение периодического технического обслуживания, в том числе прохождение технического обслуживания НЕ у Авторизованного Сервисного Партнёра Хёндэ (Hyundai), может стать причиной отказа в проведении ремонта автомобиля по гарантии.</p>
+                                    <li class="slider-2__item slider-2__item--2" style="background-image: url(/images/service/slider-2/2.png)">
+                                        <div class="slider-2__wrap">
+                                            <div class="slider-2__sub-title">
+                                                Авторизованный сервис
+                                            </div>
+                                            <div class="slider-2__description df-text-main-16px">
+                                                Невыполнение или ненадлежащее выполнение периодического технического обслуживания, в том числе прохождение технического обслуживания НЕ у Авторизованного Сервисного Партнёра Хёндэ (Hyundai), может стать причиной отказа в проведении ремонта автомобиля по гарантии.
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="view view4">
-                                        <img src="https://www.hyundai.ru/media/img/service-pages/maintenance-slider-4.png" class="view-image"/>
-                                        <div class="view-inner">
-                                            <div class="view-text">
-                                                <p>По результатам проверок в рамках периодического технического обслуживания Авторизованный Сервисный Партнёр Хёндэ (Hyundai) может порекомендовать проведение дополнительных работ, не входящих в регламент ТО.</p>
+                                    <li class="slider-2__item slider-2__item--3" style="background-image: url(/images/service/slider-2/3.png)">
+                                        <div class="slider-2__wrap">
+                                            <div class="slider-2__sub-title">
+                                                Дополнительные работы
+                                            </div>
+                                            <div class="slider-2__description df-text-main-16px">
+                                                По результатам проверок в рамках периодического технического обслуживания Авторизованный Сервисный Партнёр Хёндэ (Hyundai) может порекомендовать проведение дополнительных работ, не входящих в регламент ТО
                                             </div>
                                         </div>
                                     </li>
@@ -275,153 +222,63 @@ $APPLICATION->SetTitle("Обслуживание");
                             </div>
                         </div>
                     </div>
-                    <div class="bottom-area-line">
-                        <div class="bottom-area-line__inner grid">
-                            <div class="grid-el grid-el-50 bottom-area-line__inner-left">
-                                <div class="main-message">Мы хотим, чтобы владеть автомобилем Hyundai было просто и удобно</div>
-                            </div>
-                            <div class="grid-el grid-el-50 bottom-area-line__inner-right">
-                                <a href="/service-request/" class="request-service-btn" target="_blank">запись на сервис</a>
-                                <a href="/all-offers/#service-offers" class="offers-link">Сервисные акции<i class="icon icon-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style="float: left; width: 100%; background: #fff;">
-                        <div class="content-inner" style="width: 940px;">
-                            <div class="subject-content subject-content-features">
-                                <div class="notes notes--features" style="padding-top: 50px;">
-                                    <p>
-                                        <sup class="skyblue">*</sup>  &mdash; Для получения полной информации о техническом обслуживании Вашего автомобиля, Вам необходимо обратиться к уполномоченному дилеру Hyundai. Дополнительные работы, запасные части и материалы, не входящие в список базовых работ, оплачиваются отдельно. Информация, которая размещена в данном разделе, не является исчерпывающей, а также не является публичной офертой или приглашением делать оферты (ст. 435,437 ГК РФ). ООО «Хендэ Мотор СНГ» оставляет за собой право вносить изменения в рекомендованные перечень и максимальную рекомендованную стоимость работ, запасных частей и материалов без предварительного уведомления.
-                                    </p>
-
-                                    <p>
-                                        <sup class="skyblue">**</sup>  &mdash; Услуга комплексной бесплатной диагностики автомобиля по 36 ключевым пунктам доступна только для владельцев автомобилей Hyundai старше 2-х лет. Остальные услуги действуют без ограничений к сроку эксплуатации автомобиля.
-                                    </p>
+                </div>
+            </section>
+            <!-- Подключить карусель, подключить файл со стилями _sign-up-service.sass -->
+            <section class="sign-up-service">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-10 offset-lg-1">
+                            <div class="sign-up-service__center">
+                                <div class="sign-up-service__icon">
+                                    <svg viewBox="0 0 62 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.06674 26.8895C9.84756 26.8895 10.5813 26.5881 11.1309 26.0421L14.1781 23.0134L19.9752 28.7724C20.3116 29.1056 20.8982 29.1066 21.2346 28.7714C21.5819 28.4262 21.5819 27.8652 21.2346 27.5201L14.8078 21.1355C14.4955 20.8252 13.8608 20.8262 13.5485 21.1355L9.87159 24.7908C9.58429 25.0763 9.24393 25.119 9.06674 25.119C8.88956 25.119 8.5482 25.0763 8.26089 24.7898L2.52385 19.0875C2.23654 18.8021 2.1935 18.4639 2.1935 18.2888C2.1935 18.1128 2.23654 17.7746 2.52385 17.4881L16.868 3.23589C17.4326 2.67491 18.6869 2.287 19.4887 2.44714L30.213 4.57767L22.3417 12.3995C22.1766 12.5637 22.0805 12.7924 22.0805 13.0252C22.0805 13.2609 22.1736 13.4837 22.3417 13.6508L28.6354 19.9041C28.9717 20.2373 29.5583 20.2383 29.8947 19.9041C30.0629 19.736 30.156 19.5132 30.156 19.2775C30.156 19.0418 30.0629 18.819 29.8947 18.6519L24.2307 13.0252L31.2171 6.08356C31.8327 5.47185 32.07 4.74079 31.8678 4.07935C31.6656 3.41692 31.0599 2.93949 30.205 2.77139L19.8381 0.711489C19.6018 0.663746 19.3486 0.640869 19.0813 0.640869C17.813 0.640869 16.4175 1.18096 15.6086 1.98463L1.26352 16.2379C0.714941 16.7839 0.411621 17.513 0.411621 18.2888C0.411621 19.0646 0.71394 19.7937 1.26452 20.3398L7.00157 26.0421C7.55215 26.5891 8.28492 26.8895 9.06674 26.8895Z" fill="#66645F"/>
+                                        <path d="M43.5082 32.1818C43.1719 31.8476 42.5852 31.8476 42.2489 32.1818C42.0807 32.3489 41.9866 32.5717 41.9866 32.8074C41.9866 33.0432 42.0807 33.266 42.2489 33.4331L56.2346 47.3282C56.606 47.6972 56.7472 48.293 56.622 48.9614C56.5009 49.6159 56.1335 50.2734 55.5899 50.8135L52.2094 54.1724C51.5247 54.8527 50.6748 55.2426 49.8789 55.2426C49.3984 55.2426 48.98 55.0904 48.7017 54.8129L34.9932 41.1943C34.8251 41.0262 34.6018 40.9347 34.3636 40.9347C34.1273 40.9347 33.9021 41.0262 33.7339 41.1943C33.5657 41.3604 33.4736 41.5832 33.4736 41.8199C33.4736 42.0556 33.5657 42.2784 33.7339 42.4455L47.4414 56.0632C48.059 56.6769 48.8979 57.0021 49.8659 57.0021C51.1443 57.0021 52.4566 56.4262 53.4677 55.4226L56.8503 52.0637C58.6882 50.2356 58.9775 47.55 57.4939 46.075L43.5082 32.1818Z" fill="#66645F"/>
+                                        <path d="M60.6002 8.74216C60.4851 8.47062 60.2429 8.27268 59.9516 8.21698C59.6623 8.16029 59.3549 8.25577 59.1497 8.45968L53.5368 14.0376C52.9752 14.5926 51.9261 14.5917 51.3685 14.0366L47.9389 10.631C47.6496 10.3435 47.4914 9.9596 47.4914 9.55279C47.4914 9.14698 47.6496 8.76404 47.9389 8.47559L53.5518 2.89863C53.763 2.68975 53.8531 2.39136 53.7961 2.10192C53.739 1.81248 53.5418 1.57078 53.2685 1.45739C51.6989 0.802914 50.0781 0.470703 48.4494 0.470703C45.6124 0.470703 43.0057 1.50812 41.1097 3.39296C38.3238 6.16006 37.4358 10.251 38.7302 14.335L38.8123 14.5907L19.0264 34.2498L18.7792 34.1851C17.7511 33.9136 16.703 33.7763 15.6659 33.7763C12.8259 33.7763 10.2141 34.8167 8.31313 36.7046C5.29395 39.7034 4.53015 44.4459 6.36408 48.7865C6.4792 49.058 6.72146 49.255 7.01276 49.3117C7.31008 49.3684 7.60639 49.2769 7.81461 49.069L13.4295 43.49C13.7078 43.2135 14.1032 43.0544 14.5137 43.0544C14.9241 43.0544 15.3195 43.2135 15.5978 43.491L19.0254 46.8977C19.3157 47.1851 19.4749 47.569 19.4749 47.9749C19.4749 48.3827 19.3147 48.7646 19.0244 49.0521L13.4125 54.63C13.2033 54.8389 13.1112 55.1363 13.1693 55.4267C13.2273 55.7162 13.4245 55.9569 13.6978 56.0713C15.2645 56.7257 16.8872 57.0579 18.5159 57.0579C21.3529 57.0579 23.9596 56.0195 25.8566 54.1347C28.7447 51.2661 29.5886 46.8728 28.0579 42.6704L27.9618 42.4059L47.3833 23.1078L47.6396 23.1884C48.8418 23.5633 50.0741 23.7533 51.2994 23.7533C54.1404 23.7533 56.7522 22.7129 58.6532 20.8251C61.6724 17.8252 62.4362 13.0838 60.6002 8.74216ZM57.3939 19.5728C55.8302 21.1275 53.6649 21.9838 51.2994 21.9838C50.0171 21.9838 48.7307 21.7392 47.4774 21.2578C47.1511 21.1324 46.7717 21.212 46.5254 21.4567L26.2801 41.5733C26.0218 41.83 25.9477 42.2238 26.0949 42.556C27.7466 46.284 27.158 50.3371 24.5963 52.8834C23.0356 54.4341 20.8764 55.2885 18.5159 55.2885C17.8402 55.2885 17.1484 55.2169 16.4577 55.0766L15.6469 54.9125L20.2827 50.3033C20.9094 49.6827 21.2558 48.8551 21.2568 47.9739C21.2568 47.0936 20.9114 46.2661 20.2848 45.6444L16.8571 42.2388C16.2305 41.6161 15.3986 41.272 14.5127 41.272C13.6257 41.272 12.7939 41.6161 12.1692 42.2378L7.52931 46.8489L7.36413 46.0413C6.73848 42.9728 7.56334 39.9501 9.57246 37.9548C11.1361 36.4012 13.3004 35.5438 15.6649 35.5438C16.7741 35.5438 17.8942 35.7298 18.9914 36.0938C19.3097 36.1993 19.6681 36.1147 19.9033 35.88L40.474 15.4431C40.7223 15.1954 40.8024 14.8244 40.6752 14.4982C39.2597 10.8657 39.9064 7.09005 42.368 4.64522C44.3761 2.65096 47.4063 1.82143 50.5076 2.45303L51.3175 2.61714L46.6816 7.22433C46.0539 7.84698 45.7095 8.67353 45.7095 9.55378C45.7095 10.434 46.0539 11.2616 46.6796 11.8842L50.1092 15.2889C50.7348 15.9115 51.5677 16.2547 52.4537 16.2547C53.3376 16.2547 54.1705 15.9125 54.7961 15.2899L59.436 10.6797L59.6002 11.4874C60.2268 14.5549 59.402 17.5776 57.3939 19.5728Z" fill="#66645F"/>
+                                    </svg>
+                                </div>
+                                <div class="sign-up-service__body">
+                                    <div class="sign-up-service__text">
+                                        <h3 class="sign-up-service__title">Записаться на сервис?</h3>
+                                        <div class="sign-up-service__description df-text-main-16px">
+                                            Обратитесь к ближайшему официальному дилеру Hyundai или позвоните в службу поддержки клиентов <a href="tel:+74722333377">+7 4722 33-33-77</a>
+                                        </div>
+                                    </div>
+                                    <div class="sign-up-service__buttons">
+                                        <a href="#" class="df-button sign-up-service__button js-sign-up-service">Записаться</a>
+                                        <a href="/offers#service" class="df-iconed-link sign-up-service____link">
+                                            Сервисные акции
+                                            <svg>
+                                                <use xlink:href="#arrow-link"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-            </div>
-        </div>
-        <script type="text/javascript" >
-            var _rutarget = window._rutarget || [];
-            _rutarget.push({'event': 'otherPage'});
-        </script>
-
-        <div class="zing_form_wrp" id="maintenance_form">
-            <form class="maintenance_form" action="#">
-                <div class="zing_form_content">
-                    <a class="closePopup  zing_close" href="javascript:;"></a>
-                    <p class="zing-heading">Пожалуйста, укажите Ваши контактные данные.</p>
-                    <p class="zing-p zing-p--note"><i class="ic-note-31"></i>Поля, отмеченные &laquo;<sup class="skyblue">*</sup>&raquo;, обязательны для заполнения.</p>
-                    <div class="zing-input">
-                        <input
-                            type		= "text"
-                            class		= "zing_first_name zing_txt"
-                            name		= "first_name"
-                            id			= "first_name"
-                            maxlength	= "50">
-                        <label for="first_name">Имя<sup class="skyblue">*</sup></label>
-                    </div>
-                    <div class="zing-input">
-                        <input
-                            type		= "text"
-                            class		= "zing_last_name zing_txt"
-                            name		= "last_name"
-                            id			= "last_name"
-                            maxlength	= "50">
-                        <label for="last_name">Фамилия<sup class="skyblue">*</sup></label>
-                    </div>
-
-                    <div class="zing-input">
-                        <input
-                            type		= "tel"
-                            class		= "zing_mobile zing_txt"
-                            name		= "mobile"
-                            id			= "mobile"
-                            maxlength	= "50">
-                        <label for="mobile">Телефон<sup class="skyblue">*</sup></label>
-                    </div>
-                    <div class="zing-input">
-                        <input
-                            type		= "email"
-                            class		= "zing_email zing_txt"
-                            name		= "zing_email"
-                            id			= "zing_email"
-                            maxlength	= "50">
-                        <label for="zing_email">E-mail<sup class="skyblue">*</sup></label>
-                    </div>
-
-                    <div class="zing-input">
-                        <input
-                            type		= "text"
-                            class		= "zing_year zing_txt"
-                            name		= "year"
-                            id			= "year"
-                            maxlength	= "50">
-                        <label for="year">Год выпуска<sup class="skyblue">*</sup></label>
-                    </div>
-
-
-                    <div class="zing-input">
-				    <textarea
-                    type		= "text"
-                    class		= "zing_comment zing_txt"
-                    name		= "comment"
-                    id			= "comment"
-                    ></textarea>
-                        <label for="comment">Опишите ваш запрос<sup class="skyblue">*</sup></label>
-                    </div>
-
-                    <div class="zing_pers_rules_wrp">
-                        <noindex>
-                            Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.2009 г. №152-ФЗ «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку (сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение) моих персональных данных, в т.ч. с использованием средств автоматизации. Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; -для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи. Согласие дается Hyundai Motor Company(Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10) ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург г, Сестрорецк г, Левашовскоеш, 20, литер А). Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д.48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
-                        </noindex>
-                    </div>
-
-                    <div class="zing_rules_wrp">
-                        <input
-                            type	= "checkbox"
-                            class	= "zing_rules_agree_cb zing-agreement-input"
-                            id		= "mf_rules_agree_cb"
-                            name	= "mf_rules_agree_cb">
-                        <label for="mf_rules_agree_cb">Я прочитал <a class="skyblue zing-show-rules" href="javascript:;">правила</a> и даю свое согласие<br>на обработку персональных данных</label>
-                    </div>
-                    <div class="zing-agreement-text-wrapper">
-                        <div class="zing-agreement-text">
-                            <div class="zing-agreement-text-content">
-                                <noindex>
-                                    <span class="this-title">Правила обработки персональных данных</span>
-						<span class="this-text">
-							Настоящим Я, в соответствии с требованиями Федерального закона от 27.07.09 <strong>№152-ФЗ</strong> «О персональных данных» даю свое согласие лично, своей волей и в своем интересе на обработку <i>(сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение, передачу (включая трансграничную передачу), обезличивание, блокирование и уничтожение)</i> моих персональных данных, в том числе с использованием средств автоматизации.
-							Такое согласие мною даётся в отношении следующих персональных данных: фамилии, имя, отчество; контактный адрес электронной почты (e-mail); контактный телефон; для определения потребностей в производственной мощности, мониторинга исполнения сервисными центрами гарантийной политики; ведения истории обращения в сервисные центры; проведения дилерами, дистрибьюторами, контрагентами маркетинговых исследований в области продаж, сервиса и послепродажного обслуживания; для рекламных, исследовательских, информационных, а также иных целей, в том числе, путем осуществления со мной прямых контактов по различным средствам связи.
-							Согласие дается Hyundai Motor Company (Хёндэ Мотор Компани, 231 Янгджи-Донг, Сеочо-Гу, Сеул, 137-938, Республика Корея), ООО «Хендэ Мотор СНГ» (г. Москва, ул.Тестовская, д.10), ООО «Хендэ Мотор МануфактурингPус» (197706, Санкт-Петербург, г. Сестрорецк, Левашовское ш., д. 20, литер А).
-							Я даю свое согласие передавать мои персональные данные для обработки исследовательским агентствам: ООО «Международный институт маркетинговых и социальных исследований «ГФК-Русь» (г. Москва, 9-я Парковая улица, д. 48, корп. 4), ЗАО «Бизнес Аналитика МК» (г. Москва, ул. Новослободская, д. 31, стр. 2); АО «АВТОАССИСТАНС» (г.Москва, ул. Обручева д. 52 стр.3), ООО «Ипсос» (г. Москва, Гамсоновскийпереулок, д. 5), а также любым другим третьим лицам, для целей, указанных в настоящем согласии.
-						</span>
-                                </noindex>
+            <section class="disclamer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-10 offset-lg-1">
+                            <div class="disclamer__center">
+                                <div class="disclamer__star">
+                                    <svg>
+                                        <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                </div>
+                                <div class="disclamer__text df-text-small-12px">
+                                    Стоимость Технического обслуживания носит исключительно информационный характер, указана на&nbsp;основании данных, предоставленных официальными дилерами Hyundai, и&nbsp;может отличаться от&nbsp;действительных цен официальных дилеров Hyundai.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="zing-submit-wrap">
-                        <input type="submit" value="Отправить заявку" class="zing_ok zing-submit">
-                    </div>
                 </div>
-            </form>
+            </section>
         </div>
-    </main>
-
-
-    <!--
-    Контент страницы закончится тут
-    -->
-
-
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/dropit.js"></script>
-    <script type="text/javascript" src="js/service-pages.js"></script>
+    </content-data>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

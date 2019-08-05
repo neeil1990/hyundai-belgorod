@@ -3,510 +3,357 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Руководства, каталоги и буклеты Hyundai");
 ?>
 
-    <link type="text/css" href="https://www.hyundai.ru/media/css/dropit.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.hyundai.ru/media/css/service_styles.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.hyundai.ru/media/css/service_overrides.css?v=1" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
+    <content-data>
+        <div class="content">
 
-
-    <!--
-    Контент страницы начнется тут
-    -->
-
-    <main class="main" data-model="home">
-
-        <div class="content-wrapper">
-            <div class="content content--manuals">
-                <div class="content-header-fw">
-                    <div class="content-header-fw__text">
-                        <h1 class="content-title">Руководства, каталоги и&nbsp;буклеты Hyundai</h1>
-                        <div class="content-descr">Получите более детальную информацию в руководстве по эксплуатации автомобиля Hyundai, каталоге и буклете.</div>
+            <section class="head">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="head__banner">
+                                <div class="head__composition">
+                                    <h1 class="head__title">Документация.</h1>
+                                    <div class="head__subtitle">
+                                        Информация по эксплуатации автомобиля Hyundai.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="manuals-car-silder">
-                    <div class="car-slider_wrap">
-                        <div class="car-slider_cut">
-                            <ul class="car-slider">
+            </section>
 
-                                <li data-model="NewSantaFe">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20SANTA%20FE5645b686466141fd.png" alt="" style="max-width: 100%;">
+            <section class="calculate">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="calculate__title">
+                                Выбор автомобиля
+                            </h2>
+                            <div class="calculate__slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide car-active" data-model="Creta">
+                                            <img src="/storage/cars/1561041417.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">Creta</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="H-1">
+                                            <img src="/storage/cars/1561041426.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">H-1</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="i30N">
+                                            <img src="/storage/cars/1561041440.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">i30N</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="Solaris">
+                                            <img src="/storage/cars/1561041395.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">Solaris</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="Sonata">
+                                            <img src="/storage/cars/1561041410.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">SONATA</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="NewElantra">
+                                            <img src="/storage/cars/1561041448.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">Новая ELANTRA</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="NewSantaFe">
+                                            <img src="/storage/cars/1561041379.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">Новый SANTA FE</p>
+                                        </div>
+                                        <div class="swiper-slide " data-model="NewTucson">
+                                            <img src="/storage/cars/1561041387.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">Новый TUCSON</p>
+                                        </div>
                                     </div>
-                                    <span class="model">Новый SANTA FE</span>
-                                </li>
-                                <li data-model="NewTucson">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20TUCSON5825b7ec65f6eefb.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Новый TUCSON</span>
-                                </li>
-
-                                <li data-model="solaris_new">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20Solaris_6665a0ed6184abe0.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Новый SOLARIS</span>
-                                </li>
-                                <li data-model="sonata">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/images/carmodels/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%20Sonata_5655a0ed61dc57ee.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Sonata</span>
-                                </li>
-                                <li data-model="creta">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Creta.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">CRETA</span>
-                                </li>
-                                <li data-model="elantra">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Elantra.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">ELANTRA</span>
-                                </li>
-                                <li data-model="equus">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/EQUUS.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Equus</span>
-                                </li>
-                                <li data-model="genesis">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Genesis.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Genesis</span>
-                                </li>
-                                <li data-model="h1">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/H-1.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">H-1</span>
-                                </li>
-                                <li data-model="i30">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/i30.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">i30</span>
-                                </li>
-                                <li data-model="i40">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/i40_main.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">i40</span>
-                                </li>
-                                <li data-model="ix35">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/ix35.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">ix35</span>
-                                </li>
-                                <li data-model="santafe">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/santafe.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">SANTA FE 2012</span>
-                                </li>
-                                <li data-model="santafepremium">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/Santa Fe Premium.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">SANTA FE 2015</span>
-                                </li>
-                                <li data-model="grandsantafe">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/GrandSantaFe.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Grand SANTA FE</span>
-                                </li>
-                                <li data-model="tucson">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/tucson.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">TUCSON</span>
-                                </li>
-                                <li data-model="solaris">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/solaris.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Solaris</span>
-                                </li>
-
-                                <li data-model="veloster">
-                                    <div class="image-wrap">
-                                        <img src=" https://hyundai.ru/media/img/service-pages/car-slider/veloster.png" alt="" style="max-width: 100%;">
-                                    </div>
-                                    <span class="model">Veloster</span>
-                                </li>
-                            </ul>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
                         </div>
-                        <div class="slider-prev"></div>
-                        <div class="slider-next"></div>
                     </div>
                 </div>
+            </section>
 
-                <div class="content-inner">
-                    <div class="content-inner-title">Доступные материалы</div>
-                    <div class="avaible-documents" data-model="NewSantaFe">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/NewSanta_Fe_TM.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Новый SANTA FE</div>
+            <section class="materials">
+                <!-- <h2 class="materials-title">Доступные материалы</h2> -->
+                <div class="materials-content" style="" data-model="Creta">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064639.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Creta</span>
+                                    </div>
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="NewTucson">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/NewTucson_TLe.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Новый TUCSON</div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1564134076.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Creta</span>
+                                    </div>
                                 </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="avaible-documents" data-model="solaris_new">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/SolarisNew.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Новый SOLARIS</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Solaris New" class="avaible-document avaible-document--brochure zing_form_toggler">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">Новый SOLARIS</div>
-                                </a>
-                            </div>
-
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Solaris_acc_2017_final.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">каталог аксессуаров</div>
-                                    <div class="avaible-document-model">Новый SOLARIS</div>
-                                </a>
-                            </div>
-                            <!--
-                                                <div class="avaible-document-wrap grid-el grid-el-33">
-                                                    <a href="#" class="avaible-document avaible-document--booklet">
-                                                        <div class="avaible-document-title">буклет</div>
-                                                        <div class="avaible-document-model">Creta</div>
-                                                    </a>
-                                                </div>
-                            -->
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="creta">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/creta.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">CRETA</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Creta" class="avaible-document avaible-document--brochure zing_form_toggler">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">CRETA</div>
-                                </a>
-                            </div>
-
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Creta_acc_2017-7_NEW.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">каталог аксессуаров</div>
-                                    <div class="avaible-document-model">CRETA</div>
-                                </a>
-                            </div>
-                            <!--
-                                                <div class="avaible-document-wrap grid-el grid-el-33">
-                                                    <a href="#" class="avaible-document avaible-document--booklet">
-                                                        <div class="avaible-document-title">буклет</div>
-                                                        <div class="avaible-document-model">CRETA</div>
-                                                    </a>
-                                                </div>
-                            -->
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="elantra" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/elantra_ad.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">ELANTRA AD</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_elantra.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">ELANTRA MD</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Elantra" class="avaible-document avaible-document--brochure zing_form_toggler">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">ELANTRA</div>
-                                </a>
-                            </div>
-
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Hyundai_Elantra_liflet.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">каталог аксессуаров</div>
-                                    <div class="avaible-document-model">ELANTRA</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="equus" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_equus.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Equus</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Equus_2015.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Equus (2015)</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Equus" class="avaible-document avaible-document--brochure zing_form_toggler">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">Equus</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_mul_equus.pdf" class="avaible-document avaible-document--booklet">
-                                    <div class="avaible-document-title">Руководство по использованию мультимедийной системы</div>
-                                    <div class="avaible-document-model">Equus</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="genesis" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/_DHRussia.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Genesis</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Genesis" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">Genesis</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="h1" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_h-1.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">H-1</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="H-1" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">H-1</div>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="i30" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_i30.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">i30</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="i30" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">i30</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="i40" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_i40_sedan.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">i40</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/i40_PE_2015.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">i40 PE (2015)</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="i40" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">i40</div>
-                                </a>
-                            </div>
-
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/i40_Acc_2016-2.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">каталог аксессуаров</div>
-                                    <div class="avaible-document-model">i40</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="ix35" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/ix35+FL_2013-2015.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">ix35 FL (2013-2015)</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="santafe" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_santafe.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">SANTA FE 2012</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Santa Fe" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">SANTA FE 2012</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="santafepremium" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Santa%20Fe%20Premium%202015.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">SANTA FE 2015</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Santa Fe" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">SANTA FE 2015</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="grandsantafe" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/NCGrandSantaFe.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Grand SANTA FE</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Grand Santa Fe" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">Grand SANTA FE</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="tucson" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Tucson_2015.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">TUCSON</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Tucson" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">TUCSON</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Tucson_acc_122016-A4-5.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">каталог аксессуаров</div>
-                                    <div class="avaible-document-model">TUCSON</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="solaris" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/Solaris_new.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Solaris (2011-2014)</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/Solaris_FL_2014.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Solaris FL (2014)</div>
-                                </a>
-                            </div>
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="#" for="brochures_request" data-model="Solaris" class="zing_form_toggler avaible-document avaible-document--brochure">
-                                    <div class="avaible-document-title">каталог</div>
-                                    <div class="avaible-document-model">Solaris</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="sonata" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a href="http://www.hyundai.ru/media/downloads/pdf/Sonata.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Sonata</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="avaible-documents" data-model="veloster" style="display: none;">
-                        <div class="avaible-documents-list grid">
-                            <div class="avaible-document-wrap grid-el grid-el-33">
-                                <a target="_blank" href="http://www.hyundai.ru/media/downloads/pdf/pdf_ru_man_veloster.pdf" class="avaible-document avaible-document--manual">
-                                    <div class="avaible-document-title">руководство по&nbsp;эксплуатации</div>
-                                    <div class="avaible-document-model">Veloster</div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064700.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Каталог аксессуаров</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Creta</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="materials-content" style="display: none;" data-model="H-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064606.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">H-1</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-content" style="display: none;" data-model="i30N">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064354.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">i30N</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064369.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">i30N</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-content" style="display: none;" data-model="Solaris">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1557734369.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Solaris</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064422.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Solaris</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064440.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Solaris</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064464.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Каталог аксессуаров</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Solaris</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-content" style="display: none;" data-model="Sonata">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064586.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">SONATA</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-content" style="display: none;" data-model="NewElantra">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1564131104.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Новая ELANTRA</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-content" style="display: none;" data-model="NewSantaFe">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562063975.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Новый SANTA FE</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562063999.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Новый SANTA FE</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-content" style="display: none;" data-model="NewTucson">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1562064215.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Новый TUCSON</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="/storage/manual/1564134014.pdf" class="materials__item" target="_blank">
+                                    <h3 class="materials__item-title">Брошюра</h3>
+                                    <div class="materials__bottom">
+                                        <div class="df-download-link">
+                                            <svg>
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                            </svg>
+                                            Скачать
+                                        </div>
+                                        <span class="materials__model">Новый TUCSON</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            </div>
         </div>
-        <script type="text/javascript" >
-            var _rutarget = window._rutarget || [];
-            _rutarget.push({'event': 'otherPage'});
-        </script>
-    </main>
-
-
-    <!--
-    Контент страницы закончится тут
-    -->
-
-
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.nanoscroller.min.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/dropit.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/service-pages.js"></script>
+    </content-data>
 
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
