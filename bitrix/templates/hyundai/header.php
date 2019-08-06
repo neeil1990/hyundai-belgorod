@@ -141,11 +141,6 @@
         <nav class="header-top__nav" role="navigation">
             <ul class="header-top__list">
                 <li class="header-top__item">
-                    <a href="/find-dealer" class="header-top__link">
-                        Найти дилера
-                    </a>
-                </li>
-                <li class="header-top__item">
                     <a href="/service-request" class="header-top__link">
                         Запись на сервис
                     </a>
@@ -322,57 +317,6 @@
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041379.png" alt="Новый SANTA FE">
                                                                             </div>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="showroom__line">
-                                                                <h4 class="showroom__title">Микроавтобусы</h4>
-                                                                <ul class="showroom__cars">
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="/H-1" class="d-car" aria-label="H-1">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">ЭЙЧ-1</h5>
-                                                                                <div class="d-car__name">/ H-1</div>
-                                                                            </div>
-                                                                            <div class="d-car__price">от 2 129 000 ₽</div>
-                                                                            <div class="d-car__m-name">H-1</div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041426.png" alt="H-1">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="showroom__line">
-                                                                <h4 class="showroom__title">Коммерческие</h4>
-                                                                <ul class="showroom__cars">
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="https://hyundaitrucks.ru/trucks/gruzoviki/" class="d-car" target="_blank">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">Грузовики</h5>
-                                                                                <div class="d-car__name"></div>
-                                                                            </div>
-                                                                            <div class="d-car__price"></div>
-                                                                            <div class="d-car__m-name"></div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/images/cars/hd35.png" alt="HD35">
-                                                                            </div>
-                                                                            <span class="showroom__cat-item-name" style="color: #103a71;"><br>Выбрать модель&nbsp;<svg role="img" aria-hidden="true" style="width: 24px; height: 10px;"><use xlink:href="#right-link"></use></svg></span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="https://hyundaitrucks.ru/trucks/avtobusy/" class="d-car" target="_blank">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">Автобусы</h5>
-                                                                                <div class="d-car__name"></div>
-                                                                            </div>
-                                                                            <div class="d-car__price"></div>
-                                                                            <div class="d-car__m-name"></div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/images/cars/bus.png" alt="bus">
-                                                                            </div>
-                                                                            <span class="showroom__cat-item-name" style="color: #103a71;"><br>Выбрать модель&nbsp;<svg role="img" aria-hidden="true" style="width: 24px; height: 10px;"><use xlink:href="#right-link"></use></svg></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
