@@ -3,8 +3,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.ph
 
 $output = implode(',<br> ', array_map(
     function ($v, $k) { return sprintf("%s: %s", $k, strip_tags($v)); },
-    $_REQUEST,
-    array_keys($_REQUEST)
+    $_GET,
+    array_keys($_GET)
 ));
 
 if(CModule::IncludeModule("iblock")) {
@@ -13,7 +13,7 @@ if(CModule::IncludeModule("iblock")) {
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,
         "IBLOCK_ID" => 72,
-        "NAME" => $_REQUEST['name'],
+        "NAME" => $_GET['name'],
         "ACTIVE" => "N",
         "PREVIEW_TEXT" => $output
     );
