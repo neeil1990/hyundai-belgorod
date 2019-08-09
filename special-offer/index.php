@@ -1,272 +1,286 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Воронеже. Цена на новый Хендай Солярис");
-$APPLICATION->SetTitle("NewSolaris");
+$APPLICATION->SetPageProperty("title", "Специальное предложение");
+$APPLICATION->SetTitle("Специальное предложение");
 ?>
 
+<content-data>
+    <div class="content">
 
-
-    <link type="text/css" href="http://www.hyundai.ru/media/css/special-offer.css" rel="stylesheet" />
-
-
-
-
-
-<div class="wrapper" id="wrapper">
-
-
-
-
-    <!--
-Контент страницы начнется тут
--->
-
-    <main class="main" data-model="home">
-
-        <div class="so">
-            <div class="so__layout">
-                <div class="so__container so__hor-pad">
-                    <h1 class="so__title">
-                        Специальное предложение
-                    </h1>
-                    <h2 class="so__subtitle">
-                        для владельцев Hyundai
-                    </h2>
-                </div>
-            </div>
-        </div>
-        <div class="so-sec">
-            <div class="so__layout">
-                <div class="so-sec__container">
-                    <div class="so-calc so__hor-pad">
-                        <div class="so-calc__model">
-                            <h3 class="so-sec__title">
-                                Узнай свою выгоду
-                            </h3>
-                            <p class="so-calc__subtitle">
-                                Выберите модель, на которую хотите поменять свой автомобиль
-                            </p>
-                            <div class="model__selects">
-                                <select class="model__select" name="car">
-                                    <option
-                                        value="23"
-                                        data-tradein="20000"
-                                        data-programm="0"
-                                        data-points="10000"
-                                        >
-                                        SOLARIS								</option>
-                                    <option
-                                        value="24"
-                                        data-tradein="140000"
-                                        data-programm="0"
-                                        data-points="20000"
-                                        >
-                                        SONATA								</option>
-                                    <option
-                                        value="7"
-                                        data-tradein="50000"
-                                        data-programm="0"
-                                        data-points="10000"
-                                        >
-                                        ELANTRA								</option>
-                                    <option
-                                        value="26"
-                                        data-tradein="80000"
-                                        data-programm="0"
-                                        data-points="15000"
-                                        >
-                                        Обновленный TUCSON								</option>
-                                    <option
-                                        value="25"
-                                        data-tradein="120000"
-                                        data-programm="0"
-                                        data-points="20000"
-                                        >
-                                        Новый SANTA FE								</option>
-                                </select>
-                            </div>
-                            <img src="/media/start/img/cars/13.png" alt="Solaris" class="so-calc__img">
-                        </div>
-                        <div class="so-calc__item">
-                            <div class="so-calc__item-title">
-                                Ваш расчет
-                            </div>
-                            <div class="so-calc__item-label so-calc__item-label_sale">
-                                <div class="so-calc__item-label-text">
-                                    Размер выгоды, до
+        <section class="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="/all-offers" class="df-back-link">
+                            Все предложения
+                            <svg>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#back-link"></use>
+                            </svg>
+                        </a>
+                        <div class="head__banner">
+                            <div class="head__composition">
+                                <h1 class="head__title">Специальное предложение.</h1>
+                                <div class="head__subtitle">
+                                    Для владельцев Hyundai.
                                 </div>
                             </div>
-                            <div class="so-calc__item-sum so-calc__item-sum_total so-calc__item-sum_rub">
-                                90 000
-                            </div>
-                            <div class="so-calc__item-subsum">
-                                <div class="subsum__first">
-                                    <div class="subsum__sum subsum__sum_tradein">
-                                        50 000
-                                    </div>
-                                    <div class="subsum__label">
-                                        <a target="_blank" class="show-popup">Hyundai Trade-In</a>
-                                    </div>
-                                </div>
-                                <div class="subsum__plus">
-                                    +
-                                </div>
-                                <div class="subsum__sec">
-                                    <div class="subsum__sum subsum__sum_programm">
-                                        40 000
-                                    </div>
-                                    <div class="subsum__label">
-                                        Гос. программа
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="display: none;">
-                                <div class="so-calc__item-label so-calc__item-label_gift" style="display: none;">
-                                    <div class="so-calc__item-label-text">
-                                        Подарочные баллы в&nbsp;<a href="https://mir.hyundai.ru/login" target="_blank">Мире Хёндэ</a>
-                                    </div>
-                                </div>
-                                <div class="so-calc__item-sum so-calc__item-sum_points" style="display: none;">
-                                    20 000
-                                </div>
-                                <a class="so-calc__item-button" href="#how" style="display: none;">
-                                    Как воспользоваться
-                                </a>
-                            </div>
-                            <div class="so-calc__item-conf-box">
-                                <a class="so-calc__item-conf" href="/configurator">
-                                    Конфигуратор
-                                    <span class="so-calc__item-conf-line"></span>
-                                </a>
-                                <a class="so-calc__item-conf2" href="https://hpromise.hyundai.ru/trade-in/#trade_in_rules" target="_blank">
-                                    Условия Трейд-Ин
-                                    <!-- 							<span class="so-calc__item-conf-line"></span> -->
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="so-slider so__hor-pad">
-                        <h3 class="so-sec__title" id="how">
-                            Как воспользоваться предложением?
-                        </h3>
-                        <div class="so-slider__box">
-                            <div class="so-slider__item-box">
-                                <div class="so-slider__item so-slider__item_active">
-                                    <div class="so-slider__item-left">
-                                        <div class="so-slider__item-number">
-                                            01
-                                        </div>
-                                        <div class="so-slider__item-text">
-                                            Зарегистрируйтесь в&nbspМире Хёндэ
-                                        </div>
-                                        <a class="so-slider__item-button" href="https://mir.hyundai.ru/login#registration" target="_blank">
-                                            Перейти на сайт
-                                        </a>
-                                    </div>
-                                    <div class="so-slider__item-right">
-                                        <div class="so-slider__item-img-box">
-                                            <img src="http://www.hyundai.ru/assets/img/special-offer/slide-1.jpg" alt="" class="so-slider__item-img">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="so-slider__item-box">
-                                <div class="so-slider__item">
-                                    <div class="so-slider__item-left">
-                                        <div class="so-slider__item-number">
-                                            02
-                                        </div>
-                                        <div class="so-slider__item-text">
-                                            Добавьте к профилю информацию о своем текущем автомобиле
-                                        </div>
-                                    </div>
-                                    <div class="so-slider__item-right">
-                                        <div class="so-slider__item-img-box">
-                                            <img src="http://www.hyundai.ru/assets/img/special-offer/slide-2.jpg" alt="" class="so-slider__item-img">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="so-slider__item-box">
-                                <div class="so-slider__item">
-                                    <div class="so-slider__item-left">
-                                        <div class="so-slider__item-number">
-                                            03
-                                        </div>
-                                        <div class="so-slider__item-text">
-                                            Зайдите в раздел «Витрина» и выберите вкладку «Сертификаты». Именно тут появится сертификат на выгоду по <a class="show-popup">трейд-ин</a>.
-                                        </div>
-                                    </div>
-                                    <div class="so-slider__item-right">
-                                        <div class="so-slider__item-img-box">
-                                            <img src="http://www.hyundai.ru/assets/img/special-offer/slide-3.jpg" alt="" class="so-slider__item-img">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="so-slider__item-box">
-                                <div class="so-slider__item">
-                                    <div class="so-slider__item-left">
-                                        <div class="so-slider__item-number">
-                                            04
-                                        </div>
-                                        <div class="so-slider__item-text">
-                                            Откройте страницу сертификата, выберите модель, на которую хотите получить выгоду и нажмите кнопку «Получить».
-                                        </div>
-                                        <a class="so-slider__item-button" href="https://mir.hyundai.ru/login#registration" target="_blank">
-                                            Перейти на сайт
-                                        </a>
-                                    </div>
-                                    <div class="so-slider__item-right">
-                                        <div class="so-slider__item-img-box">
-                                            <img src="http://www.hyundai.ru/assets/img/special-offer/slide-4.jpg" alt="" class="so-slider__item-img">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="so-slider__config">
-                            <div class="so-slider__config-btn so-slider__config-btn_active so-slider__config-btn_car"></div>
-                            <div class="so-slider__config-btn"></div>
-                            <div class="so-slider__config-btn"></div>
-                            <div class="so-slider__config-btn"></div>
-                        </div>
-                        <div class="so-slider__controls">
-                            <div class="so-slider__leftarrow disabled"><img src="leftarrow.png"/></div>
-                            <div class="so-slider__rightarrow"><img src="rightarrow.png"/></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="overlayed response-wrap">
-            <div id="offer-response">
-                <h2></h2>
-                <p class="text">Программа HYUNDAI TRADE-IN дает дополнительную выгоду владельцам автомобилей Hyundai, решившим обновить свой автомобиль. Если вы сдаете свой бывший в употреблении автомобиль Hyundai в зачет стоимости нового, то к стандартной выгоде по гос. программе добавляется выгода по программе HYUNDAI TRADE-IN.</p>
-                <a href="/hpromise/trade-in/" target="_blank">Перейти на сайт программы&nbsp;&nbsp;></a>
-                <div class="closeIt">&times;</div>
+        <section class="benefit">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="benefit-inner">
+                            <h2 class="benefit__title">Ваша выгода</h2>
+                            <h4 class="benefit__subtitle">При покупке нового автомобиля в&nbsp;Hyundai Trade-in.</h4>
+                            <div class="benefit__link">
+                                <a href="https://hpromise.hyundai.ru/trade-in/" target="_blank" class="df-iconed-link">
+                                    Условия Trade-in
+                                    <svg>
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-link"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="benefit__content">
+                                <div class="benefit__item">
+                                    <div class="benefit__item-header benefit__item-header--mobile">
+                                        <p class="benefit__item-title">CRETA</p>
+                                        <p class="benefit__item-price"><span>957 000</span> — <span>1 335 000</span> ₽</p>
+                                    </div>
+                                    <div class="benefit__img">
+                                        <img src="/images/trade-in/creta.png" alt="">
+                                    </div>
+                                    <div class="benefit__info">
+                                        <div class="benefit__item-header">
+                                            <p class="benefit__item-title">CRETA</p>
+                                            <p class="benefit__item-price"><span>957 000</span> — <span>1 335 000</span> ₽</p>
+                                        </div>
+                                        <p class="benefit__item-text">Выгода до 60 000 ₽</p>
+                                        <div class="benefit__item-buttons">
+                                            <a class="df-button" href="/test-drive">Тест-драйв</a>
+                                            <a class="df-button" href="/configurator/car/22">Конфигуратор</a>
+                                        </div>
+                                        <!--
+                                                        <a href="#" class="df-download-link">
+                                                          <svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                                          </svg>
+                                                          Скачать брошюру
+                                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div class="benefit__item">
+                                    <div class="benefit__item-header benefit__item-header--mobile">
+                                        <p class="benefit__item-title">Новый TUCSON</p>
+                                        <p class="benefit__item-price"><span>1 499 000</span> — <span>2 269 000</span> ₽</p>
+                                    </div>
+                                    <div class="benefit__img">
+                                        <img src="/images/trade-in/tucson.png" alt="">
+                                    </div>
+                                    <div class="benefit__info">
+                                        <div class="benefit__item-header">
+                                            <p class="benefit__item-title">Новый TUCSON</p>
+                                            <p class="benefit__item-price"><span>1 499 000</span> — <span>2 269 000</span> ₽</p>
+                                        </div>
+                                        <p class="benefit__item-text">Выгода до 110 000 ₽</p>
+                                        <div class="benefit__item-buttons">
+                                            <a class="df-button" href="/test-drive">Тест-драйв</a>
+                                            <a class="df-button" href="/configurator/car/26">Конфигуратор</a>
+                                        </div>
+                                        <!--
+                                                        <a href="#" class="df-download-link">
+                                                          <svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                                          </svg>
+                                                          Скачать брошюру
+                                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div class="benefit__item">
+                                    <div class="benefit__item-header benefit__item-header--mobile">
+                                        <p class="benefit__item-title">Новый SANTA FE</p>
+                                        <p class="benefit__item-price"><span>2 099 000</span> — <span>2 949 000</span> ₽</p>
+                                    </div>
+                                    <div class="benefit__img">
+                                        <img src="/images/trade-in/santa-fe.png" alt="">
+                                    </div>
+                                    <div class="benefit__info">
+                                        <div class="benefit__item-header">
+                                            <p class="benefit__item-title">Новый SANTA FE</p>
+                                            <p class="benefit__item-price"><span>2 099 000</span> — <span>2 949 000</span> ₽</p>
+                                        </div>
+                                        <p class="benefit__item-text">Выгода до 160 000 ₽</p>
+                                        <div class="benefit__item-buttons">
+                                            <a class="df-button" href="/test-drive">Тест-драйв</a>
+                                            <a class="df-button" href="/configurator/car/25">Конфигуратор</a>
+                                        </div>
+                                        <!--
+                                                        <a href="#" class="df-download-link">
+                                                          <svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                                          </svg>
+                                                          Скачать брошюру
+                                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div class="benefit__item">
+                                    <div class="benefit__item-header benefit__item-header--mobile">
+                                        <p class="benefit__item-title">SOLARIS</p>
+                                        <p class="benefit__item-price"><span>739 000</span> — <span>999 000</span> ₽</p>
+                                    </div>
+                                    <div class="benefit__img">
+                                        <img src="/images/trade-in/solaris.png" alt="">
+                                    </div>
+                                    <div class="benefit__info">
+                                        <div class="benefit__item-header">
+                                            <p class="benefit__item-title">SOLARIS</p>
+                                            <p class="benefit__item-price"><span>739 000</span> — <span>999 000</span> ₽</p>
+                                        </div>
+                                        <p class="benefit__item-text">Выгода до 50 000 ₽</p>
+                                        <div class="benefit__item-buttons">
+                                            <a class="df-button" href="/test-drive">Тест-драйв</a>
+                                            <a class="df-button" href="/configurator/car/23">Конфигуратор</a>
+                                        </div>
+                                        <!--
+                                                        <a href="#" class="df-download-link">
+                                                          <svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                                          </svg>
+                                                          Скачать брошюру
+                                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div class="benefit__item">
+                                    <div class="benefit__item-header benefit__item-header--mobile">
+                                        <p class="benefit__item-title">SONATA</p>
+                                        <p class="benefit__item-price"><span>1 344 000</span> — <span>1 785 000</span> ₽</p>
+                                    </div>
+                                    <div class="benefit__img">
+                                        <img src="/images/trade-in/sonata.png" alt="">
+                                    </div>
+                                    <div class="benefit__info">
+                                        <div class="benefit__item-header">
+                                            <p class="benefit__item-title">SONATA</p>
+                                            <p class="benefit__item-price"><span>1 344 000</span> — <span>1 785 000</span> ₽</p>
+                                        </div>
+                                        <p class="benefit__item-text">Выгода до 140 000 ₽</p>
+                                        <div class="benefit__item-buttons">
+                                            <a class="df-button" href="/test-drive">Тест-драйв</a>
+                                            <a class="df-button" href="/configurator/car/24">Конфигуратор</a>
+                                        </div>
+                                        <!--
+                                                        <a href="#" class="df-download-link">
+                                                          <svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                                          </svg>
+                                                          Скачать брошюру
+                                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                                <div class="benefit__item">
+                                    <div class="benefit__item-header benefit__item-header--mobile">
+                                        <p class="benefit__item-title">ELANTRA</p>
+                                        <p class="benefit__item-price"><span>1 049 000</span> — <span>1 315 000</span> ₽</p>
+                                    </div>
+                                    <div class="benefit__img">
+                                        <img src="/images/trade-in/elantra.png" alt="">
+                                    </div>
+                                    <div class="benefit__info">
+                                        <div class="benefit__item-header">
+                                            <p class="benefit__item-title">ELANTRA</p>
+                                            <p class="benefit__item-price"><span>1 049 000</span> — <span>1 315 000</span> ₽</p>
+                                        </div>
+                                        <p class="benefit__item-text">Выгода до 50 000 ₽</p>
+                                        <div class="benefit__item-buttons">
+                                            <a class="df-button" href="/test-drive">Тест-драйв</a>
+                                            <a class="df-button" href="/configurator/car/7">Конфигуратор</a>
+                                        </div>
+                                        <!--
+                                                        <a href="#" class="df-download-link">
+                                                          <svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
+                                                          </svg>
+                                                          Скачать брошюру
+                                                        </a>
+                                        -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
 
-    </main>
+        <section class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="offer__title">Как воспользоваться предложением?</h2>
+                        <div class="offer__slider">
+                            <div class="swiper-container swiper-offer">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slide__img">
+                                            <img src="/images/trade-in/computer_2.png" alt="">
+                                        </div>
+                                        <div class="slide__info">
+                                            <p class="slide__info-step">Шаг 1</p>
+                                            <p class="slide__info-text">Зарегистрируйтесь в&nbsp;Мире Хёндэ</p>
+                                            <a href="https://mir.hyundai.ru/" class="df-button">Зарегистрироваться</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide__img">
+                                            <img src="/images/trade-in/computer_3.png" alt="">
+                                        </div>
+                                        <div class="slide__info">
+                                            <p class="slide__info-step">Шаг 2</p>
+                                            <p class="slide__info-text">Получите сертификат HYUNDAI TRADE-IN</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide__img">
+                                            <img src="/images/trade-in/computer_4.png" alt="">
+                                        </div>
+                                        <div class="slide__info">
+                                            <p class="slide__info-step">Шаг 3</p>
+                                            <p class="slide__info-text">Посетите дилера и&nbsp;оцените автомобиль</p>
+                                            <a href="/find-dealer" class="df-button">Найти дилера</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide__img">
+                                            <img src="/images/trade-in/computer_5.png" alt="">
+                                        </div>
+                                        <div class="slide__info">
+                                            <p class="slide__info-step">Шаг 4</p>
+                                            <p class="slide__info-text">Купите новый Hyundai со&nbsp;скидкой</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next swiper-btn"></div>
+                                <div class="swiper-button-prev swiper-btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+    </div>
+</content-data>
 
-    <!--
-    Контент страницы закончится тут
-    -->
-
-
-
-
-</div>
-
-
-<!-- ! specific stuff for current page only ! -->
-<script type="text/javascript" src="http://www.hyundai.ru/media/js/inner.js"></script>
-<script type="text/javascript" src="special-offer.js"></script>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
 
