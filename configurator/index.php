@@ -1,6 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("configurator");
+
+if(count(explode('/',$APPLICATION->GetCurPage())) > 3)
+    LocalRedirect("/configurator/",false,"301");
 ?>
 
     <content-data>
