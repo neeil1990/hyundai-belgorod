@@ -122,7 +122,7 @@
                     <li class="footer__column footer__column--last">
                         <h5 class="footer__support">Служба технической поддержки</h5>
                         <a class="footer__phone" href="tel:+74722333377">+7 4722 33-33-77</a>
-                        <a class="footer__mail" href="/Contact">
+                        <a class="footer__mail" href="/contacts/">
                             <svg role="img" aria-hidden="true">
                                 <use xlink:href="#icon-mail_icon"></use>
                             </svg>

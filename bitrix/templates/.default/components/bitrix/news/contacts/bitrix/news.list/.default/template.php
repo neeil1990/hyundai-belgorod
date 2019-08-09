@@ -80,7 +80,7 @@ $this->setFrameMode(true);
 									</div>
 
 									<span class="call-to-dealer">
-										<a class="zingaya_button1370324828422  zing_form_back_tel" for="feedback_home" href="javascript:;">позвонить</a>
+										<a class="zingaya_button1370324828422  zing_form_back_tel" for="feedback_home" href="tel:<?=$arItem['PROPERTIES']['PHONE']['VALUE']?>;">позвонить</a>
 									</span>
 								</div>
 							</div>

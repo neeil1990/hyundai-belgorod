@@ -130,7 +130,7 @@
             <div class="support-service__dropdown">
                 <a class="support-service__dd-phone" href="tel:+74722333377">+7 4722 33-33-77</a>
                 <hr>
-                <a class="support-service__dd-mail" href="/Contact">
+                <a class="support-service__dd-mail" href="/contacts/">
                     <svg role="img" aria-hidden="true">
                         <use xlink:href="#icon-mail_icon"></use>
                     </svg>
@@ -492,7 +492,7 @@
                                         <div class="support-service-m__text">Служба клиентской поддержки</div>
                                         <a class="support-service-m__phone" href="tel:+74722333377">+7 4722 33-33-77</a>
                                         <hr>
-                                        <a class="support-service-m__mail" href="/Contact">
+                                        <a class="support-service-m__mail" href="/contacts/">
                                             <svg role="img" aria-hidden="true">
                                                 <use xlink:href="#icon-mail_icon"></use>
                                             </svg>

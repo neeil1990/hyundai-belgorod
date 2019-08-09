@@ -701,7 +701,7 @@
                         </a>
                     </li>
                     <li class="highlight__item">
-                        <a href="/find-dealer" class="highlight__link" aria-label="Найти дилера">
+                        <a href="/contacts/" class="highlight__link" aria-label="Найти дилера">
                             <svg class="highlight__icon ic-map" role="img" aria-hidden="true">
                                 <use xlink:href="#ic-map"></use>
                             </svg>
