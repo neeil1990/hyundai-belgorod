@@ -247,19 +247,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="/i30N" class="d-car" aria-label="I30N">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">i30 N</h5>
-                                                                                <div class="d-car__name">/ i30 N</div>
-                                                                            </div>
-                                                                            <div class="d-car__price">от 2 200 000 ₽</div>
-                                                                            <div class="d-car__m-name">i30 N</div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041440.png" alt="i30N">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="showroom__line">
@@ -332,6 +319,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             <div class="d-car__m-name">SANTA FE</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041379.png" alt="Новый SANTA FE">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="showroom__line">
+                                                                <h4 class="showroom__title">Микроавтобусы</h4>
+                                                                <ul class="showroom__cars">
+                                                                    <li class="showroom__car showroom__car">
+                                                                        <a href="/H-1" class="d-car" aria-label="H-1">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">ЭЙЧ-1</h5>
+                                                                                <div class="d-car__name">/ H-1</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 2 129 000 ₽</div>
+                                                                            <div class="d-car__m-name">H-1</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041426.png" alt="H-1">
                                                                             </div>
                                                                         </a>
                                                                     </li>
