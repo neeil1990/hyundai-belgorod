@@ -1,0 +1,6 @@
+<?
+$sSectionName = "stocks";
+$arDirProperties = Array(
+
+);
+?>
