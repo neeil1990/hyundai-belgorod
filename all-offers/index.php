@@ -202,17 +202,18 @@ $APPLICATION->SetTitle("all-offers");
 
                         <?
                         if(CModule::IncludeModule("iblock")) {
-                            $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "DETAIL_PAGE_URL");
+                            $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "DETAIL_PAGE_URL","PROPERTY_SECTION");
                             $arFilter = Array("IBLOCK_ID" => 73, "ACTIVE" => "Y");
                             $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                             while ($ob = $res->GetNextElement()) {
                                 $arFields = $ob->GetFields();
+                                $arProps = $ob->GetProperties();
                                     ?>
-                                    <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                                    <div class="col-lg-3 col-md-6 col-sm-12" data-type="<?=($arProps['SECTION']['VALUE_XML_ID'] == 'null') ? 0 : 1?>">
                                         <div class="special-item">
                                             <a href="<?= $arFields['DETAIL_PAGE_URL'] ?>" class="special-item__link">
                                                 <div class="special-item-label">
-                                                    <p class="df-text-input-14px">Покупателям</p>
+                                                    <p class="df-text-input-14px"><?=$arProps['SECTION']['VALUE_ENUM']?></p>
                                                 </div>
                                                 <div class="special-item-img" style="background-image: url(<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>)"></div>
                                                 <div class="special-item-desc">
