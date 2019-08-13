@@ -506,179 +506,71 @@
             </div>
         </section>
 
-        <section class="news" style="overflow: hidden;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="news__list owl-carousel js-news-slider">
-                            <li class="news__item">
-                                <a href="/news/hyundai-motor-sng-organizovala-bolshoj-piknik-hyundai-dlya-vladelcev-tucson-i-santa-fe" class="news__link" aria-label="«Хендэ Мотор СНГ» организовала «Большой пикник Hyundai» для владельцев Tucson и Santa Fe">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/1564568769.jpg" alt="«Хендэ Мотор СНГ» организовала «Большой пикник Hyundai» для владельцев Tucson и Santa Fe">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        31 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        «Хендэ Мотор СНГ» организовала «Большой пикник Hyundai» для владельцев Tucson и Santa Fe
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/hyundai-raskryvaet-detali-podpiski-hyundai-mobility" class="news__link" aria-label="Hyundai раскрывает детали подписки Hyundai Mobility">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/1564578655.png" alt="Hyundai раскрывает детали подписки Hyundai Mobility">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        31 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Hyundai раскрывает детали подписки Hyundai Mobility
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/hyundai-i30-n-voshel-v-chetverku-na-gonkah-baltic-time-attack-series-v-latvii" class="news__link" aria-label="Hyundai i30 N вошел в четверку на гонках Baltic Time Attack Series в Латвии">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/1564596638.jpg" alt="Hyundai i30 N вошел в четверку на гонках Baltic Time Attack Series в Латвии">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        31 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Hyundai i30 N вошел в четверку на гонках Baltic Time Attack Series в Латвии
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/na_moscow_raceway_projdut_zaezdy_hyundai_i30_n" class="news__link" aria-label="На Moscow Raceway пройдут заезды Hyundai i30 N">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/1564492273.jpg" alt="На Moscow Raceway пройдут заезды Hyundai i30 N">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        30 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        На Moscow Raceway пройдут заезды Hyundai i30 N
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/na_vecherinke_v_hyundai_motorstudio_budut_razygrany_bilety_na_test_drajv_hyundai_i30_n" class="news__link" aria-label="На вечеринке в Hyundai Motorstudio будут разыграны билеты на тест-драйв Hyundai i30 N">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/1564492800.jpg" alt="На вечеринке в Hyundai Motorstudio будут разыграны билеты на тест-драйв Hyundai i30 N">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        30 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        На вечеринке в Hyundai Motorstudio будут разыграны билеты на тест-драйв Hyundai i30 N
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/kompanija_khende_motor_sng_priglashaet_vladelcev_santa_fe_i_tucson_na_bolshoj_piknik_hyundai" class="news__link" aria-label="Компания «Хендэ Мотор СНГ» приглашает владельцев Santa Fe и Tucson на «Большой пикник Hyundai»">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/302019-7-26_News_27image.jpg" alt="Компания «Хендэ Мотор СНГ» приглашает владельцев Santa Fe и Tucson на «Большой пикник Hyundai»">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        26 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Компания «Хендэ Мотор СНГ» приглашает владельцев Santa Fe и Tucson на «Большой пикник Hyundai»
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/hyundai_motor_publikuet_rezultaty_raboty_za_1-e_polugodie_2019" class="news__link" aria-label="Hyundai Motor публикует результаты работы за 1-е полугодие 2019">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/172019-7-24_News_41image.jpg" alt="Hyundai Motor публикует результаты работы за 1-е полугодие 2019">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        24 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Hyundai Motor публикует результаты работы за 1-е полугодие 2019
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/v_sochi_projdet_novyj_etap_zaezdov_hyundai_i30_n" class="news__link" aria-label="В Сочи пройдет новый этап заездов Hyundai i30 N">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/32019-7-23_News_22image.jpg" alt="В Сочи пройдет новый этап заездов Hyundai i30 N">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        23 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        В Сочи пройдет новый этап заездов Hyundai i30 N
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/na_veb-arene_otkrylsja_fanpark_hyundai" class="news__link" aria-label="На «ВЭБ-Арене» открылся фанпарк Hyundai">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/72019-7-22_News_32image.jpg" alt="На «ВЭБ-Арене» открылся фанпарк Hyundai">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        22 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        На «ВЭБ-Арене» открылся фанпарк Hyundai
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/mirovaja_premera_hyundai_sonata_hybrid" class="news__link" aria-label="Мировая премьера Hyundai Sonata Hybrid">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/42019-7-22_News_41image.jpg" alt="Мировая премьера Hyundai Sonata Hybrid">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        22 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Мировая премьера Hyundai Sonata Hybrid
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/hyundai_motor_group_razrabotala_pervuju_v_mire_tehnologiju_upravlenija_transmissiej_dlja_gibridnogo_avtomobilja" class="news__link" aria-label="Hyundai Motor Group разработала первую в мире технологию управления трансмиссией для гибридного автомобиля">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/332019-7-19_News_37image.jpg" alt="Hyundai Motor Group разработала первую в мире технологию управления трансмиссией для гибридного автомобиля">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        19 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Hyundai Motor Group разработала первую в мире технологию управления трансмиссией для гибридного автомобиля
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="news__item">
-                                <a href="/news/bolee_150_chelovek_prishli_na_zaezdy_hyundai_i30_n_v_nizhnem_novgorode" class="news__link" aria-label="Более 150 человек пришли на заезды Hyundai i30 N в Нижнем Новгороде">
-                                    <div class="news__img">
-                                        <img class="lazyload" data-src="/storage/news/352019-7-15_News_40image.jpg" alt="Более 150 человек пришли на заезды Hyundai i30 N в Нижнем Новгороде">
-                                    </div>
-                                    <div class="news__date df-text-input-14px">
-                                        15 июля
-                                    </div>
-                                    <div class="news__text df-lead-text-22px">
-                                        Более 150 человек пришли на заезды Hyundai i30 N в Нижнем Новгороде
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:news.list",
+            "news_home_new",
+            array(
+                "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                "ADD_SECTIONS_CHAIN" => "Y",
+                "AJAX_MODE" => "N",
+                "AJAX_OPTION_ADDITIONAL" => "",
+                "AJAX_OPTION_HISTORY" => "N",
+                "AJAX_OPTION_JUMP" => "N",
+                "AJAX_OPTION_STYLE" => "Y",
+                "CACHE_FILTER" => "N",
+                "CACHE_GROUPS" => "Y",
+                "CACHE_TIME" => "36000000",
+                "CACHE_TYPE" => "A",
+                "CHECK_DATES" => "Y",
+                "DETAIL_URL" => "",
+                "DISPLAY_BOTTOM_PAGER" => "Y",
+                "DISPLAY_DATE" => "Y",
+                "DISPLAY_NAME" => "Y",
+                "DISPLAY_PICTURE" => "Y",
+                "DISPLAY_PREVIEW_TEXT" => "Y",
+                "DISPLAY_TOP_PAGER" => "N",
+                "FIELD_CODE" => array(
+                    0 => "",
+                    1 => "",
+                ),
+                "FILTER_NAME" => "",
+                "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                "IBLOCK_ID" => "57",
+                "IBLOCK_TYPE" => "news",
+                "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+                "INCLUDE_SUBSECTIONS" => "Y",
+                "MESSAGE_404" => "",
+                "NEWS_COUNT" => "7",
+                "PAGER_BASE_LINK_ENABLE" => "N",
+                "PAGER_DESC_NUMBERING" => "N",
+                "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                "PAGER_SHOW_ALL" => "N",
+                "PAGER_SHOW_ALWAYS" => "N",
+                "PAGER_TEMPLATE" => ".default",
+                "PAGER_TITLE" => "Новости",
+                "PARENT_SECTION" => "",
+                "PARENT_SECTION_CODE" => "",
+                "PREVIEW_TRUNCATE_LEN" => "",
+                "PROPERTY_CODE" => array(
+                    0 => "",
+                    1 => "",
+                ),
+                "SET_BROWSER_TITLE" => "Y",
+                "SET_LAST_MODIFIED" => "N",
+                "SET_META_DESCRIPTION" => "Y",
+                "SET_META_KEYWORDS" => "Y",
+                "SET_STATUS_404" => "N",
+                "SET_TITLE" => "Y",
+                "SHOW_404" => "N",
+                "SORT_BY1" => "ACTIVE_FROM",
+                "SORT_BY2" => "SORT",
+                "SORT_ORDER1" => "DESC",
+                "SORT_ORDER2" => "ASC",
+                "COMPONENT_TEMPLATE" => "news_home"
+            ),
+            false
+        );?>
 
-                        <a href="/news" class="df-forward-link news__all" role="button" aria-label="Все новости">
-                            Все новости
-                            <svg  role="img" aria-hidden="true">
-                                <use xlink:href="#forward-link"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
 </content-data>
 
