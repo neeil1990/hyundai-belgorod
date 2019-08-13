@@ -15,6 +15,15 @@
     <title><?$APPLICATION->ShowTitle()?></title>
     <meta property="description" content="Официальный сайт Hyundai: модели и актуальные цены, обзоры и фото автомобилей, новости, запись на тест-драйв. Спешите купить новый Hyundai!" />
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZBL9QH');</script>
+<!-- End Google Tag Manager -->
+
+
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/libs.css?id=2b939cb1312e066fe2c0">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/master.css?id=ba29d4bc23f02da318c0">
 
@@ -28,9 +37,16 @@
                 require($css);
         ?>
     <? endif;?>
+
+
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZBL9QH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <div id="panel"><?$APPLICATION->ShowPanel();?></div>
 
 
