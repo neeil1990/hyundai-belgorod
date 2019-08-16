@@ -152,7 +152,9 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                             <div class="offers-block">
                                 <br><br>
                                 <div class="mlr">
-                                    <a href="/configurator/car/23" target="_blank" class="request-service-btn">Конфигуратор</a>   <a href="/test-drive/Solaris" target="_blank" class="inverse-service-btn">Тест-драйв</a>   <a href="/configurator/car/23#calculator" target="_blank" class="inverse-service-btn">Цены и сравнение</a>
+                                    <a href="/configurator/car/23" target="_blank" class="request-service-btn">Конфигуратор</a>
+                                    <a href="/test-drive/" target="_blank" class="inverse-service-btn">Тест-драйв</a>
+                                    <a href="/configurator/car/23#calculator" target="_blank" class="inverse-service-btn">Цены и сравнение</a>
                                 </div>
 
 
