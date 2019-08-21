@@ -1,4 +1,4 @@
-User-agent: *
+User-Agent: *
 Disallow: /bitrix/
 Disallow: /upload/
 Disallow: /search/
@@ -52,5 +52,5 @@ Disallow: /*.pdf
 Disallow: /*.xls
 Disallow: /promo-new/*
 
-Host: hyundai-belgorod.ru
-Sitemap: http://hyundai-belgorod.ru/sitemap.xml
+Host: https://hyundai-belgorod.ru/
+Sitemap: https://hyundai-belgorod.ru/sitemap.xml
