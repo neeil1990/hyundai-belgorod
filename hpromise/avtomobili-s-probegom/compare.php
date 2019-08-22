@@ -1,13 +1,6 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-?>
-
-<?
-$APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
-    "MODE"      => "php",
-    "NAME"      => "Редактирование включаемой области раздела",
-    "TEMPLATE"  => ""
-));
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "");
 ?>
 
 <?
@@ -103,10 +96,5 @@ if($_REQUEST['action'] == 'DELETE_FROM_COMPARE_LIST'){
 	false
 );?>
 
-<?
-$APPLICATION->IncludeFile("/hpromise/footer.php", Array(), Array(
-    "MODE"      => "html",
-    "NAME"      => "Редактирование включаемой области раздела",
-    "TEMPLATE"  => ""
-));
-?>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
