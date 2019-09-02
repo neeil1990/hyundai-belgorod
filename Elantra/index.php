@@ -1,15 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Hyundai Elantra комплектации и цены. Купить новый Хендай Элантра ");
+$APPLICATION->SetPageProperty("description", "Купить Hyundai Elantra на сайте официального дилера в Белгороде, посмотрите комплектации и цены нового автомобиля Хендай Элантра");
+$APPLICATION->SetPageProperty("title", "Hyundai Elantra купить в Белгороде, комплектации и цены новой Хендай Элантра - Хенде Ринг Авто");
 $APPLICATION->SetTitle("Elantra");
-?>
-    <link type="text/css" href="https://www.hyundai.ru/media/css/cars/cars_common.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_spritespin.css" rel="stylesheet" />
-    <link type="text/css" href="https://www.hyundai.ru/media/css/cars/pip_flat_EL.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://www.hyundai.ru/assets/css/overrides.css?v=3.0">
-
-
-    <!--
+?><!--
     Контент страницы начнется тут
     -->
 
@@ -68,8 +62,8 @@ $APPLICATION->SetTitle("Elantra");
                                 <div class="item_wrap">
                                     <div class="main mkv">
                                         <div class="title">
-                                            <img src="/media/images/flat/EL/elements/logo.png" title="Elantra" alt="Эмблема Elantra">
-                                            <span>В центре сюжета</span>
+                                            <img alt="Эмблема Elantra" src="/media/images/flat/EL/elements/logo.png" title="Elantra">
+                                            В центре сюжета
                                         </div>
                                         <div class="title-price">
                                             <? price_to_url($APPLICATION->GetCurPage()); ?>
@@ -98,24 +92,24 @@ $APPLICATION->SetTitle("Elantra");
                                         </div>
                                     </div>
                                     <div class="view-360_wrap">
-                                        <img class="progress-last-frame" alt="" src="/media/images/common/transparent.gif"/>
-                                        <div class="progress-ring-wrap"><canvas id="progress-ring" class="progress-ring" width="200" height="200"></canvas></div>
+                                        <img src="/media/images/common/transparent.gif" class="progress-last-frame" alt="">
+                                        <div class="progress-ring-wrap"></div>
                                         <div class="spritespin" data-model="elantra"></div>
                                     </div>
                                     <div class="view-360-color-selector">
                                         <ul>
-                                            <li data-title="Polar White"		data-color="Polar_White"		class="view-360-color-selector__item"><span style="background-color: #DDDDDD;"></span>Polar White</li>
-                                            <li data-title="Phantom Black"		data-color="Phantom_Black"		class="view-360-color-selector__item"><span style="background-color: #3C3C3E;"></span>Phantom Black</li>
-                                            <li data-title="Fiery Red"			data-color="Fiery_Red"			class="view-360-color-selector__item"><span style="background-color: #B82F32;"></span>Fiery Red</li>
-                                            <li data-title="Phoenix Orange"		data-color="Phoenix_Orange"		class="view-360-color-selector__item"><span style="background-color: #9B371F;"></span>Phoenix Orange</li>
-                                            <li data-title="Moonlight Blue"		data-color="Moonlight_Blue"		class="view-360-color-selector__item"><span style="background-color: #3A4969;"></span>Moonlight Blue</li>
-                                            <li data-title="Ice Wine"			data-color="Ice_Wine"			class="view-360-color-selector__item"><span style="background-color: #99978B;"></span>Ice Wine</li>
-                                            <li data-title="Iron Gray"			data-color="Iron_Gray"			class="view-360-color-selector__item"><span style="background-color: #63696B;"></span>Iron Gray</li>
-                                            <li data-title="Blazing Yellow"		data-color="Blazing_Yellow" 	class="view-360-color-selector__item"><span style="background-color: #BAAA5F;"></span>Blazing Yellow</li>
-                                            <li data-title="Stargazing Blue"		data-color="Stargazing_Blue"		class="view-360-color-selector__item"><span style="background-color: #3A4969;"></span>Stargazing Blue</li>
-                                            <li data-title="Marina Blue"		data-color="Marina_Blue"		class="view-360-color-selector__item"><span style="background-color: #135D9E;"></span>Marina Blue</li>
-                                            <li data-title="Platinum Silver"	data-color="Platinum_Silver"	class="view-360-color-selector__item"><span style="background-color: #969798;"></span>Platinum Silver</li>
-                                            <li data-title="Sparkling Metal"	data-color="Sparkling_Metal"	class="view-360-color-selector__item"><span style="background-color: #4A5154;"></span>Sparkling Metal</li>
+                                            <li data-title="Polar White" data-color="Polar_White" class="view-360-color-selector__item">Polar White</li>
+                                            <li data-title="Phantom Black" data-color="Phantom_Black" class="view-360-color-selector__item">Phantom Black</li>
+                                            <li data-title="Fiery Red" data-color="Fiery_Red" class="view-360-color-selector__item">Fiery Red</li>
+                                            <li data-title="Phoenix Orange" data-color="Phoenix_Orange" class="view-360-color-selector__item">Phoenix Orange</li>
+                                            <li data-title="Moonlight Blue" data-color="Moonlight_Blue" class="view-360-color-selector__item">Moonlight Blue</li>
+                                            <li data-title="Ice Wine" data-color="Ice_Wine" class="view-360-color-selector__item">Ice Wine</li>
+                                            <li data-title="Iron Gray" data-color="Iron_Gray" class="view-360-color-selector__item">Iron Gray</li>
+                                            <li data-title="Blazing Yellow" data-color="Blazing_Yellow" class="view-360-color-selector__item">Blazing Yellow</li>
+                                            <li data-title="Stargazing Blue" data-color="Stargazing_Blue" class="view-360-color-selector__item">Stargazing Blue</li>
+                                            <li data-title="Marina Blue" data-color="Marina_Blue" class="view-360-color-selector__item">Marina Blue</li>
+                                            <li data-title="Platinum Silver" data-color="Platinum_Silver" class="view-360-color-selector__item">Platinum Silver</li>
+                                            <li data-title="Sparkling Metal" data-color="Sparkling_Metal" class="view-360-color-selector__item">Sparkling Metal</li>
 
                                         </ul>
                                     </div>
@@ -162,12 +156,13 @@ $APPLICATION->SetTitle("Elantra");
                     </div>
                 </div>
 
-                <div class="content-type content-type__explore on" >
+                <div class="content-type content-type__explore on">
                     <div id="contents_highlights" class="contents_highlights pip">
                         <div class="parallax parallax0"></div>
                         <div class="pip_cont">
                             <div class="text_play_wrap">
                                 <div class="text_play">
+									<h1 class="pip_title">Hyundai Elantra</h1>
                                     <h2 class="pip_title">ОСОБЕННОСТИ</h2>
                                     <div class="text1">Дизайн, пробуждающий эмоции</div>
                                     <div class="text2">Больше динамики и комфорта для тех, кто не боится перемен. Все, что Вы ждете от современного автомобиля, воплощено в новом Hyundai Elantra.
@@ -180,7 +175,7 @@ $APPLICATION->SetTitle("Elantra");
                                                 <li class="thumb1 front">
                                                     <a href="#">
 											<span class="img_wrap">
-												<img src="/media/images/flat/EL/elements/highlights_1.jpg" data-url="/media/images/flat/EL/elements/highlights_1.jpg" alt="Европейский стиль" width="306" height="306" />
+												<img width="306" alt="Европейский стиль" src="/media/images/flat/EL/elements/highlights_1.jpg" height="306" data-url="/media/images/flat/EL/elements/highlights_1.jpg">
 												<span class="dimd"></span>
 											</span>
                                                         <span class="txt-desc">Элегантный стиль</span>
@@ -190,7 +185,7 @@ $APPLICATION->SetTitle("Elantra");
                                                 <li class="thumb2 side">
                                                     <a href="#">
 											<span class="img_wrap">
-												<img src="/media/images/flat/EL/elements/highlights_2.jpg" data-url="/media/images/flat/EL/elements/highlights_2.jpg" alt="Безопасный" width="306" height="306" />
+												<img width="306" src="/media/images/flat/EL/elements/highlights_2.jpg" height="306" data-url="/media/images/flat/EL/elements/highlights_2.jpg" alt="Безопасный">
 												<span class="dimd"></span>
 											</span>
                                                         <span class="txt-desc">Бескомпромиссная безопасность</span>
@@ -200,7 +195,7 @@ $APPLICATION->SetTitle("Elantra");
                                                 <li class="thumb3 safe">
                                                     <a href="#">
 											<span class="img_wrap">
-												<img src="/media/images/flat/EL/elements/highlights_3.jpg" data-url="/media/images/flat/EL/elements/highlights_3.jpg" alt="Комфортный" width="306" height="306" />
+												<img width="306" src="/media/images/flat/EL/elements/highlights_3.jpg" height="306" data-url="/media/images/flat/EL/elements/highlights_3.jpg" alt="Комфортный">
 												<span class="dimd"></span>
 											</span>
                                                         <span class="txt-desc">Комфортный</span>
@@ -212,8 +207,8 @@ $APPLICATION->SetTitle("Elantra");
                                         <div class="view">
                                             <ul>
                                                 <li class="thumb1 front">
-                                                    <div class="close"><a href="#"><span>Закрыть</span></a></div>
-                                                    <div class="img"><img src="/media/images/flat/EL/elements/highlights_popup_1.jpg" data-url="/media/images/flat/EL/elements/highlights_popup_1.jpg" width="623" height="306" alt="Европейский стиль"></div>
+                                                    <div class="close"><a href="#">Закрыть</a></div>
+                                                    <div class="img"><img width="623" alt="Европейский стиль" src="/media/images/flat/EL/elements/highlights_popup_1.jpg" height="306" data-url="/media/images/flat/EL/elements/highlights_popup_1.jpg"></div>
                                                     <div class="txt-wrap">
                                                         <div class="txt">
                                                             <strong>Элегантный стиль</strong>
@@ -222,8 +217,8 @@ $APPLICATION->SetTitle("Elantra");
                                                     </div>
                                                 </li>
                                                 <li class="thumb2 side">
-                                                    <div class="close"><a href="#"><span>Закрыть</span></a></div>
-                                                    <div class="img"><img src="/media/images/flat/EL/elements/highlights_popup_2.jpg" data-url="/media/images/flat/EL/elements/highlights_popup_3.jpg" width="623" height="306" alt="Безопасный"></div>
+                                                    <div class="close"><a href="#">Закрыть</a></div>
+                                                    <div class="img"><img width="623" src="/media/images/flat/EL/elements/highlights_popup_2.jpg" height="306" data-url="/media/images/flat/EL/elements/highlights_popup_3.jpg" alt="Безопасный"></div>
                                                     <div class="txt-wrap">
                                                         <div class="txt">
                                                             <strong>Бескомпромиссная безопасность</strong>
@@ -232,8 +227,8 @@ $APPLICATION->SetTitle("Elantra");
                                                     </div>
                                                 </li>
                                                 <li class="thumb3 safe">
-                                                    <div class="close"><a href="#"><span>Закрыть</span></a></div>
-                                                    <div class="img"><img src="/media/images/flat/EL/elements/highlights_popup_3.jpg" data-url="/media/images/flat/EL/elements/highlights_popup_3.jpg" width="623" height="306" alt="Комфортный"></div>
+                                                    <div class="close"><a href="#">Закрыть</a></div>
+                                                    <div class="img"><img width="623" src="/media/images/flat/EL/elements/highlights_popup_3.jpg" height="306" data-url="/media/images/flat/EL/elements/highlights_popup_3.jpg" alt="Комфортный"></div>
                                                     <div class="txt-wrap">
                                                         <div class="txt">
                                                             <strong>Комфортный</strong>
@@ -250,24 +245,24 @@ $APPLICATION->SetTitle("Elantra");
                                 <div class="highlight_twin clearfix">
                                     <div class="left">
                                         <div class="subject">
-                                            <h3>Фактор успеха –<br/>сталь от Hyundai</h3>
+                                            <h3>Фактор успеха –<br>сталь от Hyundai</h3>
                                             <p>
                                                 Каждая деталь создается с расчетом на долгую службу. Мы создали собственную марку особо высокопрочной стали Hyundai. Усиленный каркас - управляемость, безопасность, надежность.
                                             </p>
                                         </div>
                                         <div class="image">
-                                            <img src="/media/images/flat/EL/elements/highlights_4.jpg" width="" height="" alt="Совершенные технологии" />
+                                            <img alt="Совершенные технологии" src="/media/images/flat/EL/elements/highlights_4.jpg" width="" height="">
                                         </div>
                                     </div>
                                     <div class="mid">
                                         <div class="subject">
-                                            <h3>Больше места и возможностей</h3>
+                                            <h3>Больше места и&nbsp;возможностей</h3>
                                             <p>
                                                 Elantra обладает вместительным грузовым отсеком, объем которого составляет 458 л, что позволяет водителям лучше использовать внутреннее пространство.
                                             </p>
                                         </div>
                                         <div class="image">
-                                            <img src="/media/images/flat/EL/elements/highlights_5.jpg" width="" height="" alt="Больше места и возможностей" />
+                                            <img alt="Больше места и возможностей" src="/media/images/flat/EL/elements/highlights_5.jpg" width="" height="">
                                         </div>
                                     </div>
                                     <div class="right">
@@ -281,7 +276,7 @@ $APPLICATION->SetTitle("Elantra");
                                             </p>
                                         </div>
                                         <div class="image">
-                                            <img src="/media/images/flat/EL/elements/highlights_6.jpg" width="" height="" alt="6-ступенчатая коробка передач" />
+                                            <img alt="6-ступенчатая коробка передач" src="/media/images/flat/EL/elements/highlights_6.jpg" width="" height="">
                                         </div>
                                     </div>
                                 </div>
@@ -328,25 +323,25 @@ $APPLICATION->SetTitle("Elantra");
                                         <li class="front">
                                             <div class="scene">
                                                 <div class="car">
-                                                    <img src="/media/images/flat/EL/elements/angle_1.png" alt="Экстерьер Hyundai Elantra" />
+                                                    <img alt="Экстерьер Hyundai Elantra" src="/media/images/flat/EL/elements/angle_1.png">
                                                     <div class="plus_wrap">
-                                                        <div class="plus plus1 right"><a href="#"><span>more</span></a><span class="txt"><span>Фары головного света</span></span></div>
-                                                        <div class="plus plus2 right"><a href="#"><span>more</span></a><span class="txt"><span>Решетка радиатора</span></span></div>
+                                                        <div class="plus plus1 right"><a href="#">more</a><span class="txt">Фары головного света</span></div>
+                                                        <div class="plus plus2 right"><a href="#">more</a><span class="txt">Решетка радиатора</span></div>
                                                     </div>
                                                 </div>
                                                 <div class="sub_wrap">
                                                     <ul>
                                                         <li>
-                                                            <div class="close"><a href="#"><span>Закрыть</span></a></div>
-                                                            <div class="img"><img src="/media/images/flat/EL/elements/exterior_popup_1.jpg" width="470" height="470" alt="Фары головного света" /></div>
+                                                            <div class="close"><a href="#">Закрыть</a></div>
+                                                            <div class="img"><img width="470" alt="Фары головного света" src="/media/images/flat/EL/elements/exterior_popup_1.jpg" height="470"></div>
                                                             <div class="txt">
                                                                 <strong>Фары головного света</strong>
                                                                 Ксеноновые фары ближнего света с корректором улучшают качество поездки и делают дорогу безопасной, даже на участках с низким уровнем видимости.
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="close"><a href="#"><span>Закрыть</span></a></div>
-                                                            <div class="img"><img src="/media/images/flat/EL/elements/exterior_popup_2.jpg" width="470" height="470" alt="Решетка радиатора" /></div>
+                                                            <div class="close"><a href="#">Закрыть</a></div>
+                                                            <div class="img"><img width="470" alt="Решетка радиатора" src="/media/images/flat/EL/elements/exterior_popup_2.jpg" height="470"></div>
                                                             <div class="txt">
                                                                 <strong>Решетка радиатора</strong>
                                                                 Эффектная и мощная решетка радиатора придает авто впечатляющий вид.
@@ -360,16 +355,16 @@ $APPLICATION->SetTitle("Elantra");
                                         <li class="rear">
                                             <div class="scene">
                                                 <div class="car">
-                                                    <img src="/media/images/flat/EL/elements/angle_2.png" alt="Экстерьер Hyundai Elantra" />
+                                                    <img alt="Экстерьер Hyundai Elantra" src="/media/images/flat/EL/elements/angle_2.png">
                                                     <div class="plus_wrap">
-                                                        <div class="plus plus1 left"><a href="#"><span>more</span></a><span class="txt"><span>Задние фонари комбинированного типа</span></span></div>
+                                                        <div class="plus plus1 left"><a href="#">more</a><span class="txt">Задние фонари комбинированного типа</span></div>
                                                     </div>
                                                 </div>
                                                 <div class="sub_wrap">
                                                     <ul>
                                                         <li>
-                                                            <div class="close"><a href="#"><span>Закрыть</span></a></div>
-                                                            <div class="img"><img src="/media/images/flat/EL/elements/exterior_popup_5.jpg" width="470" height="470" alt="Задние фонари комбинированного типа" /></div>
+                                                            <div class="close"><a href="#">Закрыть</a></div>
+                                                            <div class="img"><img width="470" alt="Задние фонари комбинированного типа" src="/media/images/flat/EL/elements/exterior_popup_5.jpg" height="470"></div>
                                                             <div class="txt">
                                                                 <strong>Задние фонари комбинированного типа</strong>
                                                                 Задние фонари плавно обтекают изгибы кузова Elantra и подчеркивают современный образ модели. <!--При экстренном торможении автоматически загораются сигналы «аварийной остановки», дополнительно предупреждая следующих за вами водителей.-->
@@ -384,8 +379,8 @@ $APPLICATION->SetTitle("Elantra");
                             </div>
                             <div class="list_wrap">
                                 <ul class="list">
-                                    <li class="front on"><a href="#"><span class="progress"> </span><span class="txt">Вид спереди</span></a></li>
-                                    <li class="rear"><a href="#"><span class="progress"> </span><span class="txt">Вид сзади</span></a></li>
+                                    <li class="front on"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид спереди</span></a></li>
+                                    <li class="rear"><a href="#"><span class="progress">&nbsp;</span><span class="txt">Вид сзади</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -396,21 +391,21 @@ $APPLICATION->SetTitle("Elantra");
                                         <div class="carousel-item morelist alive">
                                             <ul class="clearfix">
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Противотуманные фары" src="/media/images/flat/EL/elements/exterior_1.jpg" /></span>
+                                                    <span class="img"><img width="306" alt="Противотуманные фары" src="/media/images/flat/EL/elements/exterior_1.jpg" height="132"></span>
 										<span class="description">
 											<strong>Противотуманные фары</strong>
 											Тщательно продуманные до последней детали передние противотуманные фары изящно размещены в нижней части бампера автомобиля для максимально эффективной работы в условиях тумана.
 										</span>
                                                 </li>
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Легкосплавные диски" src="/media/images/flat/EL/elements/exterior_2.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Легкосплавные диски" src="/media/images/flat/EL/elements/exterior_2.jpg" height="132"></span>
 										<span class="description">
 											<strong>Легкосплавные диски</strong>
 											В варианты комплектации новой Elantra входят различные диски с выразительным и привлекательным дизайном. В продаже есть автомобили как со стандартными 15-дюймовыми стальными дисками, так и с одним из двух типов легкосплавных дисков, включая элегантные 16- и 17-дюймовые.
 										</span>
                                                 </li>
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Хромированные молдинги" src="/media/images/flat/EL/elements/exterior_3.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Хромированные молдинги" src="/media/images/flat/EL/elements/exterior_3.jpg" height="132"></span>
 										<span class="description">
 											<strong>Хромированные молдинги</strong>
 											Дополните образ автомобиля элегантной деталью — молдингами с высококачественным хромированием, которые прекрасно сочетаются с изящными линиями кузова.
@@ -445,7 +440,7 @@ $APPLICATION->SetTitle("Elantra");
                                             <div class="scene_cut">
                                                 <div class="scene1">
                                                     <div class="img">
-                                                        <img src="/media/images/flat/EL/elements/view_1.jpg" width="1050" height="540" alt="Фото интерьера салона Элантра" />
+                                                        <img width="1050" alt="Фото интерьера салона Элантра" src="/media/images/flat/EL/elements/view_1.jpg" height="540">
                                                         <div class="plus_wrap">
                                                             <div class="plus plus1"><a href="#">12</a></div>
                                                             <div class="plus plus2"><a href="#">13</a></div>
@@ -454,7 +449,7 @@ $APPLICATION->SetTitle("Elantra");
                                                 </div>
                                                 <div class="scene2">
                                                     <div class="img">
-                                                        <img src="/media/images/flat/EL/elements/view_2.jpg" width="1050" height="540" alt="Фото интерьера салона Элантра" />
+                                                        <img width="1050" alt="Фото интерьера салона Элантра" src="/media/images/flat/EL/elements/view_2.jpg" height="540">
                                                         <div class="plus_wrap">
                                                             <div class="plus plus1"><a href="#">14</a></div>
                                                             <div class="plus plus2"><a href="#">15</a></div>
@@ -470,8 +465,8 @@ $APPLICATION->SetTitle("Elantra");
                                                 <strong>Панель приборов Supervision с TFT экраном 4.3</strong>
                                                 <p>Маленькое чудо электронной техники, панель приборов обеспечивает беспрецедентно чистое и ясное отображение информации.</p>
                                             </div>
-                                            <img src="/media/images/flat/EL/elements/interior_popup_3.jpg" width="525" height="540" alt="Панель приборов Supervision с TFT экраном 4.3" />
-                                            <div class="close"><a href="#"><span>Закрыть</span></a></div>
+                                            <img width="525" alt="Панель приборов Supervision с TFT экраном 4.3" src="/media/images/flat/EL/elements/interior_popup_3.jpg" height="540">
+                                            <div class="close"><a href="#">Закрыть</a></div>
                                         </div>
 
                                         <div class="pop_13">
@@ -479,13 +474,13 @@ $APPLICATION->SetTitle("Elantra");
                                                 <strong>Климат-контроль</strong>
                                                 <p>Водитель и передний пассажир могут установить желаемые температурные режимы, которые удовлетворяют каждого.</p>
                                             </div>
-                                            <img src="/media/images/flat/EL/elements/interior_popup_1.jpg" width="525" height="540" alt="Климат-контроль" />
-                                            <div class="close"><a href="#"><span>Закрыть</span></a></div>
+                                            <img width="525" alt="Климат-контроль" src="/media/images/flat/EL/elements/interior_popup_1.jpg" height="540">
+                                            <div class="close"><a href="#">Закрыть</a></div>
                                         </div>
                                     </div>
                                     <div class="scene-controls">
                                         <a href="#" class="scene-prev" role="prev"><div></div></a>
-                                        <div class="paginator"><span></span></div>
+                                        <div class="paginator"></div>
                                         <a href="#" class="scene-next" role="next"><div></div></a>
                                     </div>
                                 </div>
@@ -498,7 +493,7 @@ $APPLICATION->SetTitle("Elantra");
                                         <div class="carousel-item morelist alive">
                                             <ul class="clearfix">
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Самозатемняющееся внутрисалонное зеркало" src="/media/images/flat/EL/elements/feature_1.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Самозатемняющееся внутрисалонное зеркало" src="/media/images/flat/EL/elements/feature_1.jpg" height="132"></span>
 				                        <span class="description">
 				                            <strong>Самозатемняющееся внутрисалонное зеркало</strong>
 											Внутрисалонное зеркало заднего вида с функцией самозатемнения автономно предотвратит ослепление водителя фарами едущих сзади автомобилей.
@@ -506,14 +501,14 @@ $APPLICATION->SetTitle("Elantra");
                                                 </li>
 
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Воздуховоды для задних пассажиров" src="/media/images/flat/EL/elements/feature_2.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Воздуховоды для задних пассажиров" src="/media/images/flat/EL/elements/feature_2.jpg" height="132"></span>
 										<span class="description">
 											<strong>Воздуховоды для задних пассажиров</strong>
 											Воздуховоды климатической системы для заднего ряда сидений позволяют обеспечить комфортное путешествие не только пассажирам первого, но и второго рядов.
 										</span>
                                                 </li>
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Память настроек водительского сиденья" src="/media/images/flat/EL/elements/feature_3.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Память настроек водительского сиденья" src="/media/images/flat/EL/elements/feature_3.jpg" height="132"></span>
 				                        <span class="description">
 				                            <strong>Память настроек водительского сиденья</strong>
 											Система запоминает выбранные Вами или другими водителями настройки водительского сиденья (до двух положений). Благодаря этому, сев за руль после предыдущего водителя, с помощью нажатия одной кнопки Вы сможете восстановить положение сиденья, настроенное под Вас.
@@ -553,12 +548,12 @@ $APPLICATION->SetTitle("Elantra");
                                     <li>
                                         <div class="engine1">1.6 MPI</div>
                                         <p>
-                                            Цель Hyundai — стать мировым лидером в эффективном использовании топлива, и этот двигатель — лучшее тому доказательство. Gamma 1.6 л выдает 128 л.с. при 6300 об/мин.
+                                            Цель Hyundai — стать мировым лидером в эффективном использовании топлива, и этот двигатель — лучшее тому доказательство. Gamma&nbsp;1.6 л выдает 128 л.с. при 6300 об/мин.
                                         </p>
                                         <div class="graph">
                                             <div class="pos">
-                                                <img src="/media/images/flat/EL/elements/diagram_1.jpg" width="470" height="480" alt="График показателей двигателя 1.6 MPI" /><br>
-                                                <div class="text"><img src="/media/images/flat/EL/elements/diagram_1_1.png" width="470" height="480" alt="График показателей двигателя 1.6 MPI" /></div>
+                                                <img width="470" alt="График показателей двигателя 1.6 MPI" src="/media/images/flat/EL/elements/diagram_1.jpg" height="480"><br>
+                                                <div class="text"><img width="470" alt="График показателей двигателя 1.6 MPI" src="/media/images/flat/EL/elements/diagram_1_1.png" height="480"></div>
                                             </div>
                                         </div>
                                         <div class="max">
@@ -579,8 +574,8 @@ $APPLICATION->SetTitle("Elantra");
                                         </p>
                                         <div class="graph">
                                             <div class="pos">
-                                                <img src="/media/images/flat/EL/elements/diagram_2.jpg" class="lazy" width="470" height="480" alt="График показателей двигателя 2.0 MPI" /><br>
-                                                <div class="text"><img src="/media/images/flat/EL/elements/diagram_2_2.png" class="lazy" width="470" height="480" alt="График показателей двигателя 2.0 MPI" /></div>
+                                                <img width="470" alt="График показателей двигателя 2.0 MPI" src="/media/images/flat/EL/elements/diagram_2.jpg" height="480" class="lazy"><br>
+                                                <div class="text"><img width="470" alt="График показателей двигателя 2.0 MPI" src="/media/images/flat/EL/elements/diagram_2_2.png" height="480" class="lazy"></div>
                                             </div>
                                         </div>
                                         <div class="max">
@@ -604,14 +599,14 @@ $APPLICATION->SetTitle("Elantra");
 							<strong>6-ступенчатая АКПП</strong>
 							Шесть ступеней лучше пяти, поскольку дополнительная ступень, предусмотренная в автоматической коробке передач, способствует экономии топлива. Шестиступенчатая автоматическая трансмиссия Elantra специально разработана для небольших автомобилей.
 						</span>
-                                    <div class="btm_img"><img class="lazy" width="525" height="465" alt="Автоматическая коробка переключения передач" src="/media/images/common/transparent.gif" data-original="/media/images/flat/EL/elements/performance_1.jpg" /></div>
+                                    <div class="btm_img"><img width="525" alt="Автоматическая коробка переключения передач" src="/media/images/common/transparent.gif" height="465" class="lazy" data-original="/media/images/flat/EL/elements/performance_1.jpg"></div>
                                 </li>
                                 <li>
 						<span class="description">
 							<strong>6-ступенчатая МКПП</strong>
 							Экономичная, бесшумная и надежная шестиступенчатая трансмиссия предназначена для работы в течение долгих лет без поломок.
 						</span>
-                                    <div class="btm_img"><img class="lazy" width="525" height="465" alt="Механическая коробка переключения передач" src="/media/images/common/transparent.gif" data-original="/media/images/flat/EL/elements/performance_2.jpg" /></div>
+                                    <div class="btm_img"><img width="525" alt="Механическая коробка переключения передач" src="/media/images/common/transparent.gif" height="465" class="lazy" data-original="/media/images/flat/EL/elements/performance_2.jpg"></div>
                                 </li>
                             </ul>
                         </div>
@@ -628,7 +623,7 @@ $APPLICATION->SetTitle("Elantra");
                             </div>
                             <div class="scene_wrap">
                                 <div class="scene">
-                                    <img class="car" src="/media/images/flat/EL/elements/safety_1.jpg" width="940" height="" title="" alt="Электронная система стабилизации курсовой устойчивости ESС">
+                                    <img width="940" alt="Электронная система стабилизации курсовой устойчивости ESС" src="/media/images/flat/EL/elements/safety_1.jpg" class="car" height="" title="">
                                 </div>
                                 <div class="text_wrap">
 						<span class="scene_text">
@@ -641,7 +636,7 @@ $APPLICATION->SetTitle("Elantra");
                             <div class="safety_slider-wrap">
                                 <ul class="safety_slider">
                                     <li class="safety_slider-item alive">
-                                        <img src="/media/images/flat/EL/elements/safety_slider_2.jpg" width="1920" height="540" alt="Система помощи при трогании на подъеме (HAC)">
+                                        <img width="1920" alt="Система помощи при трогании на подъеме (HAC)" src="/media/images/flat/EL/elements/safety_slider_2.jpg" height="540">
 							<span><strong>Система помощи при трогании на подъеме (HAC)</strong>
 							Система HAC определяет, когда автомобиль находится на подъеме, и автоматически задействует тормоза для предотвращения опасного откатывания назад.
 							</span>
@@ -649,7 +644,7 @@ $APPLICATION->SetTitle("Elantra");
                                 </ul>
                                 <ul class="safety_slider-paginator">
                                     <li class="alive">
-                                        <img class="lazy" alt="" src="/media/images/common/transparent.gif" data-original="/media/images/flat/EL/elements/safety_preview_2.jpg" width="90" height="90">
+                                        <img width="90" src="/media/images/common/transparent.gif" height="90" class="lazy" alt="" data-original="/media/images/flat/EL/elements/safety_preview_2.jpg">
                                         <div class="bordered"></div>
                                     </li>
                                 </ul>
@@ -664,7 +659,7 @@ $APPLICATION->SetTitle("Elantra");
                             <div class="text_play_wrap">
                                 <div class="text_play">
                                     <h2 class="pip_title">КОМФОРТ</h2>
-                                    <div class="text1">Возможности, от которых нельзя отказаться</div>
+                                    <div class="text1">Возможности, от&nbsp;которых нельзя отказаться</div>
                                     <div class="text2">Удобство превосходит все ожидания. Усовершенствованная Elantra окружает Вас и Ваших пассажиров необычайным комфортом, которого Вы бы никогда не ожидали от автомобиля.
                                     </div>
                                 </div>
@@ -674,25 +669,25 @@ $APPLICATION->SetTitle("Elantra");
                                     <li class="list list1">
                                         <a href="#">
                                             <strong>Система помощи при парковке</strong>
-                                            <img src="/media/images/flat/EL/elements/convenience_1.jpg" width="470" height="250" alt="Система помощи при парковке" />
+                                            <img width="470" alt="Система помощи при парковке" src="/media/images/flat/EL/elements/convenience_1.jpg" height="250">
                                         </a>
                                     </li>
                                     <li class="list list2">
                                         <a href="#">
                                             <strong>Задние сиденья с подогревом</strong>
-                                            <img src="/media/images/flat/EL/elements/convenience_2.jpg" width="470" height="250" alt="Задние сиденья с подогревом" />
+                                            <img width="470" alt="Задние сиденья с подогревом" src="/media/images/flat/EL/elements/convenience_2.jpg" height="250">
                                         </a>
                                     </li>
                                     <li class="list list3">
                                         <a href="#">
                                             <strong>Электрорегулировка сиденья водителя</strong>
-                                            <img src="/media/images/flat/EL/elements/convenience_3.jpg" width="470" height="250" alt="Электрорегулировка сиденья водителя" />
+                                            <img width="470" alt="Электрорегулировка сиденья водителя" src="/media/images/flat/EL/elements/convenience_3.jpg" height="250">
                                         </a>
                                     </li>
                                     <li class="list list4">
                                         <a href="#">
                                             <strong>Аудиосистема</strong>
-                                            <img src="/media/images/flat/EL/elements/convenience_4.jpg" width="470" height="250" alt="Аудиосистема" />
+                                            <img width="470" src="/media/images/flat/EL/elements/convenience_4.jpg" height="250" alt="Аудиосистема">
                                         </a>
                                     </li>
                                 </ul>
@@ -700,28 +695,28 @@ $APPLICATION->SetTitle("Elantra");
                                 <div class="convenience__slider-cut">
                                     <ul class="view_wrap">
                                         <li class="view view1 alive">
-                                            <img src="/media/images/flat/EL/elements/convenience_popup_1.jpg" width="940" height="500" alt="Система помощи при парковке" />
+                                            <img width="940" alt="Система помощи при парковке" src="/media/images/flat/EL/elements/convenience_popup_1.jpg" height="500">
                                             <div class="text">
                                                 <strong>Система помощи при парковке</strong>
                                                 Система помощи при парковке находит идеальное место для парковки с помощью суперточных ультразвуковых датчиков.
                                             </div>
                                         </li>
                                         <li class="view view2">
-                                            <img src="/media/images/flat/EL/elements/convenience_popup_2.jpg" width="940" height="500" alt="Двухступенчатый обогрев сидений" />
+                                            <img width="940" alt="Двухступенчатый обогрев сидений" src="/media/images/flat/EL/elements/convenience_popup_2.jpg" height="500">
                                             <div class="text">
                                                 <strong>Двухступенчатый обогрев сидений</strong>
                                                 Теплые сиденья подарят вам ощущение комфорта в холодную погоду.
                                             </div>
                                         </li>
                                         <li class="view view3">
-                                            <img src="/media/images/flat/EL/elements/convenience_popup_3.jpg" width="940" height="500" alt="Многофункциональное рулевое колесо" />
+                                            <img width="940" alt="Многофункциональное рулевое колесо" src="/media/images/flat/EL/elements/convenience_popup_3.jpg" height="500">
                                             <div class="text">
                                                 <strong>Водительское сиденье с электроприводом</strong>
                                                 Задайте нужное положение водительского сиденья с помощью электропривода.
                                             </div>
                                         </li>
                                         <li class="view view4">
-                                            <img src="/media/images/flat/EL/elements/convenience_popup_4.jpg" width="940" height="500" alt="Система адаптивного переднего освещения (AFLS)" />
+                                            <img width="940" alt="Система адаптивного переднего освещения (AFLS)" src="/media/images/flat/EL/elements/convenience_popup_4.jpg" height="500">
                                             <div class="text">
                                                 <strong>Аудиосистема для поклонников музыки</strong>
                                                 Высококачественные динамики передают кристально чистое звучание. Меломаны, наслаждайтесь!
@@ -745,21 +740,21 @@ $APPLICATION->SetTitle("Elantra");
                                         <div class="carousel-item morelist alive">
                                             <ul class="clearfix">
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Центральный подлокотник" src="/media/images/flat/EL/elements/down_1.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Центральный подлокотник" src="/media/images/flat/EL/elements/down_1.jpg" height="132"></span>
 										<span class="description">
 											<strong>Центральный подлокотник</strong>
 											Центральный подлокотник с подстаканниками и нишей для хранения мелочей. Удивительно удобно!
 										</span>
                                                 </li>
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Подогреваемое рулевое колесо" src="/media/images/flat/EL/elements/convenience_6.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Подогреваемое рулевое колесо" src="/media/images/flat/EL/elements/convenience_6.jpg" height="132"></span>
 										<span class="description">
 											<strong>Подогреваемое рулевое колесо</strong>
 											Разве это не счастье — положить замерзшие руки на теплое рулевое колесо автомобиля холодным зимним днем! Жители холодных регионов оценят эту новую функцию особенно высоко.
 										</span>
                                                 </li>
                                                 <li>
-                                                    <span class="img"><img width="306" height="132" alt="Датчик дождя" src="/media/images/flat/EL/elements/convenience_7.jpg"/></span>
+                                                    <span class="img"><img width="306" alt="Датчик дождя" src="/media/images/flat/EL/elements/convenience_7.jpg" height="132"></span>
 										<span class="description">
 											<strong>Датчик дождя</strong>
 											Стеклоочистители больше не ждут Вашей команды. Датчик автоматически включает их при обнаружении дождя, улучшая видимость и делая поездку еще более комфортной.
@@ -778,7 +773,7 @@ $APPLICATION->SetTitle("Elantra");
                         </div>
                         <div class="spec_message">
                             <div>
-                                *Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Elantra (1.6 6МТ Start) 1 019 000р., 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 460 000 рублей, сумма кредита 559 000 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru.<br>
+                                *Платеж рассчитан по программе Hyundai Старт исходя из цены Hyundai Elantra (1.6 6МТ Start) 1 019 000р., 2018 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 460 000 рублей, сумма кредита 559 000 рублей. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.04.2019 по 30.04.2019г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте <a href="http://www.sovcombank.ru">www.sovcombank.ru</a>.<br>
                             </div>
                         </div>
                     </div>
@@ -794,19 +789,19 @@ $APPLICATION->SetTitle("Elantra");
                                 <ul class="specs-listing">
                                     <li class="head-line">
                                         <table>
-                                            <tr>
+                                            <tbody><tr>
                                                 <th>Модификации</th>
                                                 <td>1.6 - 6MT</td>
                                                 <td>1.6 - 6AT</td>
                                                 <td>2.0 - 6MT</td>
                                                 <td>2.0 - 6AT</td>
                                             </tr>
-                                        </table>
+                                        </tbody></table>
                                     </li>
                                     <li class="listing-item">
                                         <div class="opened">Двигатель</div>
                                         <table>
-                                            <tr>
+                                            <tbody><tr>
                                                 <th>Мощность*</th>
                                                 <td>128 л.с.</td>
                                                 <td>128 л.с.</td>
@@ -855,12 +850,12 @@ $APPLICATION->SetTitle("Elantra");
                                                 <td>50</td>
                                                 <td>50</td>
                                             </tr>
-                                        </table>
+                                        </tbody></table>
                                     </li>
                                     <li class="listing-item">
                                         <div>Динамика</div>
                                         <table>
-                                            <tr>
+                                            <tbody><tr>
                                                 <th>Динамические характеристики</th>
                                                 <td>6МКПП</td>
                                                 <td>6АКПП</td>
@@ -888,12 +883,12 @@ $APPLICATION->SetTitle("Elantra");
                                                 <td>205</td>
                                                 <td>202</td>
                                             </tr>
-                                        </table>
+                                        </tbody></table>
                                     </li>
                                     <li class="listing-item">
                                         <div>Расход топлива</div>
                                         <table>
-                                            <tr>
+                                            <tbody><tr>
                                                 <th>Городской цикл, л/100 км*</th>
                                                 <td>8.9</td>
                                                 <td>9.5</td>
@@ -935,12 +930,12 @@ $APPLICATION->SetTitle("Elantra");
                                                 <td>166</td>
                                                 <td>167</td>
                                             </tr>
-                                        </table>
+                                        </tbody></table>
                                     </li>
                                     <li class="listing-item">
                                         <div>Подвеска</div>
                                         <table>
-                                            <tr>
+                                            <tbody><tr>
                                                 <th>Колесная база</th>
                                                 <td>2700</td>
                                                 <td>2700</td>
@@ -991,18 +986,18 @@ $APPLICATION->SetTitle("Elantra");
                                             </tr>
                                             <tr>
                                                 <th>Задняя подвеска</th>
-                                                <td>Полузависимая, пружинная, с амортизаторами</td>
-                                                <td>Полузависимая, пружинная, с амортизаторами</td>
-                                                <td>Полузависимая, пружинная, с амортизаторами</td>
-                                                <td>Полузависимая, пружинная, с амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
+                                                <td>Полузависимая, пружинная, с&nbsp;амортизаторами</td>
                                             </tr>
-                                        </table>
+                                        </tbody></table>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="detailedSpecLink">
-                            <a href="/configurator/car?car_id=18#desc" onClick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
+                            <a href="/configurator/car?car_id=18#desc" onclick="ga('send', 'event', 'knopka', 'click');">Подробные характеристики</a>
                         </div>
                         <div class="spec_message">
                             <div>
@@ -1025,13 +1020,13 @@ $APPLICATION->SetTitle("Elantra");
                                 </div>
                             </div>
                             <ul id="all-gallery-items" style="display: none;">
-                                <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_1.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_1.jpg"/></li>
-                                <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_2.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_2.jpg"/></li>
-                                <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_3.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_3.jpg"/></li>
-                                <li><img data-type="exterior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_4.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_4.jpg"/></li>
-                                <li><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_5.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_5.jpg"/></li>
-                                <li><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_6.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_6.jpg"/></li>
-                                <li><img data-type="interior" width="229" height="144" alt="" src="/media/images/flat/EL/gallery_pics/gallery_preview_7.jpg" data-href="/media/images/flat/EL/gallery_pics/gallery_7.jpg"/></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_1.jpg" height="144" data-type="exterior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_1.jpg"></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_2.jpg" height="144" data-type="exterior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_2.jpg"></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_3.jpg" height="144" data-type="exterior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_3.jpg"></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_4.jpg" height="144" data-type="exterior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_4.jpg"></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_5.jpg" height="144" data-type="interior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_5.jpg"></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_6.jpg" height="144" data-type="interior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_6.jpg"></li>
+                                <li><img width="229" src="/media/images/flat/EL/gallery_pics/gallery_preview_7.jpg" height="144" data-type="interior" alt="" data-href="/media/images/flat/EL/gallery_pics/gallery_7.jpg"></li>
                             </ul>
                             <div class="gallery-body">
                                 <div class="gallery-list-wrap">
@@ -1063,12 +1058,12 @@ $APPLICATION->SetTitle("Elantra");
 					</span>
                                 <a href="/test-drive/" class="btn-flat">Пройти тест-драйв</a>
                             </div>
-                            <img src="/media/images/flat/EL/elements/promo_pic.png" alt="Тест драйв Hyundai Elantra">
+                            <img alt="Тест драйв Hyundai Elantra" src="/media/images/flat/EL/elements/promo_pic.png">
                         </div>
                         <div class="promo-grid">
                             <ul class="clearfix">
-                                <li><a href="/configurator/car/7/modification"><span>Конфигуратор Elantra</span></a></li>
-                                <li><a href="/configurator/car/7/modification&calc_open=1"><span>Рассчитать кредит</span></a></li>
+                                <li><a href="/configurator/car/7/modification">Конфигуратор Elantra</a></li>
+                                <li><a href="/configurator/car/7/modification&calc_open=1">Рассчитать кредит</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1077,7 +1072,7 @@ $APPLICATION->SetTitle("Elantra");
                             <ul class="promo-slider">
                                 <li>
                                     <a href="/H-1" class="promo-slider-link">
-                                        <img src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png" alt="H-1">
+                                        <img alt="H-1" src="https://www.hyundai.ru/media/images/carmodels/H-1_3185b17f6c10d2a9.png">
                                         <span class="model">H-1</span>
                                         <span class="price">от 2 121 000  ₽</span>
                                     </a>
@@ -1106,6 +1101,4 @@ $APPLICATION->SetTitle("Elantra");
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/libs/jquery.lazyload.min.js"></script>
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/cars/sc_gt_default.js"></script>
     <script type="text/javascript" src="https://www.hyundai.ru/media/js/cars/pip_flat_spritespin.js"></script>
-    <script type="text/javascript" src="https://www.hyundai.ru/media/js/cars/pip_flat_EL.js"></script>
-
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+    <script type="text/javascript" src="https://www.hyundai.ru/media/js/cars/pip_flat_EL.js"></script><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
