@@ -3,6 +3,10 @@
 <head>
     <script>
         window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142133101-1');
     </script>
 
     <meta charset="UTF-8">

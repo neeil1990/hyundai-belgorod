@@ -40,7 +40,7 @@
                     </ul>
                     <div class="clearfix"></div>
                 </li>
-                <li><a href="/dealers-h-promise/">Дилеры H-PROMISE</a></li>
+                <li><a href="/contacts/">Дилеры H-PROMISE</a></li>
             </ul>
 
             <div class="compare_btns">
