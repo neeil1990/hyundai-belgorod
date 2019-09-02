@@ -475,7 +475,7 @@
 				$('.check_result').hide();
 			PopUpInfo.ShowLoad();
 			// console.log("ShowLoad");
-			$.ajax('/ajax/get_sertif_by_vin.php?vin=' + vin).done(function (data) {
+			$.ajax('https://hpromise.hyundai.ru/ajax/get_sertif_by_vin.php?vin=' + vin).done(function (data) {
 				if (data === 'check') {
 					$('.check_result').html('<img src="/local/templates/hyundai_2017/img/check.jpg" alt=""> сертификат активирован');
 //				} else if (data === 'not_check') {

@@ -31,12 +31,12 @@
             </a>
             <span class="header-logooff"></span>
             <ul class="topnav">
-                <li><a href="/trade-in/">HYUNDAI TRADE-IN</a></li>
+                <li><a href="/hpromise/trade-in/">HYUNDAI TRADE-IN</a></li>
                 <li class="parent">
                     <span>Автомобили с пробегом</span>
                     <ul>
-                        <li><a href="/avtomobili-s-probegom/">Поиск автомобилей с пробегом</a></li>
-                        <li><a href="/avtomobili-s-probegom/check-certificates/">Проверка сертификата H-Promise</a></li>
+                        <li><a href="/hpromise/avtomobili-s-probegom/">Поиск автомобилей с пробегом</a></li>
+                        <li><a href="/hpromise/avtomobili-s-probegom/check-certificates/">Проверка сертификата H-Promise</a></li>
                     </ul>
                     <div class="clearfix"></div>
                 </li>
