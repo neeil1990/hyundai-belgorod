@@ -86,10 +86,10 @@ $APPLICATION->SetPageProperty("title", "Замена масла, фильтра 
                           <div class="col-md-12">
                             <ul class="df-tabs df-tabs__insurance">
                               <li class="df-tabs__item">
-                                <button class="df-tabs__button df-tabs__button--active" data-button="1">ПРИ ОБСЛУЖИВАНИЕ У ОФИЦИАЛЬНОГО ДИЛЕРА</button>
+                                <button class="df-tabs__button df-tabs__button--active" data-button="1">ПРИ ОБСЛУЖИВАНИЕ У ОФИЦИАЛЬНОГО ДИЛЕРА Белгород</button>
                               </li>
                               <li class="df-tabs__item">
-                                <button class="df-tabs__button" data-button="2">ПРИ ОБСЛУЖИВАНИЕ В СТОРОННЕМ СЕРВИСЕ</button>
+                                <button class="df-tabs__button" data-button="2">ПРИ ОБСЛУЖИВАНИЕ В СТОРОННЕМ СЕРВИСЕ Белгород</button>
                               </li>
                             </ul>
                           </div>
