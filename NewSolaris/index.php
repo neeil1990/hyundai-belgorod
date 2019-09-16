@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("description", "Купить Хендай Солярис на сайте официального дилера в Белгороде, посмотрите комплектации и цены нового автомобиля Hyundai Solaris");
-$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Белгороде. Цена на новый Хендай Солярис, комплектации от официального дилера Хенде Ринг Авто");
+$APPLICATION->SetPageProperty("title", "Hyundai Solaris купить в Белгороде - Цена на новый Хендай Солярис, комплектации от официального дилера Хенде Ринг Авто");
 $APPLICATION->SetTitle("NewSolaris");
 ?><!-- <link rel="stylesheet" type="text/css" href="/media/css_new/pip_flat_spritespin.css"/> -->
 

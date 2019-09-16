@@ -70,7 +70,7 @@ $this->setFrameMode(true);
 
 							<div class="dealer-info special ">
 								<div class="pop_body">
-									<div class="dealer-name"><?=$arItem["NAME"]?></div>
+									
 									<div class="pop_text">
 										<span class="dealer-address" style="height: 60px;">
 											<a class="wa_link" href="/service/roadside-assistance#wa-block">WA</a>

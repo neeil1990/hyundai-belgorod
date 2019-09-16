@@ -1,7 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("description", "Купить Хендай Крета на сайте официального дилера в Белгороде, посмотрите комплектации и цены нового автомобиля Hyundai Creta");
-$APPLICATION->SetPageProperty("title", "Hyundai Creta купить у официального дилера в Белгороде. Новый Хендай Крета комплектации и цены - Хенде Ринг Авто");
+$APPLICATION->SetPageProperty("title", "Hyundai Creta купить у официального дилера в Белгороде - Новый Хендай Крета комплектации и цены - Хенде Ринг Авто");
 $APPLICATION->SetTitle("Creta");
 ?><span>
 <div class="content">

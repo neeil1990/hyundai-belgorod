@@ -1,5 +1,4 @@
 
-
 <content-data>
     <div class="content">
         <section class="slider lazyload lazypreview" data-bgset="/images/index/fon.jpg">
@@ -47,31 +46,6 @@
                                                     <use xlink:href="#arrow-link"></use>
                                                 </svg>
                                             </div>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564413330_mob.jpg [(max-width: 640px)] | /storage/banners/1564413330.jpg">
-                                <a class="slider__link" href="/promo/credit_vacation" target=&quot;_blank&quot; aria-label="Кредитные каникулы">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">Кредитные каникулы</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;">Теперь весь модельный ряд!</div>
-                                    </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div>
-                                                3 месяца платежей в подарок!
-                                            </div>
-
-                                            <div class="blue-panel__more">
-                                                Подробнее
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-
 
 
                                         </div>

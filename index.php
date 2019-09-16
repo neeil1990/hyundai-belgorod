@@ -4,4 +4,4 @@ $APPLICATION->SetPageProperty("description", "На сайте официальн
 $APPLICATION->SetPageProperty("title", "Официальный дилер Hyundai в Белгороде - сайт автосалона Хенде Ринг Авто - купить новый автомобиль, модельный ряд, цена и комплектация");
 $APPLICATION->SetTitle("Мебельная компания");
 require($_SERVER["DOCUMENT_ROOT"].SITE_TEMPLATE_PATH."/index.php");
-?><h1 style="text-align: center;">Хендай Белгород</h1><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?><h1 style="text-align: center;">Ринг Авто Белгород</h1><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

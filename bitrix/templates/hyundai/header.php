@@ -170,11 +170,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         Тест-драйв
                     </a>
                 </li>
-                <li class="header-top__item header-top__item--search js-search">
-                    <a href="#" class="header-top__link">
-                        <svg role="img" aria-hidden="true" class="icon-magnifier">
-                            <use xlink:href="#icon-search"></use>
-                        </svg>
+				<li class="header-top__item">
+                    <a href="/contacts/" class="header-top__link">
+                        Контакты
                     </a>
                 </li>
             </ul>

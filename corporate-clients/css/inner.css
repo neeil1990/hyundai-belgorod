@@ -7,7 +7,7 @@
 .container {
     padding: 0;
     width: 100%;
-    background: #efefed;
+    
     padding: 20px 0;
 }
 
@@ -955,7 +955,6 @@ td, th {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     box-sizing: content-box;
     float: left;
-    height: 88px;
     padding: 14px 0 0 10px;
     width: 183px;
 }

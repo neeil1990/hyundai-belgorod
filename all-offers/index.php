@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("all-offers");
             <section class="special-content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                      <!-- <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/credit_vacation" class="special-item__link">
                                     <div class="special-item-label">
@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("all-offers");
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/solaris_super_series" class="special-item__link">

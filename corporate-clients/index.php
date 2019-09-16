@@ -52,16 +52,16 @@ $APPLICATION->SetTitle("corporate-clients");
 
                                     <p class="last">За более подробной информацией Вы можете обратиться к официальному дилеру Hyundai «Ринг Авто Белгород», так и непосредственно в отдел корпоративных продаж.</p><p></p></div>
                                 <div class="fleet_wrap"><h2 class="title"></h2><div class="fleet">
-<p><img src="/upload/Окш.png"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
+<p><img src="/upload/Андрос.jpg"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
                             </p>
                                         <ul class="contact_us">
                                             <li style="width: 100%">
                                                 <span class="name">
-                                                    <strong><p>Сергей Окшинский </p></strong>
+                                                    <strong><p>Руслан Андрос </p></strong>
                                                     Менеджер по корпоративным продажам
                                                 </span>
-                                                    <p>тел.: +7 (909) 206-01-01</p>
-                                                <span class="mail"><a href="mailto:sergey.okshinskiy@hyundai-belgorod.ru">sergey.okshinskiy@hyundai-belgorod.ru</a></span>
+                                                    <p>тел.: +7 (904) 091-84-61</p>
+                                                <span class="mail"><a href="mailto:ruslan.andros@hyundai-belgorod.ru">ruslan.andros@hyundai-belgorod.ru</a></span>
                                             </li></ul></div>
                                             <div class="fleet">
 <p><img src="/upload/Трофимычев1.jpg"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
