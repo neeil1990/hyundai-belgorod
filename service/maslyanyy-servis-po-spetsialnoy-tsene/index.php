@@ -12,7 +12,7 @@ $APPLICATION->SetPageProperty("title", "Замена масла, фильтра 
 					<div class="head__composition">
 						<h1 class="head__title">Замена масла, фильтра + работа</h1>
 						<div class="head__subtitle">
-							 от 2 500 руб. Только в Ринг Авто.
+							 от 2 499 руб. Только в Ринг Авто Белгород.
 						</div>
  <a href="#repair" class="df-download-img-link">
 						Масляный сервис по специальной цене </a>
