@@ -199,6 +199,19 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
+                            <div class="special-item">
+                                <a href="/service/maslyanyy-servis-po-spetsialnoy-tsene/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Сервис</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/images/service/test/1.png)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Замена масла, фильтра + работа</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 
                         <?
                         if(CModule::IncludeModule("iblock")) {
