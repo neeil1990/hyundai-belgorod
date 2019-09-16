@@ -1,8 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "У официального дилера Hyundai в Белгороде можно сделать кузовной ремонт автомобиля Хендай");
-$APPLICATION->SetPageProperty("title", "Кузовной ремонт Hyundai в Белгороде от Хенде Ринг Авто");
-$APPLICATION->SetTitle("bodyworks");
+$APPLICATION->SetPageProperty("description", "");
+$APPLICATION->SetPageProperty("title", "Замена масла, фильтра + работа");
 ?><span>
 <div class="content">
  <section class="head">
