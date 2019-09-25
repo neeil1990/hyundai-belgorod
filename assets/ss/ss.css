@@ -31,7 +31,7 @@ h2.title-offer {
 .dyn_data {
 	float: left;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 35px;
 	font-family: HyundaiSansText;
 }
 
@@ -143,8 +143,50 @@ border-radius: 28px;
     display: none;
 }
 
-
-
+.telematica {
+	padding: 25px 0;
+	margin: 25px 0;
+	background-color: #002861;
+}
+.telematica p {
+	margin-bottom: 26px;
+}
+.telematica__title {
+	font-weight: 300;
+	margin-bottom: 37px;
+	color: #fff!important;
+}
+.telematica__body {
+	display: flex;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+.telematica__img {
+	flex: none;
+	width: 100%;
+	max-width: 309px;
+	margin-left: 30px;
+}
+.creta-first {
+	position: relative;
+	display: inline-block;
+	margin-right: 0.2em;
+}
+.creta-first::after {
+	content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -22px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-image: url('/images/first_place.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
 @media only screen and (max-width : 950px) {
     .promo-head {
         height: 265px;
@@ -167,7 +209,12 @@ border-radius: 28px;
     .offer-terms__text {
         padding-left: 30px;
         padding-right: 30px;
-    }
+	}
+	
+	.telematica__inner {
+		padding-left: 30px;
+        padding-right: 30px;
+	}
 
     .mlr {
         padding-left: 30px;
@@ -199,7 +246,14 @@ border-radius: 28px;
     .tip-supscript {
         padding-left: 30px;
         padding-right: 30px;
-    }
+	}
+	
+	.creta-first {
+		margin-right: 0.4em;
+	}
+	.creta-first::after {
+		right: -25px;
+	}
 }
 
 
@@ -224,5 +278,28 @@ border-radius: 28px;
 
     h2.title-offer {
         font-size: 30px;
-    }
+	}
+	
+	.telematica__body {
+		display: block;
+	}
+
+	.telematica__img  {
+		margin: 0 auto;
+	}
+
+	.creta-first {
+		margin-right: 0.5em;
+	}
+	.creta-first::after {
+		top: -12px;
+		right: -26px;
+	}
 }
+
+.dyn_data span {
+    margin-top: 15px;
+    float: left;
+    font-weight: bold;
+}
+

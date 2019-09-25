@@ -6,18 +6,20 @@
                     <div class="col-md-12">
                         <ul class="slider__body js-main-slider owl-carousel">
                             <div class="slider__item">
-                                <a id="start-link" href="/start" class="slider__link">
+                                <a id="start-link" href="/promo/creta-rock/" class="slider__link">
                                     <div class="slider__video"></div>
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">Hyundai CRETA Rock Edition.</h2>
+                                        <div class="slider__subtitle df-banner-subline">В моторах – чистый рок.</div>
+                                    </div>
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
-                                            <div class="blue-panel__more" style="display: block; color: #fff;">
-                                                <span>Предодобрение</span>
-                                                <div>
-                                                    <span>онлайн</span>
-                                                    <svg style="display: inline-block;">
-                                                        <use xlink:href="#arrow-link"></use>
-                                                    </svg>
-                                                </div>
+                                            <div>Уникальная комплектация</div>
+                                            <div class="blue-panel__more">
+                                                подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
                                             </div>
                                         </div>
                                     </div>
@@ -37,6 +39,34 @@
 
                                          
                                         
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568289623_mob.jpg [(max-width: 640px)] | /storage/banners/1568289623.jpg">
+                                <a class="slider__link" href="/promo/trade-in-sale/"  aria-label="Невероятный Hyundai i30 N.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">Невероятный Hyundai i30 N.</h2>
+                                        <div class="slider__subtitle df-banner-subline">Спорткар на каждый день.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                Выгода 300 000
+                                                &nbsp;₽                                                </div>
+
+                                            <div>
+                                                Кредит 6.9%
+                                            </div>
+
+                                            <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
 
 
                                         </div>

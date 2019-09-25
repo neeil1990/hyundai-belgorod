@@ -226,6 +226,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Новинки</h4>
                                                                 <ul class="showroom__cars">
+                                                                    <li class="showroom__car showroom__car first-place">
+                                                                        <a href="/promo/creta-rock" class="d-car">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">ROCK EDITION</h5>
+                                                                                <div class="d-car__name">/ CRETA</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 1 405 000 ₽</div>
+                                                                            <div class="d-car__m-name">ROCK EDITION</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/assets/ss/new/creta_rock.png" alt="ROCK EDITION">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
                                                                     <li class="showroom__car showroom__car">
                                                                         <a href="/promo/solaris_super_series" class="d-car">
                                                                             <div class="d-car__top-line">
