@@ -35,7 +35,7 @@ $APPLICATION->SetTitle("");
 	</div>
 	<div class="blue-label">
 		<div class="blue-label__top">
-			 от ₽
+			 от 1 360 000 ₽
 		</div>
 		<hr>
 		<div class="blue-label__bottom">

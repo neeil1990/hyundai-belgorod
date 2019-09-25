@@ -263,7 +263,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <h5 class="d-car__title">СОЛЯРИС</h5>
                                                                                 <div class="d-car__name">/ SOLARIS</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 739 000 ₽</div>
+                                                                            <div class="d-car__price">от 746 000 ₽</div>
                                                                             <div class="d-car__m-name">SOLARIS</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041395.png" alt="Solaris">
@@ -276,7 +276,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <h5 class="d-car__title">СОНАТА</h5>
                                                                                 <div class="d-car__name">/ SONATA</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 1 344 000 ₽</div>
+                                                                            <div class="d-car__price">от 1 360 000 ₽</div>
                                                                             <div class="d-car__m-name">SONATA</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041410.png" alt="SONATA">
