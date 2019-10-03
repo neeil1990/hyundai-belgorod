@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("TUCSON и SANTA FE Rock Edition.");
                                     <div class="product-info-buttons">
                                         <button onclick="document.location.href='/NewTucson'" class="df-button df-button--small">О модели</button>
                                         <button onclick="document.location.href='/configurator/car/26'" class="df-button df-button--small">Конфигуратор</button>
-                                        <button onclick="document.location.href='/test-drive/NewTucson'" class="df-button df-button--small">Тест-драйв</button>
+                                        <button onclick="document.location.href='/test-drive/'" class="df-button df-button--small">Тест-драйв</button>
                                         <button onclick="document.location.href='/configurator/car/26/#calculator'" class="df-button df-button--small">Расчет кредита</button>
                                     </div>
                                     <!--
@@ -118,7 +118,7 @@ $APPLICATION->SetTitle("TUCSON и SANTA FE Rock Edition.");
                                     <div class="product-info-buttons">
                                         <button onclick="document.location.href='/NewSantaFe'" class="df-button df-button--small">О модели</button>
                                         <button onclick="document.location.href='/configurator/car/25'" class="df-button df-button--small">Конфигуратор</button>
-                                        <button onclick="document.location.href='/test-drive/NewSantaFe'" class="df-button df-button--small">Тест-драйв</button>
+                                        <button onclick="document.location.href='/test-drive/'" class="df-button df-button--small">Тест-драйв</button>
                                         <button onclick="document.location.href='/configurator/car/25/#calculator'" class="df-button df-button--small">Расчет кредита</button>
                                     </div>
                                     <!--
