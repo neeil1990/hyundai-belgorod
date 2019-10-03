@@ -73,6 +73,29 @@
                                     </div>
                                 </a>
                             </li>
+
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569999101_mob.jpg [(max-width: 640px)] | /storage/banners/1569999101.jpg">
+                                <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">TUCSON и SANTA FE Rock Edition.</h2>
+                                        <div class="slider__subtitle df-banner-subline">В моторах - чистый рок.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
 					
 							
 							
