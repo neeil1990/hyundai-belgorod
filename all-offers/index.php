@@ -108,32 +108,8 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
-                            <div class="special-item">
-                                <a href="/promo/new_owners" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Покупателям</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1563355026.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Первый автомобиль.<br>Выгода 10% на Creta и Solaris</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
-                            <div class="special-item">
-                                <a href="/promo/family_car" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Покупателям</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1563355043.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Семейный автомобиль.<br>Выгода 10% на Creta и Solaris</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                     
+                      
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
                             <div class="special-item">
                                 <a href="/special-offer" class="special-item__link">

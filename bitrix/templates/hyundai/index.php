@@ -123,63 +123,8 @@
                                 </a>
                             </li>
 							
-							  <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564155133_mob.jpg [(max-width: 640px)] | /storage/banners/1564502688.jpg">
-                                <a class="slider__link" href="/promo/new_owners"  aria-label="10:0 в вашу пользу">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">10:0 в вашу пользу</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;"></div>
-                                    </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div>
-                                                Выгода 10%
-                                            </div>
-
-                                            <div>
-                                                на  CRETA и SOLARIS
-                                            </div>
-
-                                            <div class="blue-panel__more">
-                                                Подробнее
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-							
-							 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564407017_mob.jpg [(max-width: 640px)] | /storage/banners/1564502702.jpg">
-                                <a class="slider__link" href="/promo/family_car"  aria-label="10:0 в вашу пользу">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">10:0 в вашу пользу</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;"></div>
-                                    </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div>
-                                                Выгода 10%
-                                            </div>
-
-                                            <div>
-                                                на  CRETA и SOLARIS
-                                            </div>
-
-                                            <div class="blue-panel__more">
-                                                Подробнее
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+						
+				
 							
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082130_mob.jpg [(max-width: 640px)] | /storage/banners/1562082130.jpg">
                                 <a class="slider__link" href="/NewElantra"  aria-label="Новая ELANTRA.">
