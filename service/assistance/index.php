@@ -17,12 +17,12 @@ $APPLICATION->SetTitle("Помощь на дороге.");
                                 </svg>
                             </a>
                             <div class="head__banner">
-                                <div class="head__composition">
+                                <!--<div class="head__composition">
                                     <h1 class="head__title">Помощь на дороге.</h1>
                                     <div class="head__subtitle">
                                         На связи 24/7.
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>

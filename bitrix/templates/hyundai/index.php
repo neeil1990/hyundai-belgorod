@@ -5,26 +5,15 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="slider__body js-main-slider owl-carousel">
-                            <div class="slider__item">
-                                <a id="start-link" href="/promo/creta-rock/" class="slider__link">
-                                    <div class="slider__video"></div>
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568186050_mob.jpg [(max-width: 640px)] | /storage/banners/1568184493.jpg">
+                                <a class="slider__link" href="/promo/creta-rock/"  aria-label="CRETA Rock Edition.">
                                     <div class="slider__inner">
-                                        <h2 class="slider__title">Hyundai CRETA Rock Edition.</h2>
+                                        <h2 class="slider__title">CRETA Rock Edition.</h2>
                                         <div class="slider__subtitle df-banner-subline">В моторах – чистый рок.</div>
                                     </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div>Уникальная комплектация</div>
-                                            <div class="blue-panel__more">
-                                                подробнее
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </a>
-                            </div>
+                            </li>
+
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/gonka-i30_mob.jpg [(max-width: 640px)] | /storage/banners/gonka-i30.jpg">
                                 <a class="slider__link" href="https://race.hyundai.ru/?_ga=2.238198336.197582221.1569225720-96980108.1555415333&_gac=1.223787497.1565685318.Cj0KCQjwv8nqBRDGARIsAHfR9wCu_mSOgM5UGtdb7il3wX1SreJLmqSRXU6nw5pISnhd2WxkGjjC0vAaAqusEALw_wcB"  aria-label="Участвуйте в виртуальной гонке на i30N.">
                                     <div class="slider__inner">
