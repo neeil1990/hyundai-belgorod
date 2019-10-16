@@ -1,0 +1,6 @@
+<?
+$sSectionName = "manufacturing";
+$arDirProperties = Array(
+
+);
+?>
