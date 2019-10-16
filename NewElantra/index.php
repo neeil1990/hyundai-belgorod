@@ -1,6 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Выберите свою ELANTRA");
+$APPLICATION->SetPageProperty("description", "Купить Hyundai Elantra на сайте официального дилера в Белгороде, посмотрите комплектации и цены нового автомобиля Хендай Элантра.");
+$APPLICATION->SetPageProperty("title", "Hyundai Elantra купить в Белгороде, комплектации и цены новой Хендай Элантра - Хенде Ринг Авто");
 $APPLICATION->SetTitle("Выберите свою ELANTRA");
 ?>
 

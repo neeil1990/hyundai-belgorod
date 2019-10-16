@@ -71,6 +71,10 @@ Redirect 301 /company/vacancies.php /
 Redirect 301 /start_plus/ /start/
 Redirect 301 /find-dealer /contacts/
 
+Redirect 301 /NewSolaris/ /Solaris/
+Redirect 301 /Tucson/ /NewTucson/ 
+Redirect 301 /Elantra/ /NewElantra/ 
+Redirect 301 /SantaFe/ /NewSantaFe/ 
 
 
 # скрыть трейд ин, по просьбы Константина от 23.06.2017 по телефону

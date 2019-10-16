@@ -95,25 +95,25 @@
                             </li>
                             <li class="footer__item">
                                 <a href="#" class="footer__link">Worldwide</a>
-                            </li> -->
+                            </li>
                             <li class="footer__item">
                                 <a href="/history" class="footer__link">История бренда</a>
                             </li>
                             <li class="footer__item">
                                 <a href="/philosophy" class="footer__link">Философия</a>
                             </li>
-                            <li class="footer__item">
+                            <!--<li class="footer__item">
                                 <a href="/manufacturing" class="footer__link">Завод XMMP</a>
-                            </li>
+                            </li>-->
                             <li class="footer__item">
                                 <a href="/news" class="footer__link">Пресс-центр</a>
                             </li>
-                            <li class="footer__item">
+                            <!--<li class="footer__item">
                                 <a href="/vacancy" class="footer__link vacancy__link">Вакансии</a>
                             </li>
                             <li class="footer__item">
                                 <a href="/customer-services" class="footer__link">Сервисы для клиентов</a>
-                            </li>
+                            </li>-->
                             <li class="footer__item">
                                 <a href="/become-a-dealer" class="footer__link">Стать дилером</a>
                             </li>
@@ -230,7 +230,7 @@
     </div>
 </footer>
 
-<div class="vacancy-popup df-popup" style="display: none;">
+<!--<div class="vacancy-popup df-popup" style="display: none;">
     <div class="df-popup__wrap">
         <p class="vacancy-popup__title">Какие вакансии вас интересуют?</p>
         <div class="vacancy-popup__buttons">
@@ -238,7 +238,7 @@
             <a href="/XMMP-careers" class="df-button">Завод</a>
         </div>
     </div>
-</div>
+</div>-->
 <div class="cookie">
     <div class="cookie-inner">
         <p class="df-text-input-14px cookie-desktop">Данный веб-сайт использует cookie-файлы с&nbsp;целью повышения удобства и&nbsp;эффективности работы пользователя.</p>

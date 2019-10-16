@@ -248,12 +248,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     </div>
                                     <div class="sign-up-service__buttons">
                                         <a href="#" class="df-button sign-up-service__button js-sign-up-service">Записаться</a>
-                                        <a href="/offers#service" class="df-iconed-link sign-up-service____link">
-                                            Сервисные акции
-                                            <svg>
-                                                <use xlink:href="#arrow-link"></use>
-                                            </svg>
-                                        </a>
+                                       
                                     </div>
                                 </div>
                             </div>
