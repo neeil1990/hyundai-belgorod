@@ -99,9 +99,9 @@
                             <li class="footer__item">
                                 <a href="/news" class="footer__link">Пресс-центр</a>
                             </li>
-                            <li class="footer__item">
+                            <!--<li class="footer__item">
                                 <a href="/become-a-dealer" class="footer__link">Стать дилером</a>
-                            </li>
+                            </li>-->
                             <li class="footer__item">
                                 <a href="/history" class="footer__link">История бренда</a>
                             </li>

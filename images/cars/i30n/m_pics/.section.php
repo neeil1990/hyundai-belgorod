@@ -1,0 +1,3 @@
+<?
+$sSectionName="m_pics";
+?>
