@@ -33,6 +33,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/libs.css?id=2b939cb1312e066fe2c0">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/master.css?id=ba29d4bc23f02da318c0">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/custom.css">
 
     <? if($APPLICATION->GetCurDir() == "/"): ?>
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/libs.css?id=f5f774e5913cde9ada59">
