@@ -26,10 +26,10 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                                     <p class="offer-terms__text">Подробности уточняйте в <a href="/test-drive/" target="_blank">официальных дилерских центрах Hyundai.</a></p>
 
                                 </div>
-                                <div class="mlr" id="offerPage">
-                                    <!--                 	<a href="/configurator/car/23" target="_blank" class="request-service-btn">Конфигуратор</a>   <a href="/test-drive/Solaris" target="_blank" class="inverse-service-btn">Тест-драйв</a>   <a href="/configurator/car/23#calculator" target="_blank" class="inverse-service-btn">Цены и сравнение</a> -->
+                                <!--<div class="mlr" id="offerPage">
+
                                     <offer-forms v-bind:form="'creditOffer'"></offer-forms>
-                                </div>
+                                </div>-->
                             </div>
                         </div>
                     </div>
