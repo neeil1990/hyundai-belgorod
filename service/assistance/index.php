@@ -30,6 +30,7 @@ $APPLICATION->SetTitle("Помощь на дороге.");
             </section>
 
             <section class="advantages">
+				<h1 align="center">Помощь на дороге</h1>
                 <h2 class="advantages-title">О программе</h2>
                 <div class="container">
                     <div class="row">

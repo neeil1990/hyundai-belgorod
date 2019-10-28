@@ -8,7 +8,7 @@ $APPLICATION->SetTitle("all-offers");
             <section class="special-title">
                 <div class="container">
                     <div class="special-title-inner">
-                        <h2>Спецпредложения</h2>
+                        <h1>Спецпредложения</h1>
                     </div>
                 </div>
             </section>

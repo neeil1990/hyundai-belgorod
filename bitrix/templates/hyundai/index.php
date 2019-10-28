@@ -14,7 +14,7 @@
                                 </a>
                             </li>
 
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/gonka-i30_mob.jpg [(max-width: 640px)] | /storage/banners/gonka-i30.jpg">
+                         <!-- <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/gonka-i30_mob.jpg [(max-width: 640px)] | /storage/banners/gonka-i30.jpg">
                                 <a class="slider__link" href="https://race.hyundai.ru/?_ga=2.238198336.197582221.1569225720-96980108.1555415333&_gac=1.223787497.1565685318.Cj0KCQjwv8nqBRDGARIsAHfR9wCu_mSOgM5UGtdb7il3wX1SreJLmqSRXU6nw5pISnhd2WxkGjjC0vAaAqusEALw_wcB"  aria-label="Участвуйте в виртуальной гонке на i30N.">
                                     <div class="slider__inner">
                                         <h2 class="slider__title">Участвуйте в виртуальной гонке на i30N.</h2>
@@ -34,7 +34,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568289623_mob.jpg [(max-width: 640px)] | /storage/banners/1568289623.jpg">
+                          <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568289623_mob.jpg [(max-width: 640px)] | /storage/banners/1568289623.jpg">
                                 <a class="slider__link" href="/promo/trade-in-sale/"  aria-label="Невероятный Hyundai i30 N.">
                                     <div class="slider__inner">
                                         <h2 class="slider__title">Невероятный Hyundai i30 N.</h2>
@@ -61,7 +61,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </li>
+                            </li>-->
 
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1570620170_mob.jpg [(max-width: 640px)] | /storage/banners/1569999101.jpg">
                                 <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
