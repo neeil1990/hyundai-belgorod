@@ -1,6 +1,6 @@
 
 <div class="conditions">
-    <h2 class="hond">Критерии отбора автомобилей</h2>
+    <h1 class="hond">Критерии отбора автомобилей</h1>
     <div class="conditions-requirements">
         <div class="conditions-requirements-single">
             <div class="conditions-requirements-single-id">01</div>

@@ -98,7 +98,7 @@ $this->setFrameMode(true);
                                     <div class="car-view__info-promiselogo">
                                         <img src="/local/templates/hyundai_2017/img/promiselogo.png" alt="">
                                     </div>
-                                    <div class="car-view__info-title"><?=$arResult['NAME']?></div>
+                                    <h1 class="car-view__info-title"><?=$arResult['NAME']?></h1>
                                     <div class="car-view__info-price"><?=$arResult['PROPERTIES']['NEW_PRICE']['VALUE']?></div>
                                 </div>
                                 <div class="car-view__props-list">

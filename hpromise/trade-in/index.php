@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("title", "");
 
     <div class="cont">
         <div class="banner nblock">
-            <div class="banner-title">HYUNDAI<br>TRADE-IN</div>
+            <h1 class="banner-title">HYUNDAI<br>TRADE-IN</h1>
             <div class="banner-desc">Обменяйте свой Hyundai<br>на новый на выгодных условиях*</div>
             <a href="/online-otsenka/" class="banner-evaluation">
                 <div class="banner-evaluation-back"></div>
