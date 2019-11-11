@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Hyundai CRETA Rock Edition.");
 
                     <div class="offers-content">
 
-                        <div class="title-offer bordr-btm"><span class="nowrp">Hyundai <span class="creta-first">CRETA</span> Rock Edition.</span></div>
+                        <h1 class="title-offer bordr-btm"><span class="nowrp">Hyundai <span class="creta-first">CRETA</span> Rock Edition.</span></h1>
                         <h2 class="title-offer bordr-btm"><span class="nowrp">В моторах – чистый рок.</span></h2>
 
                         <div class="offer-terms bordr-btm">
@@ -47,7 +47,7 @@ $APPLICATION->SetTitle("Hyundai CRETA Rock Edition.");
                 <div class="content_area">
                     <div class="offers-content">
 
-                        <h1 class="title-offer bordr-btm"><span class="nowrp">Особенности CRETA Rock Edition</span><br/></h1>
+                        <div class="title-offer bordr-btm"><span class="nowrp">Особенности CRETA Rock Edition</span><br/></div>
 
                         <!-- <div class="telematica">
                             <div class="offers-block">

@@ -124,7 +124,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                 <div class="content_area">
                     <div class="offers-content">
 
-                        <h1 class="title-offer bordr-btm"><span class="nowrp">Комфорт</span></h1>
+                        <div class="title-offer bordr-btm"><span class="nowrp">Комфорт</span></div>
 
 
                         <div class="offer-terms bordr-btm">
