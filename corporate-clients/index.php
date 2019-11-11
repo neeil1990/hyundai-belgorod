@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "В основе нашей программы для корпоративных клиентов содержится персональный подход к каждому покупателю.");
 $APPLICATION->SetTitle("corporate-clients");
 ?>
 
@@ -52,7 +53,7 @@ $APPLICATION->SetTitle("corporate-clients");
 
                                     <p class="last">За более подробной информацией Вы можете обратиться к официальному дилеру Hyundai «Ринг Авто Белгород», так и непосредственно в отдел корпоративных продаж.</p><p></p></div>
                                 <div class="fleet_wrap"><h2 class="title"></h2><div class="fleet">
-<p><img src="/upload/Андрос.jpg"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
+<p><img src="/upload/Андрос.jpg"  alt="Менеджер по корпоративным продажам" style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
                             </p>
                                         <ul class="contact_us">
                                             <li style="width: 100%">
@@ -64,7 +65,7 @@ $APPLICATION->SetTitle("corporate-clients");
                                                 <span class="mail"><a href="mailto:ruslan.andros@hyundai-belgorod.ru">ruslan.andros@hyundai-belgorod.ru</a></span>
                                             </li></ul></div>
                                             <div class="fleet">
-<p><img src="/upload/Трофимычев1.jpg"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
+<p><img src="/upload/Трофимычев1.jpg" alt="Менеджер послепродажного обслуживания корпоративных клиентов"  style="width: 136px; float: left; margin: 0px 10px 00px 0px;"> <br>
                             </p>
                                              <ul class="contact_us"><li style="width: 100%">
                                                 <span class="name">

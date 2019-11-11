@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Вместе с партнерами из Робокар Поли мы приготовили для ваших детей особый подарок — персонализированный календарь.");
 $APPLICATION->SetTitle("Подарок от Робокара Поли в официальной дилерской сети Hyundai!");
 ?>
 

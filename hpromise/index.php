@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "");
+$APPLICATION->SetPageProperty("keywords", "Купить и продать Hyundai с пробегом у официального дилера в Белгороде.");
 ?>
 
 
@@ -15,7 +15,7 @@ $APPLICATION->SetPageProperty("title", "");
                             <div class="slick_content">
                                 <span class="small_text">Продать автомобиль с пробегом</span>
                                 <div class="clearfix"></div>
-                                <img class="slick_img" src="/local/templates/hyundai_2017/img/trade_in_text.png" alt="" />
+                                <img class="slick_img" src="/local/templates/hyundai_2017/img/trade_in_text.png" alt="Продать автомобиль с пробегом" />
                                 <span class="big_text">hyundai<br />TRADE-IN</span>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ $APPLICATION->SetPageProperty("title", "");
                         <!-- -->
                         <div class="right_half">
                             <div class="slick_content">
-                                <img class="slick_img" src="/local/templates/hyundai_2017/img/h_promise_text.png" alt="" />
+                                <img class="slick_img" src="/local/templates/hyundai_2017/img/h_promise_text.png" alt="Купить автомобиль с пробегом" />
                                 <span class="big_text">H-Promise</span>
                                 <div class="clearfix"></div>
                                 <span class="small_text">Купить автомобиль с пробегом</span>

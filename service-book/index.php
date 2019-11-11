@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Электронная сервисная книжка в Мире Хёндэ - защищенная база данных, которая хранит информацию о вашем Hyundai.");
 $APPLICATION->SetTitle("Электронная сервисная книжка в Мире Хёндэ");
 ?>
 
@@ -34,7 +35,7 @@ $APPLICATION->SetTitle("Электронная сервисная книжка �
                                 <ul class="slider-1__list owl-carousel js-slider-1">
                                     <li class="slider-1__item slider-1__item--0">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/book/slider/0.svg" alt="">
+                                            <img alt="Контролируйте техническое состояние вашего автомобиля" src="/images/service/book/slider/0.svg" alt="">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Контролируйте техническое состояние вашего автомобиля
@@ -45,7 +46,7 @@ $APPLICATION->SetTitle("Электронная сервисная книжка �
                                     </li>
                                     <li class="slider-1__item slider-1__item--1">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/book/slider/1.svg" alt="">
+                                            <img alt="Храните сервисную историю" src="/images/service/book/slider/1.svg" alt="">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Храните сервисную историю
@@ -56,7 +57,7 @@ $APPLICATION->SetTitle("Электронная сервисная книжка �
                                     </li>
                                     <li class="slider-1__item slider-1__item--2">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/book/slider/2.svg" alt="">
+                                            <img alt="Следите за гарантийным статусом" src="/images/service/book/slider/2.svg" alt="">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Следите за гарантийным статусом
@@ -67,7 +68,7 @@ $APPLICATION->SetTitle("Электронная сервисная книжка �
                                     </li>
                                     <li class="slider-1__item slider-1__item--3">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/book/slider/3.svg" alt="">
+                                            <img alt="Упрощайте процесс обслуживания" src="/images/service/book/slider/3.svg" alt="">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Упрощайте процесс обслуживания
@@ -202,6 +203,7 @@ $APPLICATION->SetTitle("Электронная сервисная книжка �
                                     <br>
                                     Вы можете распечать, сохранить PDF или отправить на e-mail документ Электронной сервисной книжки в разделе «Гараж» или обратиться к любому официальному дилеру.
                                 </li>
+                            </ul>
                             </ul>
                         </div>
                     </div>

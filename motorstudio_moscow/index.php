@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "HYUNDAI MOTORSTUDIO MOSCOW - инновационное мультиформатное бренд-пространство.");
 $APPLICATION->SetPageProperty("title", "HYUNDAI MOTORSTUDIO");
 $APPLICATION->SetTitle("HYUNDAI MOTORSTUDIO");
 ?>

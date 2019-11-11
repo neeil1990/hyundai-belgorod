@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Финансовая программа Старт - выбирайте выгодные опции расчета для получения самых лучших условий.");
 $APPLICATION->SetPageProperty("title", "Программа Старт");
 $APPLICATION->SetTitle("Программа Старт");
 ?>
@@ -81,7 +82,7 @@ $APPLICATION->SetTitle("Программа Старт");
                                     <li class="about__item">
                                         <div class="about__back">
                                             <div class="about__migel">
-                                                <img src="/images/start/pics/2.png" alt="">
+                                                <img src="/images/start/pics/2.png" alt="Выбирайте выгодные опции расчета">
                                             </div>
                                         </div>
                                         <div class="about__icon">
@@ -113,7 +114,7 @@ $APPLICATION->SetTitle("Программа Старт");
                                     <li class="about__item">
                                         <div class="about__back">
                                             <div class="about__migel">
-                                                <img src="/images/start/pics/3.png" alt="">
+                                                <img src="/images/start/pics/3.png" alt="Погаси остаток и оставь автомобиль себе">
                                             </div>
                                         </div>
                                         <div class="about__icon">

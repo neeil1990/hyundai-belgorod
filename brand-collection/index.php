@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Вы можете предварительно заказать интересующий товар в ближайшем дилерском центре.");
 $APPLICATION->SetTitle("Бренд-коллекция.");
 ?>
 

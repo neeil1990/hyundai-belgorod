@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Специальные предложения от Ринг Авто Белгород!");
 $APPLICATION->SetTitle("all-offers");
 ?>
 

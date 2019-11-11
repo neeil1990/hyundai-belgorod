@@ -72,30 +72,7 @@
                     <li class="footer__column">
                         <h5 class="footer__title">О Hyundai</h5>
                         <ul class="footer__sub-nav">
-                            <!-- <li class="footer__item">
-                                <a href="#" class="footer__link">Хендэ Мотор СНГ</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="/vacancy" class="footer__link">Вакансии</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">Социальная ответственность</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">Стать дилером</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">Завод ХММР</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">World Rally Championship</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">Hyundai MotorStudio</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">Worldwide</a>
-                            </li>-->
+
                             <li class="footer__item">
                                 <a href="/news" class="footer__link">Пресс-центр</a>
                             </li>
@@ -114,15 +91,7 @@
                             <li class="footer__item">
                                 <a href="/customer-services" class="footer__link">Сервисы для клиентов</a>
                             </li>
-                            <!--<li class="footer__item">
-                                <a href="/news" class="footer__link">Пресс-центр</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="/vacancy" class="footer__link vacancy__link">Вакансии</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="/customer-services" class="footer__link">Сервисы для клиентов</a>
-                            </li>-->
+
 
                         </ul>
                     </li>
@@ -974,6 +943,14 @@
 </script>
 
 
+
+
+
+<!-- авто в наличи -->
+<script id="wJumpToCars"
+src="https://cars.hyundai-belgorod.ru/widgets/jumpToCars.js"></script>
+
+
 <!-- StreamWood code -->
 <link href="https://clients.streamwood.ru/StreamWood/sw.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="https://clients.streamwood.ru/StreamWood/sw.js" charset="utf-8"></script>
@@ -987,10 +964,6 @@
   });
 </script>
 <!-- /StreamWood code -->
-
-<!-- авто в наличи -->
-<script id="wJumpToCars"
-src="https://cars.hyundai-belgorod.ru/widgets/jumpToCars.js"></script>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
@@ -1008,7 +981,9 @@ src="https://cars.hyundai-belgorod.ru/widgets/jumpToCars.js"></script>
 <noscript><div><img src="https://mc.yandex.ru/watch/49157044" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+
 <script src="<?=SITE_TEMPLATE_PATH?>/js/main.js"></script>
+
 
 </body>
 </html>

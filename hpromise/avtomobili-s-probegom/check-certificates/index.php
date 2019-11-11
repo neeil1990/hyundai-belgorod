@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "");
+$APPLICATION->SetPageProperty("description", "Сертификат H-Promise является подтверждением того, что автомобиль с пробегом прошел комплексную техническую диагностику и соответствует высочайшим стандартам качества Hyundai.");
 ?>
 
     <div class="cont" style="min-height: calc(100vh - 83px - 99px);">

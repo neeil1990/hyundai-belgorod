@@ -52,6 +52,6 @@ Disallow: /*.pdf
 Disallow: /*.xls
 Disallow: /promo-new/*
 Disallow: */?PAGEN_1=*
-
+Disallow: */?*
 Host: https://hyundai-belgorod.ru/
 Sitemap: https://hyundai-belgorod.ru/sitemap.xml

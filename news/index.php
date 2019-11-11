@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Новости компании Ринг Авто - интересная информация для автолюбителей и владельцев авто.");
 $APPLICATION->SetTitle("Новости");
 ?>
 

@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Product Line 2 - второе дыхание вашего автомобиля. Бесплатная диагностика по программе «Лучшее для своих».");
 $APPLICATION->SetTitle("Второе дыхание вашего автомобиля");
 ?>
 
@@ -28,15 +29,15 @@ $APPLICATION->SetTitle("Второе дыхание вашего автомоб�
                                     </div>
                                     <div class="head__advantages">
                                         <div class="head__advantange-item">
-                                            <img src="/images/service/pl2/pl2_1.png" alt="" class="head__advantage-pic">
+                                            <img src="/images/service/pl2/pl2_1.png" alt="Выгода. Product Line 2" class="head__advantage-pic">
                                             <p class="head__advantage-text">выгода</p>
                                         </div>
                                         <div class="head__advantange-item">
-                                            <img src="/images/service/pl2/pl2_2.png" alt="" class="head__advantage-pic">
+                                            <img src="/images/service/pl2/pl2_2.png" alt="Качество. Product Line 2" class="head__advantage-pic">
                                             <p class="head__advantage-text">качество</p>
                                         </div>
                                         <div class="head__advantange-item">
-                                            <img src="/images/service/pl2/pl2_3.png" alt="" class="head__advantage-pic">
+                                            <img src="/images/service/pl2/pl2_3.png" alt="Гарантия. Product Line 2" class="head__advantage-pic">
                                             <p class="head__advantage-text">гарантия</p>
                                         </div>
                                     </div>
@@ -73,19 +74,19 @@ $APPLICATION->SetTitle("Второе дыхание вашего автомоб�
                                 <hr class="advantages-separate">
                                 <div class="advantages__triggers">
                                     <div class="advantages__trigger">
-                                        <img src="/images/service/pl2/ic1.svg" alt="" class="advantages__trigger-icon">
+                                        <img src="/images/service/pl2/ic1.svg" alt="Выгода от 20 до 50%" class="advantages__trigger-icon">
                                         <p class="advantages__trigger-desc">Выгода от<br>20%&nbsp;до&nbsp;50%*</p>
                                     </div>
                                     <div class="advantages__trigger">
-                                        <img src="/images/service/pl2/ic2.svg" alt="" class="advantages__trigger-icon">
+                                        <img src="/images/service/pl2/ic2.svg" alt="Гарантия 1 год" class="advantages__trigger-icon">
                                         <p class="advantages__trigger-desc">Гарантия 1&nbsp;год<br>или 20&nbsp;000&nbsp;км<br> пробега</p>
                                     </div>
                                     <div class="advantages__trigger">
-                                        <img src="/images/service/pl2/ic3.svg" alt="" class="advantages__trigger-icon">
+                                        <img src="/images/service/pl2/ic3.svg" alt="Контроль качества специалистами" class="advantages__trigger-icon">
                                         <p class="advantages__trigger-desc">Контроль качества<br> специалистами<br> Hyundai</p>
                                     </div>
                                     <div class="advantages__trigger">
-                                        <img src="/images/service/pl2/ic4.svg" alt="" class="advantages__trigger-icon">
+                                        <img alt="Сервис у официальных диллеров" src="/images/service/pl2/ic4.svg" alt="" class="advantages__trigger-icon">
                                         <p class="advantages__trigger-desc">Сервис у<br> официальных<br> дилеров</p>
                                     </div>
                                 </div>
@@ -113,51 +114,51 @@ $APPLICATION->SetTitle("Второе дыхание вашего автомоб�
                 <div class="line__container container">
                     <div class="row">
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_1.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_1.jpg" alt="Масляный фильтр для Hyundai" class="line__item-img">
                             <p class="line__item-desc">Масляный фильтр</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_2.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_2.jpg" alt="Воздушный фильтр для Hyundai" class="line__item-img">
                             <p class="line__item-desc">Воздушный фильтр</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_3.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_3.jpg" alt="Свеча зажигания для Hyundai" class="line__item-img">
                             <p class="line__item-desc">Свеча зажигания</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_4.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_4.jpg" alt="Салонный фильтр дл Hyundai" class="line__item-img">
                             <p class="line__item-desc">Салонный фильтр</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_5.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_5.jpg" alt="Аккумуляторная батарея для Hyundai" class="line__item-img">
                             <p class="line__item-desc">Аккумуляторная батарея</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_6.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_6.jpg" alt="Лампочка для Hyundai" class="line__item-img">
                             <p class="line__item-desc">Лампочка</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_7.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_7.jpg" alt="Комплект тормозных колодок" class="line__item-img">
                             <p class="line__item-desc">Комплект тормозных колодок</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_8.jpg" alt="" class="line__item-img">
+                            <img  src="/images/service/pl2/md/pl2_pic_8.jpg" alt="Тормозной диск 1" class="line__item-img">
                             <p class="line__item-desc">Тормозной диск</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_9.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_9.jpg" alt="Стеклоочиститель ветрового стекла" class="line__item-img">
                             <p class="line__item-desc">Стеклоочиститель<br> ветрового стекла</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_10.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_10.jpg" alt="Амортизатор для Hyundai" class="line__item-img">
                             <p class="line__item-desc">Амортизатор</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_11.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_11.jpg" alt="Корзина сцепления 1" class="line__item-img">
                             <p class="line__item-desc">Корзина сцепления</p>
                         </div>
                         <div class="line__item col-md-3 col-sm-6 col-xs-12">
-                            <img src="/images/service/pl2/md/pl2_pic_12.jpg" alt="" class="line__item-img">
+                            <img src="/images/service/pl2/md/pl2_pic_12.jpg" alt="Диск сцепления 1" class="line__item-img">
                             <p class="line__item-desc">Диск сцепления</p>
                         </div>
                     </div>
@@ -170,7 +171,7 @@ $APPLICATION->SetTitle("Второе дыхание вашего автомоб�
                         <div class="col-md-12">
                             <div class="service-inner">
                                 <div class="service-left">
-                                    <img src="/images/service/bodyworks/fix.svg" alt="" class="service__img">
+                                    <img alt="Записаться на сервис" src="/images/service/bodyworks/fix.svg" alt="" class="service__img">
                                     <div class="service-block">
                                         <h3 class="service-title">Записаться на сервис?</h3>
                                         <p class="service-text">Обратитесь к&nbsp;ближайшему официальному дилеру Hyundai или позвоните в&nbsp;службу поддержки клиентов <a href="tel:+7 4722 33-33-77" class="df-link">+7 4722 33-33-77</a></p>

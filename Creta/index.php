@@ -36,11 +36,11 @@ $APPLICATION->SetTitle("Creta");
 	</div>
 	<div class="blue-label">
 		<div class="blue-label__top">
-			 от ₽
+			 от 957 000₽
 		</div>
 		<hr>
 		<div class="blue-label__bottom">
-			 В кредит — от ₽/мес
+			 В кредит — от 7 000 ₽/мес
 		</div>
 	</div>
  <a href="#view360" class="js-next-slide banner__circle scroll"></a>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Creta");
 	</div>
 	<div class="d-composition">
 		<div class="d-composition__icon">
- <img src="/images/cars/creta/svg/performance_3.svg">
+ <img alt="6-ступенчатая АКПП и МКПП" src="/images/cars/creta/svg/performance_3.svg">
 		</div>
 		<div class="d-composition__title">
 			 6-ступенчатая АКПП и МКПП.

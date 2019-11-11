@@ -7,8 +7,8 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
         <div class="content">
             <div class="offers-container">
                 <div class="content_area">
-                    <img class="promo-head lazyload" src="/getPicThumb/assets/ss/ss_bg.jpg?w=100&h=0" data-src="/assets/ss/ss_bg.jpg" style="">
-                    <img class="promo-head-mobile lazyload" src="/getPicThumb/assets/ss/640х740.jpg?w=100&h=0" width="640px" height="700px" data-src="/assets/ss/640х740.jpg" style="">
+                    <img class="promo-head lazyload" alt="Hyndai SOLARIS Super Series" src="/assets/ss/ss_bg.jpg" data-src="/assets/ss/ss_bg.jpg" style="">
+                    <!--<img class="promo-head-mobile lazyload" src="/getPicThumb/assets/ss/640х740.jpg?w=100&h=0" width="640px" height="700px" data-src="/assets/ss/640х740.jpg" style="">-->
 
                     <div class="offers-content">
 
@@ -57,8 +57,8 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
 
                                     </div>
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/kpp1.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/kpp2.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Двигатель Gamma механический" src="/assets/ss/kpp1.png"/></div>
+                                        <div class="dyn_pic2"><img "Двигатель Gamma автоматический" src="/assets/ss/kpp2.png"/></div>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                 <div class="content_area">
                     <div class="offers-content">
 
-                        <h1 class="title-offer bordr-btm"><span class="nowrp">Особенности комплектации</span><img src="/assets/ss/ss.png"/><br/></h1>
+                        <h1 class="title-offer bordr-btm"><span class="nowrp">Особенности комплектации</span><img alt="Особенности комплектации 1" src="/assets/ss/ss.png"/><br/></h1>
                         <h2 class="title-offer bordr-btm"><span class="nowrp">Интерьер</span></h2>
 
 
@@ -78,13 +78,13 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                             <div class="offers-block">
                                 <div class="row-inline">
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/i1.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/i2.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Отделка руля кожей" src="/assets/ss/i1.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Панель приборов 1" src="/assets/ss/i2.png"/></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/i3.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/i4.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Подогрев задних сидений" src="/assets/ss/i3.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Аудисистема с интреграцией со смартфонами"  src="/assets/ss/i4.png"/></div>
                                     </div>
                                 </div>
                             </div>
@@ -102,18 +102,18 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                             <div class="offers-block">
                                 <div class="row-inline">
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/e1.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/e2.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Фары проекционного типа" src="/assets/ss/e1.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Подогрев лобового стекла" src="/assets/ss/e2.png"/></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/e3.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/e4.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Передние противотуманные фары" src="/assets/ss/e3.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Задние датчики парковки" src="/assets/ss/e4.png"/></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/e5.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/e6.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Подогрев форсунок стелоомывателя"src="/assets/ss/e5.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Светодиодные дневные ходовые огни" src="/assets/ss/e6.png"/></div>
                                     </div>
                                 </div>
                             </div>
@@ -131,13 +131,13 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                             <div class="offers-block">
                                 <div class="row-inline">
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/k1.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/k2.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Подогрев руля 1" src="/assets/ss/k1.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Климат-контроль 1" src="/assets/ss/k2.png"/></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/k3.png"/></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/k4.png"/></div>
+                                        <div class="dyn_pic1"><img alt="Круиз-контроль 1" src="/assets/ss/k3.png"/></div>
+                                        <div class="dyn_pic2"><img alt="Центральный подлокотник с боксом" src="/assets/ss/k4.png"/></div>
                                     </div>
                                 </div>
                             </div>

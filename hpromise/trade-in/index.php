@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "");
+$APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяйте свой Hyundai на новый на выгодных условиях.");
 ?>
 
     <div class="cont">

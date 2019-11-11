@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Запишитесь на бесплатный тест-драйв Hyundai у официального дилера в Белгороде и выберите автомобиль, который подходит именно Вам!");
 $APPLICATION->SetTitle("Тест-драйв");
 ?>
 

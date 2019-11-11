@@ -262,7 +262,7 @@ $APPLICATION->SetTitle("Solaris");
                 </div>
                 <div class="d-composition">
                     <div class="d-composition__icon">
-                        <img src="/images/cars/Solaris/svg/performance_3.svg">
+                        <img alt="6-ступенчатая АКПП и МКПП" src="/images/cars/Solaris/svg/performance_3.svg">
                     </div>
                     <div class="d-composition__title">
                         6-ступенчатая АКПП и МКПП.

@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Специальное предложение для владельцев Hyundai при покупке нового автомобиля в Hyundai Trade-in.");
 $APPLICATION->SetPageProperty("title", "Специальное предложение");
 $APPLICATION->SetTitle("Специальное предложение");
 ?>
@@ -52,7 +53,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                         <p class="benefit__item-price"><span>957 000</span> — <span>1 335 000</span> ₽</p>
                                     </div>
                                     <div class="benefit__img">
-                                        <img src="/images/trade-in/creta.png" alt="">
+                                        <img src="/images/trade-in/creta.png" alt="Условия Trade-in">
                                     </div>
                                     <div class="benefit__info">
                                         <div class="benefit__item-header">
@@ -80,7 +81,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                         <p class="benefit__item-price"><span>1 499 000</span> — <span>2 269 000</span> ₽</p>
                                     </div>
                                     <div class="benefit__img">
-                                        <img src="/images/trade-in/tucson.png" alt="">
+                                        <img src="/images/trade-in/tucson.png" alt="Выгода до 110 000 ₽">
                                     </div>
                                     <div class="benefit__info">
                                         <div class="benefit__item-header">
@@ -108,7 +109,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                         <p class="benefit__item-price"><span>2 099 000</span> — <span>2 949 000</span> ₽</p>
                                     </div>
                                     <div class="benefit__img">
-                                        <img src="/images/trade-in/santa-fe.png" alt="">
+                                        <img src="/images/trade-in/santa-fe.png" alt="Выгода до 160 000 ₽">
                                     </div>
                                     <div class="benefit__info">
                                         <div class="benefit__item-header">
@@ -136,7 +137,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                         <p class="benefit__item-price"><span>739 000</span> — <span>999 000</span> ₽</p>
                                     </div>
                                     <div class="benefit__img">
-                                        <img src="/images/trade-in/solaris.png" alt="">
+                                        <img src="/images/trade-in/solaris.png" alt="Выгода до 50 000 ₽">
                                     </div>
                                     <div class="benefit__info">
                                         <div class="benefit__item-header">
@@ -164,7 +165,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                         <p class="benefit__item-price"><span>1 344 000</span> — <span>1 785 000</span> ₽</p>
                                     </div>
                                     <div class="benefit__img">
-                                        <img src="/images/trade-in/sonata.png" alt="">
+                                        <img src="/images/trade-in/sonata.png" alt="Выгода до 140 000 ₽">
                                     </div>
                                     <div class="benefit__info">
                                         <div class="benefit__item-header">
@@ -192,7 +193,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                         <p class="benefit__item-price"><span>1 049 000</span> — <span>1 315 000</span> ₽</p>
                                     </div>
                                     <div class="benefit__img">
-                                        <img src="/images/trade-in/elantra.png" alt="">
+                                        <img src="/images/trade-in/elantra.png" alt="Выгода до 50 000 ₽">
                                     </div>
                                     <div class="benefit__info">
                                         <div class="benefit__item-header">
@@ -231,7 +232,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="slide__img">
-                                            <img src="/images/trade-in/computer_2.png" alt="">
+                                            <img src="/images/trade-in/computer_2.png" alt="Зарегистрируйтесь в Мире Хёндэ">
                                         </div>
                                         <div class="slide__info">
                                             <p class="slide__info-step">Шаг 1</p>
@@ -241,7 +242,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="slide__img">
-                                            <img src="/images/trade-in/computer_3.png" alt="">
+                                            <img src="/images/trade-in/computer_3.png" alt="Получите сертификат HYUNDAI TRADE-IN">
                                         </div>
                                         <div class="slide__info">
                                             <p class="slide__info-step">Шаг 2</p>
@@ -250,7 +251,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="slide__img">
-                                            <img src="/images/trade-in/computer_4.png" alt="">
+                                            <img src="/images/trade-in/computer_4.png" alt="Посетите дилера и оцените автомобиль">
                                         </div>
                                         <div class="slide__info">
                                             <p class="slide__info-step">Шаг 3</p>
@@ -260,7 +261,7 @@ $APPLICATION->SetTitle("Специальное предложение");
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="slide__img">
-                                            <img src="/images/trade-in/computer_5.png" alt="">
+                                            <img src="/images/trade-in/computer_5.png" alt="Купите новый Hyundai со скидкой">
                                         </div>
                                         <div class="slide__info">
                                             <p class="slide__info-step">Шаг 4</p>

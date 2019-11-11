@@ -72,69 +72,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
     <div class="search-body">
-        <!-- <div class="search-item">
-            <div class="search-item-inner">
-                <div class="search-item-pic">
-                    <img src="/images/news/thumbs/thumb1.jpg" alt="" class="search-pic__img">
-                </div>
-                <div class="search-item-content">
-                    <div class="search-item-header">
-                        <span class="search-item-section">Новости</span>
-                        <p class="search-item-date">&nbsp;|&nbsp;<span class="search-date">13 сентября 2019</span></p>
-                    </div>
-                    <div class="search-item-text">
-                        В первом обращении в роли сопредседателя Совета по водородным технологиям и релизации
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="search-item search-item--full">
-            <div class="search-item-inner">
-                <div class="search-item-content">
-                    <div class="search-item-header">
-                        <span class="search-item-section">Новости</span>
-                        <p class="search-item-date">&nbsp;|&nbsp;<span class="search-date">13 сентября 2019</span></p>
-                    </div>
-                    <div class="search-item-text">
-                        В первом обращении в роли сопредседателя Совета по водородным технологиям и релизации
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="search-item">
-            <div class="search-item-inner">
-                <div class="search-item-pic">
-                    <img src="/images/news/thumbs/thumb2.jpg" alt="" class="search-pic__img">
-                </div>
-                <div class="search-item-content">
-                    <div class="search-item-header">
-                        <span class="search-item-section">Новости</span>
-                        <p class="search-item-date">&nbsp;|&nbsp;<span class="search-date">13 сентября 2019</span></p>
-                    </div>
-                    <div class="search-item-text">
-                        Hyundai Motor представляет автомобиль безопасности i30 Fastback N для гонок WorldSBK на&nbsp;сезон 2019
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="search-item">
-            <div class="search-item-inner">
-                <div class="search-item-pic">
-                    <img src="/images/news/thumbs/thumb3.jpg" alt="" class="search-pic__img">
-                </div>
-                <div class="search-item-content">
-                    <div class="search-item-header">
-                        <span class="search-item-section">Спецпредложения</span>
-                    </div>
-                    <div class="search-item-text">
-                        H-Promise. Автомобили с пробегом
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="search-show-all">
-            <a href="#">Все результаты (<span class="search-counter">7</span>)</a>
-        </div> -->
+
         <ul class="search-list"></ul>
         <div class="search-show-all">
             <a href="/search" class="search-all__link">Все результаты (<span class="search-counter">0</span>)</a>

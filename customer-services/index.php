@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Сервисы для клиентов. Лучшее для владельцев Hyundai.");
 $APPLICATION->SetTitle("customer-services");
 ?>
 
@@ -69,7 +70,7 @@ $APPLICATION->SetTitle("customer-services");
                                     <li class="mir__slide">
                                         <div class="mir__left">
                                             <div class="mir__notebook">
-                                                <img src="/images/brand/services/img/Notebook.png" alt="">
+                                                <img alt="Программа привилегий для текущих и будущих клиентов Hyundai" src="/images/brand/services/img/Notebook.png" alt="">
                                             </div>
                                         </div>
                                         <div class="mir__right">
@@ -83,7 +84,7 @@ $APPLICATION->SetTitle("customer-services");
                                     <li class="mir__slide">
                                         <div class="mir__left">
                                             <div class="mir__smart">
-                                                <img src="/images/brand/services/img/smart.png" alt="">
+                                                <img alt="Точечное воздействие нетривиально" src="/images/brand/services/img/smart.png" alt="">
                                             </div>
                                         </div>
                                         <div class="mir__right">
@@ -93,10 +94,10 @@ $APPLICATION->SetTitle("customer-services");
                                             </div>
                                             <div class="mir__line">
                                                 <a href="https://appsto.re/ru/X2Xxgb.i" target="_blank" class="mir__button mir__button--appstore">
-                                                    <img src="/images/brand/services/img/appstore.png" alt="">
+                                                    <img src="/images/brand/services/img/appstore.png" alt="Точечное воздействие нетривиально 1">
                                                 </a>
                                                 <a href="https://play.google.com/store/apps/details?id=com.mediapark.hyundai" target="_blank" class="mir__button mir__button--play">
-                                                    <img src="/images/brand/services/img/googleplay.png" alt="">
+                                                    <img src="/images/brand/services/img/googleplay.png" alt="Точечное воздействие нетривиально 2">
                                                 </a>
                                             </div>
                                         </div>
@@ -104,10 +105,10 @@ $APPLICATION->SetTitle("customer-services");
                                     <li class="mir__slide">
                                         <div class="mir__left">
                                             <div class="mir__card">
-                                                <img class="mir__card3" src="/images/brand/services/img/Card3.png" alt="">
-                                                <img class="mir__card2" src="/images/brand/services/img/Card2.png" alt="">
-                                                <img class="mir__card1" src="/images/brand/services/img/Card.png" alt="">
-                                                <img class="mir__m-card1" src="/images/brand/services/img/Card768.png" alt="">
+                                                <img class="mir__card3" src="/images/brand/services/img/Card3.png" alt="Общение с автолюбителями 1">
+                                                <img class="mir__card2" src="/images/brand/services/img/Card2.png" alt="Общение с автолюбителями 2">
+                                                <img class="mir__card1" src="/images/brand/services/img/Card.png" alt="Общение с автолюбителями 3">
+                                                <img class="mir__m-card1" src="/images/brand/services/img/Card768.png" alt="Общение с автолюбителями 4">
                                             </div>
                                         </div>
                                         <div class="mir__right">

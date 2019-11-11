@@ -298,7 +298,7 @@ $APPLICATION->SetTitle("Новый TUCSON");
                 </div>
                 <div class="d-composition">
                     <div class="d-composition__icon">
-                        <img src="/images/cars/tucson/svg/performance_1.svg">
+                        <img alt="Система управления полным приводом HTRAC" src="/images/cars/tucson/svg/performance_1.svg">
                     </div>
                     <div class="d-composition__title">
                         Система управления полным приводом HTRAC.
@@ -418,7 +418,7 @@ $APPLICATION->SetTitle("Новый TUCSON");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/tucson/svg/tech_1.svg">
+                                <img alt="Автоматическое торможение" src="/images/cars/tucson/svg/tech_1.svg">
                                 <div class="marker__text">
                                     Автоматическое
                                     <br>торможение
@@ -459,7 +459,7 @@ $APPLICATION->SetTitle("Новый TUCSON");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/tucson/svg/tech_2.svg">
+                                <img alt="Предупреждение водителя" src="/images/cars/tucson/svg/tech_2.svg">
                                 <div class="marker__text">
                                     Предупреждение
                                     <br>водителя
@@ -536,7 +536,7 @@ $APPLICATION->SetTitle("Новый TUCSON");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/tucson/svg/tech_3.svg">
+                                <img alt="Задняя камера и радар" src="/images/cars/tucson/svg/tech_3.svg">
                                 <div class="marker__text">
                                     Задняя камера
                                     <br>и радар
@@ -557,8 +557,8 @@ $APPLICATION->SetTitle("Новый TUCSON");
                     </h2>
                 </div>
                 <ul class="s-parallax__list s-parallax__list--left">
-                    <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="1" data-bgset="/images/cars/tucson/m_pics/tech_3.jpg [(max-width: 640px)] | /images/cars/tucson/pics/tech_2.jpg">
-                        <img src="/images/cars/tucson/pics/tech_2_logo.png" alt="" class="s-parallax__icon">
+                    <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="1" data-bgset="/images/cars/tucson/m_pics/tech_3.jpg  [(max-width: 640px)] | /images/cars/tucson/pics/tech_2.jpg">
+                        <img src="/images/cars/tucson/pics/tech_2_logo.png" alt="For safer cars" alt="" class="s-parallax__icon">
                         <div class="s-parallax__description s-parallax__description--black">
                             <span>Прочный кузов и 6 подушек<br>безопасности</span> обеспечивают надёжную защиту для водителя и&nbsp;пассажиров - TUCSON получил 5&nbsp;звёзд по&nbsp;результатам теста EURO NCAP.
                         </div>

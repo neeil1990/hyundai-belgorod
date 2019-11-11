@@ -1,0 +1,1 @@
+<?define("arturgolubev_htmlcompressor_TEMPORARY_CACHE", "fTZSDXlmAANqU3hlC2AJfQMg");?>

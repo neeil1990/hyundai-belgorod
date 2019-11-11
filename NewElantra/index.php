@@ -257,10 +257,10 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                     </li>
                 </ul>
                 <div class="dynamics__graph dynamics__graph--0">
-                    <img src="/images/cars/elantra/pics/engine_1.png">
+                    <img alt="Разгон до 100 км/ч" src="/images/cars/elantra/pics/engine_1.png">
                 </div>
                 <div class="dynamics__graph dynamics__graph--1">
-                    <img src="/images/cars/elantra/pics/engine_2.png">
+                    <img alt="Средний расход топлива" src="/images/cars/elantra/pics/engine_2.png">
                 </div>
             </section>
 
@@ -277,7 +277,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 </div>
                 <div class="d-composition">
                     <div class="d-composition__icon">
-                        <img src="/images/cars/elantra/svg/performance.svg">
+                        <img alt="6-ступенчатая АКПП и МКПП " src="/images/cars/elantra/svg/performance.svg">
                     </div>
                     <div class="d-composition__title">
                         6-ступенчатая<br> АКПП и МКПП.
@@ -430,7 +430,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_1.svg">
+                                <img alt="Звуковой сигнал" src="/images/cars/elantra/svg/tech_1.svg">
                                 <div class="marker__text">
                                     Звуковой
                                     <br>сигнал
@@ -484,7 +484,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_2.svg">
+                                <img alt="Передача видео" src="/images/cars/elantra/svg/tech_2.svg">
                                 <div class="marker__text">
                                     Передача
                                     <br>видео
@@ -548,7 +548,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_3.svg">
+                                <img alt="Датчик движения" src="/images/cars/elantra/svg/tech_3.svg">
                                 <div class="marker__text">
                                     Датчик
                                     <br>движения

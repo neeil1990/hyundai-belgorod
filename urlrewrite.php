@@ -19,10 +19,10 @@ $arUrlRewrite = array(
 		"PATH" => "/configurator/index.php",
 	),
 	array(
-		"CONDITION" => "#^/contacts/#",
+		"CONDITION" => "#^/services/#",
 		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/contacts/index.php",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/services/index.php",
 	),
 	array(
 		"CONDITION" => "#^/products/#",
@@ -31,10 +31,10 @@ $arUrlRewrite = array(
 		"PATH" => "/products/index.php",
 	),
 	array(
-		"CONDITION" => "#^/services/#",
+		"CONDITION" => "#^/contacts/#",
 		"RULE" => "",
-		"ID" => "bitrix:catalog",
-		"PATH" => "/services/index.php",
+		"ID" => "bitrix:news",
+		"PATH" => "/contacts/index.php",
 	),
 	array(
 		"CONDITION" => "#^/stocks/#",

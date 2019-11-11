@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Hyundai CRETA Rock Edition лимитированная серия самого продаваемого кроссовера на российском рынке.");
 $APPLICATION->SetTitle("Hyundai CRETA Rock Edition.");
 ?>
 
@@ -74,28 +75,28 @@ $APPLICATION->SetTitle("Hyundai CRETA Rock Edition.");
                             <div class="offers-block">
                                 <div class="row-inline">
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/00.jpg"/><br/><span>Два цвета кузова на выбор: белый или чёрный</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/01.jpg"/><br/><span>Решётка радиатора чёрного цвета или цвета тёмного хрома</span></div>
+                                        <div class="dyn_pic1"><img alt="Два цвета кузова на выбор" src="/assets/ss/00.jpg"/><br/><span>Два цвета кузова на выбор: белый или чёрный</span></div>
+                                        <div class="dyn_pic2"><img alt="Решётка радиатора чёрного цвета" src="/assets/ss/01.jpg"/><br/><span>Решётка радиатора чёрного цвета или цвета тёмного хрома</span></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/02.jpg"/><br/><span>Боковые зеркала заднего вида чёрного цвета</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/03.jpg"/><br/><span>Рейлинги на крыше чёрного цвета</span></div>
+                                        <div class="dyn_pic1"><img alt="Боковые зеркала заднего вида" src="/assets/ss/02.jpg"/><br/><span>Боковые зеркала заднего вида чёрного цвета</span></div>
+                                        <div class="dyn_pic2"><img alt="Рейлинги на крыше чёрного цвета" src="/assets/ss/03.jpg"/><br/><span>Рейлинги на крыше чёрного цвета</span></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/04.jpg"/><br/><span>Планка на нижней части переднего бампера чёрного цвета</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/05.jpg"/><br/><span>Фары проекционного типа с отделкой под тёмный хром</span></div>
+                                        <div class="dyn_pic1"><img alt="Планка на нижней части переднего" src="/assets/ss/04.jpg"/><br/><span>Планка на нижней части переднего бампера чёрного цвета</span></div>
+                                        <div class="dyn_pic2"><img alt="Фары проекционного типа" src="/assets/ss/05.jpg"/><br/><span>Фары проекционного типа с отделкой под тёмный хром</span></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/06.jpg"/><br/><span>17-дюймовые колёсные диски оригинального дизайна</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/07.jpg"/><br/><span>Задние фонари со светодиодами</span></div>
+                                        <div class="dyn_pic1"><img alt="17-дюймовые колёсные диски" src="/assets/ss/06.jpg"/><br/><span>17-дюймовые колёсные диски оригинального дизайна</span></div>
+                                        <div class="dyn_pic2"><img alt="Задние фонари со светодиодами" src="/assets/ss/07.jpg"/><br/><span>Задние фонари со светодиодами</span></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/08.jpg"/><br/><span>Планка на нижней части заднего бампера чёрного цвета</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/09.jpg"/><br/><span>Декоративная планка над номерным знаком чёрного цвета</span></div>
+                                        <div class="dyn_pic1"><img alt="Планка на нижней части заднего бампера" src="/assets/ss/08.jpg"/><br/><span>Планка на нижней части заднего бампера чёрного цвета</span></div>
+                                        <div class="dyn_pic2"><img alt="Декоративная планка над номерным знаком" src="/assets/ss/09.jpg"/><br/><span>Декоративная планка над номерным знаком чёрного цвета</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -113,12 +114,12 @@ $APPLICATION->SetTitle("Hyundai CRETA Rock Edition.");
                             <div class="offers-block">
                                 <div class="row-inline">
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/10.jpg"/><br/><span>Отделка интерьера кожей коричневого цвета</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/11.jpg"/><br/><span>Приборная панель в коричневом варианте исполнения</span></div>
+                                        <div class="dyn_pic1"><img alt="Отделка интерьера кожей" src="/assets/ss/10.jpg"/><br/><span>Отделка интерьера кожей коричневого цвета</span></div>
+                                        <div class="dyn_pic2"><img alt="Приборная панель в коричневом варианте исполнения" src="/assets/ss/11.jpg"/><br/><span>Приборная панель в коричневом варианте исполнения</span></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/12.jpg"/><br/><span>Система Яндекс.Авто (Яндекс.Навигатор и голосовой помощник Алиса) с 7" сенсорным экраном</span></div>
+                                        <div class="dyn_pic1"><img alt="Система Яндекс.Авто" src="/assets/ss/12.jpg"/><br/><span>Система Яндекс.Авто (Яндекс.Навигатор и голосовой помощник Алиса) с 7" сенсорным экраном</span></div>
                                         <!-- 		                    <div class="dyn_pic2"><img src="/assets/ss/e4.png"/></div> -->
                                     </div>
                                 </div>
@@ -137,13 +138,13 @@ $APPLICATION->SetTitle("Hyundai CRETA Rock Edition.");
                             <div class="offers-block">
                                 <div class="row-inline">
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/13.jpg"/><br/><span>Подогрев лобового стекла</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/14.jpg"/><br/><span>Подогрев передних и задних сидений</span></div>
+                                        <div class="dyn_pic1"><img alt="Подогрев лобового стекла" src="/assets/ss/13.jpg"/><br/><span>Подогрев лобового стекла</span></div>
+                                        <div class="dyn_pic2"><img alt="Подогрев передних и задних сидений" src="/assets/ss/14.jpg"/><br/><span>Подогрев передних и задних сидений</span></div>
                                     </div>
 
                                     <div class="dyn_data">
-                                        <div class="dyn_pic1"><img src="/assets/ss/15.jpg"/><br/><span>Подогрев рулевого колеса</span></div>
-                                        <div class="dyn_pic2"><img src="/assets/ss/16.jpg"/><br/><span>Подогрев форсунок стеклоомывателя</span></div>
+                                        <div class="dyn_pic1"><img alt="Подогрев рулевого колеса" src="/assets/ss/15.jpg"/><br/><span>Подогрев рулевого колеса</span></div>
+                                        <div class="dyn_pic2"><img alt="Подогрев форсунок стеклоомывателя" src="/assets/ss/16.jpg"/><br/><span>Подогрев форсунок стеклоомывателя</span></div>
                                     </div>
                                 </div>
                             </div>

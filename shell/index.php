@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Shell Helix - рекомендованный поставщик смазочных материалов для автомобилей Hyundai c 2005 года.");
 $APPLICATION->SetTitle("shell");
 ?>
 
@@ -21,7 +22,7 @@ $APPLICATION->SetTitle("shell");
                                     <div class="head__subtitle">
                                         Рекомендованный поставщик смазочных материалов для автомобилей Hyundai c&nbsp;2005 года.
                                     </div>
-                                    <img src="/images/service/shell/shell.png" alt="" class="shell-logo">
+                                    <img src="/images/service/shell/shell.png" alt="Моторные масла Shell Helix" class="shell-logo">
                                 </div>
                             </div>
                         </div>
@@ -34,8 +35,8 @@ $APPLICATION->SetTitle("shell");
                     <div class="row">
                         <div class="col-md-12">
                             <div class="brand-inner">
-                                <img src="/images/service/shell/oil.png" alt="" class="brand__img">
-                                <img src="/images/service/shell/oil_mob.png" alt="" class="brand__img brand__img--mobile">
+                                <img src="/images/service/shell/oil.png" alt="Спецификации API SN, ACEA C3" class="brand__img">
+                                <img src="/images/service/shell/oil_mob.png" alt="Полностью синтетическое моторное масло" class="brand__img brand__img--mobile">
                                 <div class="brand__desc">
                                     <h2 class="brand__title">Shell Helix Ultra ECT AH 5W&#8209;30</h2>
                                     <p class="brand__subtitle">Спецификации API SN, ACEA C3</p>
@@ -53,7 +54,7 @@ $APPLICATION->SetTitle("shell");
                             <div>
                                 <h2 class="selection__title">Подберите масло</h2>
                                 <h3 class="selection-car__title"></h3>
-                                <img src="" alt="" class="selection-car__img">
+                                <img src="" alt="Подберите масло 1" class="selection-car__img">
                             </div>
                             <div class="map-oil">
                                 <label class="df-label label-materials" for="">Материалы</label>
@@ -259,7 +260,7 @@ $APPLICATION->SetTitle("shell");
                             <h2 class="choice__title">Выберите масло</h2>
                             <div class="choice__item" data-product="1">
                                 <div class="choice__item-img">
-                                    <img src="/images/service/shell/01.png" alt="" class="choice__img">
+                                    <img src="/images/service/shell/01.png" alt="Ваш лучший выбор" class="choice__img">
                                     <!-- <img src="/images/service/shell/oil_mob1.png" alt="" class="choice__img choice__img--mobile"> -->
                                     <div class="df-credit-banner">
                                         <div class="df-credit-banner__center">
@@ -280,7 +281,7 @@ $APPLICATION->SetTitle("shell");
                             </div>
                             <div class="choice__item" data-product="2">
                                 <div class="choice__item-img">
-                                    <img src="/images/service/shell/04.png" alt="" class="choice__img">
+                                    <img src="/images/service/shell/04.png" alt="Разработано для бензиновых и дизельных двигателей" class="choice__img">
                                     <!-- <img src="/images/service/shell/oil_mob1.png" alt="" class="choice__img choice__img--mobile"> -->
                                 </div>
                                 <div class="choice__item-info">
@@ -296,7 +297,7 @@ $APPLICATION->SetTitle("shell");
                             </div>
                             <div class="choice__item" data-product="3">
                                 <div class="choice__item-img">
-                                    <img src="/images/service/shell/05.png" alt="" class="choice__img">
+                                    <img src="/images/service/shell/05.png" alt="Разработано для бензиновых и дизельных двигателей 1" class="choice__img">
                                     <!-- <img src="/images/service/shell/oil_mob1.png" alt="" class="choice__img choice__img--mobile"> -->
                                 </div>
                                 <div class="choice__item-info">
@@ -312,7 +313,7 @@ $APPLICATION->SetTitle("shell");
                             </div>
                             <div class="choice__item" data-product="4">
                                 <div class="choice__item-img">
-                                    <img src="/images/service/shell/03.png" alt="" class="choice__img">
+                                    <img src="/images/service/shell/03.png" alt="Разработано для бензиновых и дизельных двигателей 2" class="choice__img">
                                     <!-- <img src="/images/service/shell/oil_mob1.png" alt="" class="choice__img choice__img--mobile"> -->
                                 </div>
                                 <div class="choice__item-info">
@@ -341,7 +342,7 @@ $APPLICATION->SetTitle("shell");
                         <div class="col-md-6">
                             <div class="advantages__item">
                                 <div class="advantages__pic">
-                                    <img src="/images/service/shell/fix.svg" alt="" class="advantages__img">
+                                    <img src="/images/service/shell/fix.svg" alt="Усиленная защита от износа и коррозии" class="advantages__img">
                                 </div>
                                 <div class="advantages__desc">
                                     <h3 class="advantages__desc-title">Усиленная защита от&nbsp;износа и&nbsp;коррозии</h3>
@@ -350,7 +351,7 @@ $APPLICATION->SetTitle("shell");
                             </div>
                             <div class="advantages__item">
                                 <div class="advantages__pic">
-                                    <img src="/images/service/shell/cloud.svg" alt="" class="advantages__img">
+                                    <img src="/images/service/shell/cloud.svg" alt="Масло Shell Helix Ultra увеличивает чистоту поршней двигателя на 65%" class="advantages__img">
                                 </div>
                                 <div class="advantages__desc">
                                     <h3 class="advantages__desc-title">Чистота деталей</h3>
@@ -361,7 +362,7 @@ $APPLICATION->SetTitle("shell");
                         <div class="col-md-6">
                             <div class="advantages__item">
                                 <div class="advantages__pic">
-                                    <img src="/images/service/shell/list.svg" alt="" class="advantages__img">
+                                    <img src="/images/service/shell/list.svg" alt="Легкий запуск при отрицательных температурах" class="advantages__img">
                                 </div>
                                 <div class="advantages__desc">
                                     <h3 class="advantages__desc-title">Легкий запуск при&nbsp;отрицательных температурах<sup class="footnote">2</sup></h3>
@@ -370,7 +371,7 @@ $APPLICATION->SetTitle("shell");
                             </div>
                             <div class="advantages__item">
                                 <div class="advantages__pic">
-                                    <img src="/images/service/shell/support.svg" alt="" class="advantages__img">
+                                    <img src="/images/service/shell/support.svg" alt="Превышение норм топливной экономичности" class="advantages__img">
                                 </div>
                                 <div class="advantages__desc">
                                     <h3 class="advantages__desc-title">Топливная эффективность</h3>
@@ -388,8 +389,8 @@ $APPLICATION->SetTitle("shell");
                         <div class="col-md-12">
                             <h2 class="tech__title">O технологии Pure&nbsp;Plus</h2>
                             <div class="tech__content" data-role="js-video">
-                                <img src="/images/service/shell/preview.jpg" class="video-preview" alt="">
-                                <img src="/images/service/shell/play.svg" alt="" class="video-play">
+                                <img src="/images/service/shell/preview.jpg" class="video-preview" alt="O технологии Pure Plus">
+                                <img src="/images/service/shell/play.svg" alt="O технологии Pure Plus 1" class="video-play">
                                 <div class="video-container" src="" allowfullscreen="" width="100%" height="" frameborder="0">
                                     <video id="video__tech" class="video-item" preload="" loop="" muted>
                                         <source src="/video/shell/shell.mp4" type="video/mp4">
@@ -483,7 +484,7 @@ $APPLICATION->SetTitle("shell");
                             </div>
                             <div class="note">
                                 <div class="note-block">
-                                    <img src="/images/service/warranty/note.svg" alt="" class="note-img">
+                                    <img src="/images/service/warranty/note.svg" alt="Примечания к ответам" class="note-img">
                                     1 — На основании требований отраслевого стандарта API&nbsp;SN и&nbsp;стендовых испытаний на&nbsp;противо-износные свойства CEC-L-099-08 и&nbsp;эксплуатационных испытаний ASTM Sequence VIII<br>
                                     2 — По сравнению с&nbsp;моторными маслами более высокой вязкости<br>
                                     3 — Технология Shell&nbsp;PurePlus позволяет получить базовое масло, которое обеспечивает улучшение показателей вязкости, трения, летучести по&nbsp;сравнению с&nbsp;наиболее распространенными традиционными базовыми маслам<br>
@@ -499,7 +500,7 @@ $APPLICATION->SetTitle("shell");
             <div class="overlayed product-wrap" data-product="1">
                 <div class="product-popup">
                     <div class="product__img">
-                        <img src="/images/service/shell/01.png" alt="">
+                        <img src="/images/service/shell/01.png" alt="Cинтетическое энергосберегающее моторное масло класса «премиум»">
                     </div>
                     <div class="product__info">
                         <div class="product__title">Shell Helix Ultra ECT AH 5W&#8209;30<img src="/images/service/shell/shell_logo.jpg" alt="" class="popup-logo"></div>
@@ -556,7 +557,7 @@ $APPLICATION->SetTitle("shell");
                         <img src="/images/service/shell/04.png" alt="">
                     </div>
                     <div class="product__info">
-                        <div class="product__title">Shell Helix Ultra 0W&#8209;40<img src="/images/service/shell/shell_logo.jpg" alt="" class="popup-logo"></div>
+                        <div class="product__title">Shell Helix Ultra 0W&#8209;40<img src="/images/service/shell/shell_logo.jpg" alt="Cинтетическое энергосберегающее моторное масло класса «премиум» 1" class="popup-logo"></div>
                         <p class="product__desc">Cинтетическое энергосберегающее моторное масло класса «премиум» для&nbsp;самых современных двигателей Hyundai, созданное на&nbsp;основе технологии Shell&nbsp;PurePlus и&nbsp;технологии активных моющих присадок. Разработано для&nbsp;бензиновых и&nbsp;дизельных двигателей (без&nbsp;сажевых фильтров) Hyundai.</p>
                         <div>
                             <ul id="accordion--product1" class="df-accordion popup-accordion">
@@ -607,7 +608,7 @@ $APPLICATION->SetTitle("shell");
             <div class="overlayed product-wrap" data-product="3">
                 <div class="product-popup">
                     <div class="product__img">
-                        <img src="/images/service/shell/05.png" alt="">
+                        <img src="/images/service/shell/05.png" alt="Cинтетическое энергосберегающее моторное масло класса «премиум» 2">
                     </div>
                     <div class="product__info">
                         <div class="product__title">Shell Helix Ultra 0W&#8209;30<img src="/images/service/shell/shell_logo.jpg" alt="" class="popup-logo"></div>
@@ -664,7 +665,7 @@ $APPLICATION->SetTitle("shell");
                         <img src="/images/service/shell/03.png" alt="">
                     </div>
                     <div class="product__info">
-                        <div class="product__title">Shell Helix Ultra A5/B5 0W&#8209;30<img src="/images/service/shell/shell_logo.jpg" alt="" class="popup-logo"></div>
+                        <div class="product__title">Shell Helix Ultra A5/B5 0W&#8209;30<img src="/images/service/shell/shell_logo.jpg" alt="Cинтетическое энергосберегающее моторное масло класса «премиум» 3" class="popup-logo"></div>
                         <p class="product__desc">Cинтетическое энергосберегающее моторное масло класса «премиум» для&nbsp;самых современных двигателей Hyundai, созданное на&nbsp;основе технологии Shell&nbsp;PurePlus и&nbsp;технологии активных моющих присадок. Разработано для&nbsp;бензиновых и&nbsp;дизельных двигателей (без&nbsp;сажевых фильтров) Hyundai.</p>
                         <div>
                             <ul id="accordion--product1" class="df-accordion popup-accordion">

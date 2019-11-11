@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "История бренда Hyundai от 1968 года и до наших дней.");
 $APPLICATION->SetTitle("История Hyundai");
 ?>
 
@@ -48,7 +49,7 @@ $APPLICATION->SetTitle("История Hyundai");
                                     <div class="before__img df-img">
                                         <div class="before__parallax df-img__parallax parallax">
                                             <div class="df-img__wrap">
-                                                <div class="df-img__img js-set-color" data-bg="/images/brand/history/img/main.jpg"></div>
+                                                <div alt="В 1967 году Чон Джу Ен основывает Hyundai" class="df-img__img js-set-color" data-bg="/images/brand/history/img/main.jpg"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -77,9 +78,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item" id="1968" data-year="1968">
                                             <div class="history__title-year history__title-year--1968">1968</div>
                                             <article>
-                                                <div class="history__back history__back--1" data-bg="/images/brand/history/img/1.jpg"></div>
+                                                <div alt="Открытие завода в Ульсане"  class="history__back history__back--1" data-bg="/images/brand/history/img/1.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--1">
-                                                    <div class="history__img history__img--1" data-bg="/images/brand/history/img/1.1.jpg"></div>
+                                                    <div alt="Открытие завода в Ульсане 1" class="history__img history__img--1" data-bg="/images/brand/history/img/1.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle">
                                                         Открытие завода
                                                         <br>в Ульсане
@@ -94,9 +95,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item" id="1976" data-year="1976">
                                             <div class="history__title-year history__title-year--1976">1976</div>
                                             <article>
-                                                <div class="history__back history__back--2" data-bg="/images/brand/history/img/2.jpg"></div>
+                                                <div alt="Запуск Hyundai Pony" class="history__back history__back--2" data-bg="/images/brand/history/img/2.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--2">
-                                                    <div class="history__img history__img--2" data-bg="/images/brand/history/img/2.1.png"></div>
+                                                    <div alt="Запуск Hyundai Pony 1" class="history__img history__img--2" data-bg="/images/brand/history/img/2.1.png"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--2">
                                                         Запуск
                                                         <br>Hyundai Pony
@@ -112,16 +113,16 @@ $APPLICATION->SetTitle("История Hyundai");
                                             <article>
                                                 <div class="canada">
                                                     <div class="canada__img">
-                                                        <img src="/images/brand/history/img/Canada.png" alt="">
+                                                        <img src="/images/brand/history/img/Canada.png" alt="Основание канадской дочерней компании">
                                                     </div>
                                                     <div class="canada__description">
                                                         <div class="canada__year">1983</div>
                                                         <div class="canada__text">Основание канадской дочерней компании Hyundai Motor Canada</div>
                                                     </div>
                                                 </div>
-                                                <div class="history__back history__back--3" data-bg="/images/brand/history/img/3.jpg"></div>
+                                                <div alt="С конвейера сходит Hyundai Sonata 1 поколения" class="history__back history__back--3" data-bg="/images/brand/history/img/3.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--3">
-                                                    <div class="history__img history__img--3" data-bg="/images/brand/history/img/3.1.jpg"></div>
+                                                    <div alt="С конвейера сходит Hyundai Sonata 1 поколения 2" class="history__img history__img--3" data-bg="/images/brand/history/img/3.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--3">
                                                         Hyundai Sonata
                                                     </h2>
@@ -134,9 +135,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item" id="1990" data-year="1990">
                                             <div class="history__title-year history__title-year--1990">1990</div>
                                             <article>
-                                                <div class="history__back history__back--4" data-bg="/images/brand/history/img/4.jpg"></div>
+                                                <div  alt="Запуск 1-го поколения седана Hyundai Elantra" class="history__back history__back--4" data-bg="/images/brand/history/img/4.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--4">
-                                                    <div class="history__img history__img--4" data-bg="/images/brand/history/img/4.1.jpg"></div>
+                                                    <div alt="Запуск 1-го поколения седана Hyundai Elantra 1" class="history__img history__img--4" data-bg="/images/brand/history/img/4.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--4">
                                                         Hyundai Elantra
                                                     </h2>
@@ -171,9 +172,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--7" id="1999" data-year="1999">
                                             <div class="history__title-year history__title-year--1999">1999</div>
                                             <article>
-                                                <div class="history__back history__back--7" data-bg="/images/brand/history/img/7.1.jpg"></div>
+                                                <div alt="Компания представила свой первый полноразмерный премиальный седан" class="history__back history__back--7" data-bg="/images/brand/history/img/7.1.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--7">
-                                                    <div class="history__img history__img--7" data-bg="/images/brand/history/img/7.jpg"></div>
+                                                    <div alt="Компания представила свой первый полноразмерный премиальный седан 2" class="history__img history__img--7" data-bg="/images/brand/history/img/7.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--7">
                                                         Запуск Equus
                                                     </h2>
@@ -198,9 +199,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--9" id="2001" data-year="2001">
                                             <div class="history__title-year history__title-year--white history__title-year--2001">2001</div>
                                             <article>
-                                                <div class="history__back history__back--9" data-bg="/images/brand/history/img/9.jpg"></div>
+                                                <div alt="Открытие Европейского дизайн-центра Hyundai" class="history__back history__back--9" data-bg="/images/brand/history/img/9.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--9">
-                                                    <div class="history__img history__img--9" data-bg="/images/brand/history/img/9.1.jpg"></div>
+                                                    <div alt="Открытие Европейского дизайн-центра Hyundai 1"  class="history__img history__img--9" data-bg="/images/brand/history/img/9.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--9">
                                                         Дизайн-центр
                                                         <br>Hyundai
@@ -214,9 +215,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--10" id="2004" data-year="2004">
                                             <div class="history__title-year history__title-year--2004">2004</div>
                                             <article>
-                                                <div class="history__back history__back--10" data-bg="/images/brand/history/img/10.jpg"></div>
+                                                <div alt="Запуск первого компактного внедорожника Tucson" class="history__back history__back--10" data-bg="/images/brand/history/img/10.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--10">
-                                                    <div class="history__img history__img--10" data-bg="/images/brand/history/img/10.1.jpg"></div>
+                                                    <div alt="Запуск первого компактного внедорожника Tucson 1" class="history__img history__img--10" data-bg="/images/brand/history/img/10.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--10">
                                                         Hyundai Tucson
                                                     </h2>
@@ -386,9 +387,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--ru" id="2007" data-year="2007">
                                             <div class="history__title-year history__title-year--2007">2007</div>
                                             <article>
-                                                <div class="history__back history__back--12" data-bg="/images/brand/history/img/12.jpg"></div>
+                                                <div alt="Основание Хендэ Мотор СНГ" class="history__back history__back--12" data-bg="/images/brand/history/img/12.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--12">
-                                                    <div class="history__img history__img--12" data-bg="/images/brand/history/img/12.1.jpg"></div>
+                                                    <div alt="Основание Хендэ Мотор СНГ 1" class="history__img history__img--12" data-bg="/images/brand/history/img/12.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--12">
                                                         Основание
                                                         <br>
@@ -425,7 +426,7 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--ru" id="2011" data-year="2011">
                                             <div class="history__title-year history__title-year--2011">2011</div>
                                             <article>
-                                                <div class="history__back history__back--15" data-bg="/images/brand/history/img/15.jpg"></div>
+                                                <div alt="Стартуют продажи Solaris" class="history__back history__back--15" data-bg="/images/brand/history/img/15.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--15">
                                                     <div class="history__img history__img--15" data-bg="/images/brand/history/img/15.1.png"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--15">
@@ -441,9 +442,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--16 history__item--ru" id="2012" data-year="2012">
                                             <div class="history__title-year history__title-year--2012">2012</div>
                                             <article>
-                                                <div class="history__back history__back--16" data-bg="/images/brand/history/img/16.jpg"></div>
+                                                <div alt="WRC Hyundai Motorsport" class="history__back history__back--16" data-bg="/images/brand/history/img/16.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--16">
-                                                    <div class="history__img history__img--16" data-bg="/images/brand/history/img/16.1.jpg"></div>
+                                                    <div alt="WRC Hyundai Motorsport 1" class="history__img history__img--16" data-bg="/images/brand/history/img/16.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--16">
                                                         WRC Hyundai
                                                         <br>Motorsport
@@ -467,7 +468,7 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--18 history__item--ru" id="2014" data-year="2014">
                                             <div class="history__title-year history__title-year--2014">2014</div>
                                             <article>
-                                                <div class="history__back history__back--18" data-bg="/images/brand/history/img/18.jpg"></div>
+                                                <div alt="Hyundai Motorstudio Seoul" class="history__back history__back--18" data-bg="/images/brand/history/img/18.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--18">
                                                     <div class="history__img history__img--18" data-bg="/images/brand/history/img/18.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--18">
@@ -505,9 +506,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--ru" id="2016" data-year="2016">
                                             <div class="history__title-year history__title-year--2016">2016</div>
                                             <article>
-                                                <div class="history__back history__back--21" data-bg="/images/brand/history/img/21.jpg"></div>
+                                                <div alt="Новый бренд Genesis" class="history__back history__back--21" data-bg="/images/brand/history/img/21.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--21">
-                                                    <div class="history__img history__img--21" data-bg="/images/brand/history/img/21.1.jpg"></div>
+                                                    <div alt="Новый бренд Genesis 1" class="history__img history__img--21" data-bg="/images/brand/history/img/21.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--21">
                                                         Новый бренд
                                                         <br>Genesis
@@ -533,9 +534,9 @@ $APPLICATION->SetTitle("История Hyundai");
                                         <li class="history__item history__item--23 history__item--ru" id="2018" data-year="2018">
                                             <div class="history__title-year history__title-year--2018">2018</div>
                                             <article>
-                                                <div class="history__back history__back--23" data-bg="/images/brand/history/img/23.jpg"></div>
+                                                <div alt="Новый SANTA FE" class="history__back history__back--23" data-bg="/images/brand/history/img/23.jpg"></div>
                                                 <div class="history__wrapper history__wrapper--23">
-                                                    <div class="history__img history__img--23" data-bg="/images/brand/history/img/23.1.jpg"></div>
+                                                    <div alt="Новый SANTA FE 1" class="history__img history__img--23" data-bg="/images/brand/history/img/23.1.jpg"></div>
                                                     <h2 class="h1 history__subtitle history__subtitle--23">
                                                         Новый SANTA FE
                                                     </h2>
@@ -608,8 +609,8 @@ $APPLICATION->SetTitle("История Hyundai");
             </section>
 
             <section class="after">
-                <div class="after__back" data-bg="/images/brand/history/img/graph.png"></div>
-                <div class="after__back after__back--1" data-bg="/images/brand/history/img/graph1.png"></div>
+                <div class="after__back" alt="Дальнейшее развитие Hyundai Motors" data-bg="/images/brand/history/img/graph.png"></div>
+                <div alt="Дальнейшее развитие Hyundai Motors 1" class="after__back after__back--1" data-bg="/images/brand/history/img/graph1.png"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 d-sm-none d-md-none d-lg-block">

@@ -1,7 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "");
-
+$APPLICATION->SetPageProperty("description", "Купите автомобиль Hyundai с пробегом, в котором вы будете абсолютно уверены.");
 switch($_REQUEST['order']){
     case "DESC":
         $order = "DESC";

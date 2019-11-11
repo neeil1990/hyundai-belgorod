@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "TUCSON и SANTA FE Rock Edition. В моторах - чистый рок.");
 $APPLICATION->SetTitle("TUCSON и SANTA FE Rock Edition.");
 ?>
 
@@ -67,7 +68,7 @@ $APPLICATION->SetTitle("TUCSON и SANTA FE Rock Edition.");
                                     </div>
                                 </div>
                                 <div class="product-info-img col-md-6 col-sm-12">
-                                    <img src="/storage/cars/1561041387.png" alt="">
+                                    <img src="/storage/cars/1561041387.png" alt="Новый Hyundai TUCSON">
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="product-info-title">
@@ -106,7 +107,7 @@ $APPLICATION->SetTitle("TUCSON и SANTA FE Rock Edition.");
                                     </div>
                                 </div>
                                 <div class="product-info-img col-md-6 col-sm-12">
-                                    <img src="/storage/cars/1561041379.png" alt="">
+                                    <img src="/storage/cars/1561041379.png" alt="Новый SANTA FE">
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="product-info-title">

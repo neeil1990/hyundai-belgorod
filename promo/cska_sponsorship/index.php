@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "На протяжении всего сезона для посетителей ВЭБ Арены будет открыт гостеприимный Фанпарк Хёндэ (Hyundai).");
 $APPLICATION->SetTitle("Акция");
 ?>
 

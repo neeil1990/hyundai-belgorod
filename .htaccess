@@ -81,6 +81,25 @@ Redirect 301 /SantaFe/ /NewSantaFe/
 # Redirect 301 /hpromise/avtomobili-s-probegom/ /
 
 
+Redirect 301 /Anketa/ /
+Redirect 301 /CareersMoscow/ /
+Redirect 301 /ajax/hpromise_rules.php /
+Redirect 301 /AboutUs/ /
+Redirect 301 /XMMP/ /
+Redirect 301 /XMMP-manufacturing/ /
+Redirect 301 /XMMP-history/ /
+Redirect 301 /XMMP-Contacts/ /
+Redirect 301 /XMMP-certificates/ /
+Redirect 301 /XMMP-careers/ /
+Redirect 301 /XMMP-awards/  /
+Redirect 301 /TermsConditions/ /
+Redirect 301 /Tenders/  /
+Redirect 301 /Privacy/  /
+Redirect 301 /Partners/  /
+Redirect 301 /Legal/ /
+Redirect 301 /Jobplacement/ /
+Redirect 301 /IntroductoryRemarks/ /
+
 
 
 <IfModule mod_rewrite.c>

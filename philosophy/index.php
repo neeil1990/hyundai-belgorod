@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("description", "Hyundai — это возможности нового времени.");
 $APPLICATION->SetTitle("Корпоративная философия Hyundai");
 ?>
 
