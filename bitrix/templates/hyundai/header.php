@@ -442,11 +442,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="main-nav__item main-nav__item--mobile">
-                                    <a href="/find-dealer" class="main-nav__link">
-                                        Найти дилера
-                                    </a>
-                                </li>
+                                
                                 <li class="main-nav__item main-nav__item--mobile">
                                     <a href="/service-request" class="main-nav__link">
                                         Запись на сервис
