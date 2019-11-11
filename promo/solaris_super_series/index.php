@@ -37,7 +37,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
 
                 <div class="content_area cnt_grey">
                     <div class="offers-content">
-                        <h1 class="title-offer bordr-btm"><span class="nowrp">Динамика<br/>превосходит ожидания!</span></h1>
+                        <div class="title-offer bordr-btm"><span class="nowrp">Динамика<br/>превосходит ожидания!</span></div>
 
                         <div class="offer-terms bordr-btm">
                             <div class="offers-block">
@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                 <div class="content_area">
                     <div class="offers-content">
 
-                        <h1 class="title-offer bordr-btm"><span class="nowrp">Особенности комплектации</span><img alt="Особенности комплектации 1" src="/assets/ss/ss.png"/><br/></h1>
+                        <div class="title-offer bordr-btm"><span class="nowrp">Особенности комплектации</span><img alt="Особенности комплектации 1" src="/assets/ss/ss.png"/><br/></div>
                         <h2 class="title-offer bordr-btm"><span class="nowrp">Интерьер</span></h2>
 
 
@@ -95,7 +95,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                 <div class="content_area cnt_grey">
                     <div class="offers-content">
 
-                        <h1 class="title-offer bordr-btm"><span class="nowrp">Экстерьер</span></h1>
+                        <div class="title-offer bordr-btm"><span class="nowrp">Экстерьер</span></div>
 
 
                         <div class="offer-terms bordr-btm">

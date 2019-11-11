@@ -23,7 +23,7 @@ $APPLICATION->SetPageProperty("keywords", "Купить и продать Hyunda
                             <div class="slick_content img_bg">
                                 <span class="small_text">Продать автомобиль с пробегом</span>
                                 <div class="clearfix"></div>
-                                <h1 class="big_text">hyundai<br />TRADE-IN</h1>
+                                <div class="big_text">hyundai<br />TRADE-IN</div>
                             </div>
                         </div>
                         <!-- -->
@@ -38,7 +38,7 @@ $APPLICATION->SetPageProperty("keywords", "Купить и продать Hyunda
                         <div class="right_half hover">
                             <div class="slick_bg"></div>
                             <div class="slick_content img_bg">
-                                <h1 class="big_text">H-Promise</h1>
+                                <div class="big_text">H-Promise</div>
                                 <div class="clearfix"></div>
                                 <span class="small_text">Купить автомобиль с пробегом</span>
                             </div>
