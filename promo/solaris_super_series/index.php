@@ -8,7 +8,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
             <div class="offers-container">
                 <div class="content_area">
                     <img class="promo-head lazyload" alt="Hyndai SOLARIS Super Series" src="/assets/ss/ss_bg.jpg" data-src="/assets/ss/ss_bg.jpg" style="">
-                    <!--<img class="promo-head-mobile lazyload" src="/getPicThumb/assets/ss/640х740.jpg?w=100&h=0" width="640px" height="700px" data-src="/assets/ss/640х740.jpg" style="">-->
+                    <img class="promo-head-mobile lazyload" src="/getPicThumb/assets/ss/640х740.jpg?w=100&h=0" width="640px" height="700px" data-src="/assets/ss/640х740.jpg" style="">
 
                     <div class="offers-content">
 
