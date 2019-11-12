@@ -7,7 +7,7 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
         <div class="banner nblock">
             <h1 class="banner-title">HYUNDAI<br>TRADE-IN</h1>
             <div class="banner-desc">Обменяйте свой Hyundai<br>на новый на выгодных условиях*</div>
-            <a href="/online-otsenka/" class="banner-evaluation">
+            <a href="/service/maintenance/#app" class="banner-evaluation">
                 <div class="banner-evaluation-back"></div>
                 <div class="banner-evaluation-image"></div>
                 <div class="banner-evaluation-text">Оценить свой автомобиль</div>
@@ -35,7 +35,7 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                             <div class="slider-inner-text-single-number">03</div>
                             <div class="slider-inner-text-single-title">Посетите дилера<br>и оцените автомобиль</div>
                             <div class="slider-inner-text-single-go">
-                                <a href="/dealers-h-promise/" class="slider-inner-text-single-go-inner">Найти дилера</a>
+                                <a href="/contacts/" class="slider-inner-text-single-go-inner">Найти дилера</a>
                             </div>
                         </div>
                         <div class="slider-inner-text-single">

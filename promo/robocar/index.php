@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("Подарок от Робокара Поли в офи�
             <div class="section-top">
                 <div class="top-bg">
                     <div class="container">
-                        <a href="/offers" class="df-back-link">
+                        <a href="/all-offers/" class="df-back-link">
                             Все предложения
                             <svg>
                                 <use xlink:href="#back-link"></use>
