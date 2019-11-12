@@ -199,3 +199,9 @@
 2019-11-08 20:30:13 -  - exec CUpdateClient::GetHTTPPage
 2019-11-08 20:30:14 -  - TIME GetUpdatesList(request) 0.297 sec
 2019-11-08 20:30:14 -  - exec CUpdateClient::ParseServerData
+2019-11-12 10:32:26 -  - exec CUpdateClient::GetUpdatesList
+2019-11-12 10:32:26 -  - exec CUpdateClient::CollectRequestData
+2019-11-12 10:32:26 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.5.15&VERSION=16.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=hyundai-belgorod.ru&CHHB=hyundai-belgorod.ru&CSAB=87.236.16.91&CANGZIP=Y&CLIENT_PHPVER=7.1.21&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.5.4&bitm_iblock=16.5.2&bitm_fileman=16.5.4&bitm_highloadblock=16.0.2&bitm_seo=16.0.3&bitm_compression=16.0.0&bitm_translate=14.5.0&bitm_bitrixcloud=16.0.0&bitm_clouds=16.0.1&bitm_search=16.0.0&bitm_socialservices=16.5.4&bitm_perfmon=16.0.0&bitl_ru=&bitl_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2019-11-12 10:32:26 -  - exec CUpdateClient::GetHTTPPage
+2019-11-12 10:32:26 -  - TIME GetUpdatesList(request) 0.281 sec
+2019-11-12 10:32:26 -  - exec CUpdateClient::ParseServerData
