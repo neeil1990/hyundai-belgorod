@@ -3,7 +3,12 @@
     display: none;
 }
 
-h1, h2, h3, h4, h5, h6,
+.df-popup h1,
+.df-popup h2,
+.df-popup h3,
+.df-popup h4,
+.df-popup h5,
+.df-popup h6,
 .success__text
 {
     color: black;
