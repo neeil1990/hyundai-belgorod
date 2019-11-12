@@ -221,7 +221,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                 </div>
                 <div class="blue-label">
                     <div class="blue-label__top">
-                        <span>от</span> <span id="price-from"></span> &#8381;
+                        <span>от </span> <span id="price-from"></span> &#8381;
                     </div>
                     <hr>
                     <div class="blue-label__bottom">
@@ -247,40 +247,40 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                     background = '/images/santaFe/pics/2_design/design_title.jpg'
                     background-mobile = '/images/santaFe/m_pics/02_design/design_title.jpg'
                     :slides="[
-			{
-				icon: '/images/santaFe/svg/design_1.svg',
-				title: 'Уникальная решетка радиатора.',
-				description: 'Широкая решетка радиатора с новой геометрией подчеркивает харизматичность SANTA FE.',
-				background: '/images/santaFe/pics/2_design/design_1.jpg',
-				zoom: 2.6,
-				correct: {
-					x: 100,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/santaFe/svg/design_2.svg',
-				title: 'Светодиодные ходовые огни.',
-				description: 'Хищный прищур ходовых огней добавляет автомобилю очаровательной дерзости.',
-				background: '/images/santaFe/pics/2_design/design_2.jpg',
-				zoom: 4,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/santaFe/svg/design_3.svg',
-				title: 'Светодиодные фары.',
-				description: 'Расположены отдельно для максимальной видимости в любую погоду.',
-				background: '/images/santaFe/pics/2_design/design_3.jpg',
-				zoom: 3.6,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			}
-		]"
+            {
+                icon: '/images/santaFe/svg/design_1.svg',
+                title: 'Уникальная решетка радиатора.',
+                description: 'Широкая решетка радиатора с новой геометрией подчеркивает харизматичность SANTA FE.',
+                background: '/images/santaFe/pics/2_design/design_1.jpg',
+                zoom: 2.6,
+                correct: {
+                    x: 100,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/santaFe/svg/design_2.svg',
+                title: 'Светодиодные ходовые огни.',
+                description: 'Хищный прищур ходовых огней добавляет автомобилю очаровательной дерзости.',
+                background: '/images/santaFe/pics/2_design/design_2.jpg',
+                zoom: 4,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/santaFe/svg/design_3.svg',
+                title: 'Светодиодные фары.',
+                description: 'Расположены отдельно для максимальной видимости в любую погоду.',
+                background: '/images/santaFe/pics/2_design/design_3.jpg',
+                zoom: 3.6,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            }
+        ]"
                 ></presentation-section>
             </section>
 
@@ -857,36 +857,36 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                 //init();
 
                 // function init(){
-                // 	document.querySelector('body').classList.add('overflow-hidden');
+                //  document.querySelector('body').classList.add('overflow-hidden');
 
-                // 	var container = document.querySelector('.content'),
-                // 		firstSlideBack = container.querySelector('.banner'),
-                // 		str1,
-                // 		str2;
+                //  var container = document.querySelector('.content'),
+                //      firstSlideBack = container.querySelector('.banner'),
+                //      str1,
+                //      str2;
 
-                // 	str1 = firstSlideBack.style.backgroundImage.replace('url("','');
-                // 	str2 = str1.replace('")','');
+                //  str1 = firstSlideBack.style.backgroundImage.replace('url("','');
+                //  str2 = str1.replace('")','');
 
-                // 	var img = new Image();
+                //  var img = new Image();
 
-                // 	img.src = str2;
-                // 	img.onload = function () {
-                // 		//Правильно завершаем анимацию в конце цикла
-                // 		document.querySelector('.preloader__circle').classList.add('end-animation');
-                // 		document.querySelector('.preloader__inner').classList.add('end-animation');
-                // 		setTimeout(function() {
-                // 			document.querySelector('.preloader__circle').classList.remove('end-animation');
-                // 			document.querySelector('.preloader__inner').classList.remove('end-animation');
-                // 			document.querySelector('.banner').classList.remove('preloader-start');
+                //  img.src = str2;
+                //  img.onload = function () {
+                //      //Правильно завершаем анимацию в конце цикла
+                //      document.querySelector('.preloader__circle').classList.add('end-animation');
+                //      document.querySelector('.preloader__inner').classList.add('end-animation');
+                //      setTimeout(function() {
+                //          document.querySelector('.preloader__circle').classList.remove('end-animation');
+                //          document.querySelector('.preloader__inner').classList.remove('end-animation');
+                //          document.querySelector('.banner').classList.remove('preloader-start');
 
-                // 			setTimeout(function() {
-                // 				document.querySelector('body').classList.remove('overflow-hidden');
-                // 			}, 500)
-                // 			setTimeout(function () {
-                // 				document.querySelector('.banner').classList.add('isEntered');
-                // 			}, 1000);
-                // 		}, 500)
-                // 	};
+                //          setTimeout(function() {
+                //              document.querySelector('body').classList.remove('overflow-hidden');
+                //          }, 500)
+                //          setTimeout(function () {
+                //              document.querySelector('.banner').classList.add('isEntered');
+                //          }, 1000);
+                //      }, 500)
+                //  };
                 // }
             </script>
 

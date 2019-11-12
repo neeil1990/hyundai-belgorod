@@ -67,7 +67,7 @@ $APPLICATION->SetTitle("Новый TUCSON");
                 </div>
                 <div class="blue-label">
                     <div class="blue-label__top">
-                        <span>от</span> <span id="price-from"></span>
+                        <span>от </span> <span id="price-from"></span>
                     </div>
                     <hr>
                     <div class="blue-label__bottom">
@@ -92,29 +92,29 @@ $APPLICATION->SetTitle("Новый TUCSON");
                     background = '/images/cars/tucson/pics/_title_design.jpg'
                     background-mobile = '/images/cars/tucson/m_pics/design_title.jpg'
                     :slides="[
-			{
-				icon: '/images/cars/tucson/svg/design_2.svg',
-				title: 'Новая каскадная решетка радиатора.',
-				description: 'Фирменная хромированная решетка радиатора создает неповторимый и легко узнаваемый облик TUCSON.',
-				background: '/images/cars/tucson/pics/design_3b.jpg',
-				zoom: 2.6,
-				correct: {
-					x: 100,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/tucson/svg/design_3.svg',
-				title: 'Светодиодные фары.',
-				description: 'Полностью светодиодные фары обеспечивают отличную видимость в любую погоду и дополняют технологичный образ обновлённого TUCSON.',
-				background: '/images/cars/tucson/pics/design_3a.jpg',
-				zoom: 4,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			}
-		]"
+            {
+                icon: '/images/cars/tucson/svg/design_2.svg',
+                title: 'Новая каскадная решетка радиатора.',
+                description: 'Фирменная хромированная решетка радиатора создает неповторимый и легко узнаваемый облик TUCSON.',
+                background: '/images/cars/tucson/pics/design_3b.jpg',
+                zoom: 2.6,
+                correct: {
+                    x: 100,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/tucson/svg/design_3.svg',
+                title: 'Светодиодные фары.',
+                description: 'Полностью светодиодные фары обеспечивают отличную видимость в любую погоду и дополняют технологичный образ обновлённого TUCSON.',
+                background: '/images/cars/tucson/pics/design_3a.jpg',
+                zoom: 4,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            }
+        ]"
                 ></presentation-section>
             </section>
 

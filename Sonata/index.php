@@ -65,7 +65,7 @@ $APPLICATION->SetTitle("");
                 </div>
                 <div class="blue-label">
                     <div class="blue-label__top">
-                        <span>от</span> <span id="price-from"></span> &#8381;
+                        <span>от </span> <span id="price-from"></span> &#8381;
                     </div>
                     <hr>
                     <div class="blue-label__bottom">
@@ -91,51 +91,51 @@ $APPLICATION->SetTitle("");
                     background = '/images/cars/sonata/pics/2_design/design_title.jpg'
                     background-mobile = '/images/cars/sonata/m_pics/02_design/design_title.jpg'
                     :slides="[
-			{
-				icon: '/images/cars/sonata/svg/d1.svg',
-				title: 'Светодиодные фары.',
-				description: 'Яркие светодиодные фары не только улучшают видимость в темное время суток, но и дополняют образ Hyundai Sonata.',
-				background: '/images/cars/sonata/pics/2_design/d1.jpg',
-				zoom: 2.6,
-				correct: {
-					x: 100,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/sonata/svg/d2.svg',
-				title: 'Каскадная решётка радиатора.',
-				description: 'Визуальная концепция экстерьера строится вокруг массивной решётки радиатора с подчёркнутой геометрией формы.',
-				background: '/images/cars/sonata/pics/2_design/d2.jpg',
-				zoom: 4,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/sonata/svg/d3.svg',
-				title: 'Дневные ходовые огни.',
-				description: 'Яркие светодиодные фары не только улучшают видимость в темное время суток, но и дополняют образ Hyundai Sonata.',
-				background: '/images/cars/sonata/pics/2_design/d3.jpg',
-				zoom: 3.6,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/sonata/svg/d4.svg',
-				title: 'Легкосплавные диски.',
-				description: '18-дюймовые легкосплавные диски элегантно дополняют дизайн экстерьера.',
-				background: '/images/cars/sonata/pics/2_design/d4.jpg',
-				zoom: 3.6,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			}
-		]"
+            {
+                icon: '/images/cars/sonata/svg/d1.svg',
+                title: 'Светодиодные фары.',
+                description: 'Яркие светодиодные фары не только улучшают видимость в темное время суток, но и дополняют образ Hyundai Sonata.',
+                background: '/images/cars/sonata/pics/2_design/d1.jpg',
+                zoom: 2.6,
+                correct: {
+                    x: 100,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/sonata/svg/d2.svg',
+                title: 'Каскадная решётка радиатора.',
+                description: 'Визуальная концепция экстерьера строится вокруг массивной решётки радиатора с подчёркнутой геометрией формы.',
+                background: '/images/cars/sonata/pics/2_design/d2.jpg',
+                zoom: 4,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/sonata/svg/d3.svg',
+                title: 'Дневные ходовые огни.',
+                description: 'Яркие светодиодные фары не только улучшают видимость в темное время суток, но и дополняют образ Hyundai Sonata.',
+                background: '/images/cars/sonata/pics/2_design/d3.jpg',
+                zoom: 3.6,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/sonata/svg/d4.svg',
+                title: 'Легкосплавные диски.',
+                description: '18-дюймовые легкосплавные диски элегантно дополняют дизайн экстерьера.',
+                background: '/images/cars/sonata/pics/2_design/d4.jpg',
+                zoom: 3.6,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            }
+        ]"
                 ></presentation-section>
             </section>
 

@@ -197,7 +197,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                                 <h5 class="d-car__title">Новая ЭЛАНТРА</h5>
                                                                                 <div class="d-car__name">/ ELANTRA</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 1 049 000 ₽</div>
+                                                                            <div class="d-car__price">от 1 059 000 ₽</div>
                                                                             <div class="d-car__m-name">ELANTRA</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041448.png" alt="Новая ELANTRA">

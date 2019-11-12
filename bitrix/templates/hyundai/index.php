@@ -298,6 +298,32 @@
                                     </div>
                                 </a>
                             </li>
+							
+							
+							
+							
+	
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/pomosh-na-doroge-banner-mob.jpg [(max-width: 640px)] | /storage/banners/pomosh-na-doroge-banner.jpg">
+                                <a class="slider__link" href="/service/assistance/"  aria-label="Помощь на дороге">
+                                  
+                               
+                                </a>
+                            </li>						
+							
+						        <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/produkt-line-2-banner-mob.jpg [(max-width: 640px)] | /storage/banners/produkt-line-2-banner.jpg">
+                                <a class="slider__link" href="/pl2/"  aria-label="Второе дыхание вашего автомобиля.">
+                                  
+                               
+                                </a>
+                            </li>		
+							
+							     <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/elektronnaya-servisnaya-knizhka-mob.jpg [(max-width: 640px)] | /storage/banners/elektronnaya-servisnaya-knizhka-banner.jpg">
+                                <a class="slider__link" href="/service-book/"  aria-label="Электронная сервисная книжка в Мире Хёндэ.">
+                                  
+                               
+                                </a>
+                            </li>		
+							
                         </ul>
                     </div>
                 </div>

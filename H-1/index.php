@@ -65,7 +65,7 @@ $APPLICATION->SetTitle("H-1");
                 </div>
                 <div class="blue-label">
                     <div class="blue-label__top">
-                        <span>от</span> <span id="price-from"></span> &#8381;
+                        <span>от </span> <span id="price-from"></span> &#8381;
                     </div>
                     <hr>
                     <div class="blue-label__bottom">
@@ -91,51 +91,51 @@ $APPLICATION->SetTitle("H-1");
                     background = '/images/cars/h1/pics/2_design/design_title.jpg'
                     background-mobile = '/images/cars/h1/m_pics/02_design/design_title.jpg'
                     :slides="[
-			{
-				icon: '/images/cars/h1/svg/d1.svg',
-				title: 'Противотуманные фары',
-				description: 'Комплектация микроавтобуса может включать противотуманные фары, которые аккуратно встроены в нижнюю часть переднего бампера.',
-				background: '/images/cars/h1/pics/2_design/d1.jpg',
-				zoom: 2.6,
-				correct: {
-					x: 100,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/h1/svg/d1.svg',
-				title: 'Фары проекционного типа',
-				description: 'Фары проекционного типа прекрасно освещают дорожное полотно и обочины, делая путешествие комфортным и безопасным.',
-				background: '/images/cars/h1/pics/2_design/d2.jpg',
-				zoom: 4,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/h1/svg/d1.svg',
-				title: 'Электропривод складывания зеркал',
-				description: 'Наружные зеркала заднего вида с электроприводом складывания, окрашенные в цвет кузова обеспечивают хорошую видимость в любую погоду.',
-				background: '/images/cars/h1/pics/2_design/d3.jpg',
-				zoom: 4,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			},
-			{
-				icon: '/images/cars/h1/svg/d1.svg',
-				title: 'Боковые молдинги',
-				description: 'Между колесными арками топовых версий микроавтобуса установлены привлекательные боковые молдинги.',
-				background: '/images/cars/h1/pics/2_design/d4.jpg',
-				zoom: 4,
-				correct: {
-					x: 0,
-					y: 0
-				}
-			}
-		]"
+            {
+                icon: '/images/cars/h1/svg/d1.svg',
+                title: 'Противотуманные фары',
+                description: 'Комплектация микроавтобуса может включать противотуманные фары, которые аккуратно встроены в нижнюю часть переднего бампера.',
+                background: '/images/cars/h1/pics/2_design/d1.jpg',
+                zoom: 2.6,
+                correct: {
+                    x: 100,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/h1/svg/d1.svg',
+                title: 'Фары проекционного типа',
+                description: 'Фары проекционного типа прекрасно освещают дорожное полотно и обочины, делая путешествие комфортным и безопасным.',
+                background: '/images/cars/h1/pics/2_design/d2.jpg',
+                zoom: 4,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/h1/svg/d1.svg',
+                title: 'Электропривод складывания зеркал',
+                description: 'Наружные зеркала заднего вида с электроприводом складывания, окрашенные в цвет кузова обеспечивают хорошую видимость в любую погоду.',
+                background: '/images/cars/h1/pics/2_design/d3.jpg',
+                zoom: 4,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            },
+            {
+                icon: '/images/cars/h1/svg/d1.svg',
+                title: 'Боковые молдинги',
+                description: 'Между колесными арками топовых версий микроавтобуса установлены привлекательные боковые молдинги.',
+                background: '/images/cars/h1/pics/2_design/d4.jpg',
+                zoom: 4,
+                correct: {
+                    x: 0,
+                    y: 0
+                }
+            }
+        ]"
                 ></presentation-section>
             </section>
 
