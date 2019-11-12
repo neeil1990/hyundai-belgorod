@@ -49,7 +49,7 @@ $this->setFrameMode(true);
 					<div class="dealer__map_container">
 						<div class="map_info">
 							<div class="map_img">
-								<img src="<?=$arItem['PREVIEW_PICTURE']['SRC']?>">
+								<img src="<?=$arItem['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arItem['PREVIEW_PICTURE']['DESCRIPTION']?>">
 							</div>
 							<div class="map_text">
 								<p><?=$arItem["NAME"]?></p>
