@@ -42,11 +42,14 @@ $APPLICATION->SetTitle("Creta");
                     </li>
                 </ul>
                 <div class="nav__buttons">
-                    <a target="_blank" href="/test-drive/Creta/" class="df-button nav__button js-open-p-td">
+                    <a target="_blank" href="/test-drive/Creta" class="df-button nav__button js-open-p-td">
                         Тест-драйв
                     </a>
                     <a target="_blank" href="/configurator/car/22" class="df-button nav__button">
                         Конфигуратор
+                    </a>
+                    <a target="_blank" href="/find-dealer" class="df-button nav__button">
+                        Найти дилера
                     </a>
                 </div>
             </section>

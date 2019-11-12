@@ -1,3 +1,4 @@
-#hotbuttons{
+#hotbuttons .showButton,
+#hotbuttons .h-buttons__main {
     display: none;
 }
