@@ -112,7 +112,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                 <ul class="slider-1__list owl-carousel js-slider-1">
                                     <li class="slider-1__item slider-1__item--0">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/slider-1/0.svg" alt="">
+                                            <img src="/images/service/slider-1/0.svg" alt="Интерактивный опрос при выдаче автомобиля о качестве обслуживания">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Обратная связь
@@ -123,7 +123,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     </li>
                                     <li class="slider-1__item slider-1__item--1">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/slider-1/1.svg" alt="">
+                                            <img src="/images/service/slider-1/1.svg" alt="Отслеживание хода работ">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Отслеживание хода работ
@@ -134,7 +134,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     </li>
                                     <li class="slider-1__item slider-1__item--2">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/slider-1/2.svg" alt="">
+                                            <img src="/images/service/slider-1/2.svg" alt="Отсутствие задержек благодаря системе он-лайн оповещений">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Всегда вовремя
@@ -145,7 +145,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     </li>
                                     <li class="slider-1__item slider-1__item--3">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/slider-1/3.svg" alt="">
+                                            <img src="/images/service/slider-1/3.svg" alt="Фото и голосовая запись">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Фото и голосовая запись
@@ -156,7 +156,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     </li>
                                     <li class="slider-1__item slider-1__item--4">
                                         <div class="slider-1__img">
-                                            <img src="/images/service/slider-1/4.svg" alt="">
+                                            <img src="/images/service/slider-1/4.svg" alt="Интерактивное отображение наших специальных предложений">
                                         </div>
                                         <div class="slider-1__sub-title">
                                             Специальные предложения

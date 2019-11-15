@@ -40,37 +40,37 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide item-active" data-part="1">
                                             <div class="swiper-slide__img">
-                                                <img src="/images/service/parts/slider1.png" alt="">
+                                                <img src="/images/service/parts/slider1.png" alt="Воздушный фильтр 1">
                                             </div>
                                             <p class="swiper-slide__name">Воздушный фильтр</p>
                                         </div>
                                         <div class="swiper-slide" data-part="2">
                                             <div class="swiper-slide__img">
-                                                <img src="/images/service/parts/slider2.png" alt="">
+                                                <img src="/images/service/parts/slider2.png" alt="Тормозные колодки 1">
                                             </div>
                                             <p class="swiper-slide__name">Тормозные колодки</p>
                                         </div>
                                         <div class="swiper-slide" data-part="3">
                                             <div class="swiper-slide__img">
-                                                <img src="/images/service/parts/slider3.png" alt="">
+                                                <img src="/images/service/parts/slider3.png" alt="Масляный фильтр 1">
                                             </div>
                                             <p class="swiper-slide__name">Масляный фильтр</p>
                                         </div>
                                         <div class="swiper-slide" data-part="4">
                                             <div class="swiper-slide__img">
-                                                <img src="/images/service/parts/slider4.png" alt="">
+                                                <img src="/images/service/parts/slider4.png" alt="Салонный фильтр 1">
                                             </div>
                                             <p class="swiper-slide__name">Салонный фильтр</p>
                                         </div>
                                         <div class="swiper-slide" data-part="5">
                                             <div class="swiper-slide__img">
-                                                <img src="/images/service/parts/slider5.png" alt="">
+                                                <img src="/images/service/parts/slider5.png" alt="Ремень ГРМ 1">
                                             </div>
                                             <p class="swiper-slide__name">Ремень ГРМ</p>
                                         </div>
                                         <div class="swiper-slide" data-part="6">
                                             <div class="swiper-slide__img">
-                                                <img src="/images/service/parts/slider6.png" alt="">
+                                                <img src="/images/service/parts/slider6.png" alt="Топливный фильтр 1">
                                             </div>
                                             <p class="swiper-slide__name">Топливный фильтр</p>
                                         </div>
@@ -95,8 +95,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     </div>
                                     <div class="description__pic">
                                         <div class="compare-pic">
-                                            <img src="/images/service/parts/parts-slider-2-old.jpg" alt="">
-                                            <img src="/images/service/parts/parts-slider-2-new.jpg" alt="" class="description__pic-img">
+                                            <img src="/images/service/parts/parts-slider-2-old.jpg" alt="Функциональные особенности воздушного фильтра 1">
+                                            <img src="/images/service/parts/parts-slider-2-new.jpg" alt="Функциональные особенности воздушного фильтра 2" class="description__pic-img">
                                         </div>
                                         <div class="description__pic-nav">
                                             <span>Старый</span>
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 <div class="description-bottom">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/star.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/star.svg" alt="Оригинальные воздушные фильтры" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Преимущества</h4>
                                                 <ul class="df-list">
@@ -128,7 +128,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/shield.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/shield.svg" alt="Защита от подделок" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Защита от подделок</h4>
                                                 <ul class="df-list">
@@ -163,8 +163,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     </div>
                                     <div class="description__pic">
                                         <div class="compare-pic">
-                                            <img src="/images/service/parts/parts-slider-1-old.jpg" alt="">
-                                            <img src="/images/service/parts/parts-slider-1-new.jpg" alt="" class="description__pic-img">
+                                            <img src="/images/service/parts/parts-slider-1-old.jpg" alt="Особенности тормозных колодок 1">
+                                            <img src="/images/service/parts/parts-slider-1-new.jpg" alt="Особенности тормозных колодок 2" class="description__pic-img">
                                         </div>
                                         <div class="description__pic-nav">
                                             <span>Старый</span>
@@ -176,7 +176,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 <div class="description-bottom">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/star.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/star.svg" alt="Оригинальные тормозные колодки" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Преимущества</h4>
                                                 <ul class="df-list">
@@ -192,7 +192,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/shield.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/shield.svg" alt="Защита от подделок" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Защита от подделок</h4>
                                                 <ul class="df-list">
@@ -227,8 +227,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     </div>
                                     <div class="description__pic">
                                         <div class="compare-pic">
-                                            <img src="/images/service/parts/parts-slider-3-old.jpg" alt="">
-                                            <img src="/images/service/parts/parts-slider-3-new.jpg" alt="" class="description__pic-img">
+                                            <img src="/images/service/parts/parts-slider-3-old.jpg" alt="Особенности масляного фильтра 1">
+                                            <img src="/images/service/parts/parts-slider-3-new.jpg" alt="Особенности масляного фильтра 2" class="description__pic-img">
                                         </div>
                                         <div class="description__pic-nav">
                                             <span>Старый</span>
@@ -240,7 +240,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 <div class="description-bottom">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/star.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/star.svg" alt="Оригинальный масляный фильтр" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Преимущества</h4>
                                                 <ul class="df-list">
@@ -256,7 +256,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/shield.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/shield.svg" alt="Защита от подделок" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Защита от подделок</h4>
                                                 <ul class="df-list">
@@ -287,8 +287,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     </div>
                                     <div class="description__pic">
                                         <div class="compare-pic">
-                                            <img src="/images/service/parts/parts-slider-4-old.jpg" alt="">
-                                            <img src="/images/service/parts/parts-slider-4-new.jpg" alt="" class="description__pic-img">
+                                            <img src="/images/service/parts/parts-slider-4-old.jpg" alt="Особенности салонного фильтра 1">
+                                            <img src="/images/service/parts/parts-slider-4-new.jpg" alt="Особенности салонного фильтра 2" class="description__pic-img">
                                         </div>
                                         <div class="description__pic-nav">
                                             <span>Старый</span>
@@ -300,7 +300,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 <div class="description-bottom">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/star.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/star.svg" alt="Качество оригинальных запасных частей Hyundai" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Преимущества</h4>
                                                 <ul class="df-list">
@@ -314,7 +314,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/shield.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/shield.svg" alt="Аналог пропускает больше загрязняющих веществ" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Защита от подделок</h4>
                                                 <ul class="df-list">
@@ -348,8 +348,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     </div>
                                     <div class="description__pic">
                                         <div class="compare-pic">
-                                            <img src="/images/service/parts/parts-slider-5-old.jpg" alt="">
-                                            <img src="/images/service/parts/parts-slider-5-new.jpg" alt="" class="description__pic-img">
+                                            <img src="/images/service/parts/parts-slider-5-old.jpg" alt="Особенности ремня ГРМ 1">
+                                            <img src="/images/service/parts/parts-slider-5-new.jpg" alt="Особенности ремня ГРМ 2" class="description__pic-img">
                                         </div>
                                         <div class="description__pic-nav">
                                             <span>Старый</span>
@@ -361,7 +361,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 <div class="description-bottom">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/star.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/star.svg" alt="Обеспечивают практически бесшумную передачу усилия в двигателе." class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Преимущества</h4>
                                                 <ul class="df-list">
@@ -375,7 +375,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/shield.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/shield.svg" alt="Срок службы ремня ГРМ" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Защита от подделок</h4>
                                                 <ul class="df-list">
@@ -406,8 +406,8 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     </div>
                                     <div class="description__pic">
                                         <div class="compare-pic">
-                                            <img src="/images/service/parts/parts-slider-6-old.jpg" alt="">
-                                            <img src="/images/service/parts/parts-slider-6-new.jpg" alt="" class="description__pic-img">
+                                            <img src="/images/service/parts/parts-slider-6-old.jpg" alt="Особенности топливного фильтра 1">
+                                            <img src="/images/service/parts/parts-slider-6-new.jpg" alt="Особенности топливного фильтра 2" class="description__pic-img">
                                         </div>
                                         <div class="description__pic-nav">
                                             <span>Старый</span>
@@ -419,7 +419,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                 <div class="description-bottom">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/star.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/star.svg" alt="Огромные инвестиции были привлечены" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Преимущества</h4>
                                                 <ul class="df-list">
@@ -433,7 +433,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img src="/images/service/parts/shield.svg" alt="" class="description__icon">
+                                            <img src="/images/service/parts/shield.svg" alt="Подделки показывают низкую эффективность" class="description__icon">
                                             <div>
                                                 <h4 class="df-list__title">Защита от подделок</h4>
                                                 <ul class="df-list">
@@ -459,7 +459,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                         <div class="col-md-12">
                             <div class="service-inner">
                                 <div class="service-left">
-                                    <img src="/images/service/bodyworks/fix.svg" alt="" class="service__img">
+                                    <img src="/images/service/bodyworks/fix.svg" alt="Записаться на сервис" class="service__img">
                                     <div class="service-block">
                                         <h3 class="service-title">Записаться на сервис?</h3>
                                         <p class="service-text">Обратитесь к&nbsp;ближайшему официальному дилеру Hyundai или позвоните в&nbsp;службу поддержки клиентов <a href="tel:+7 4722 33-33-77" class="df-link">+7 4722 33-33-77</a></p>

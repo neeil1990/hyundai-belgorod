@@ -34,35 +34,35 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                                 <div class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide car-active" data-model="Creta">
-                                            <img src="/storage/cars/1561041417.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041417.png" alt="Выбор автомобиля Creta" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Creta</p>
                                         </div>
                                         <div class="swiper-slide " data-model="H-1">
-                                            <img src="/storage/cars/1561041426.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041426.png" alt="Выбор автомобиля H-1" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">H-1</p>
                                         </div>
                                         <div class="swiper-slide " data-model="i30N">
-                                            <img src="/storage/cars/1561041440.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041440.png" alt="Выбор автомобиля i30N" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">i30N</p>
                                         </div>
                                         <div class="swiper-slide " data-model="Solaris">
-                                            <img src="/storage/cars/1561041395.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041395.png" alt="Выбор автомобиля Solaris" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Solaris</p>
                                         </div>
                                         <div class="swiper-slide " data-model="Sonata">
-                                            <img src="/storage/cars/1561041410.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041410.png" alt="Выбор автомобиля Sonata" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">SONATA</p>
                                         </div>
                                         <div class="swiper-slide " data-model="NewElantra">
-                                            <img src="/storage/cars/1561041448.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041448.png" alt="Выбор автомобиля новая ELANTRA" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Новая ELANTRA</p>
                                         </div>
                                         <div class="swiper-slide " data-model="NewSantaFe">
-                                            <img src="/storage/cars/1561041379.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041379.png" alt="Выбор автомобиля новый SANTA FE" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Новый SANTA FE</p>
                                         </div>
                                         <div class="swiper-slide " data-model="NewTucson">
-                                            <img src="/storage/cars/1561041387.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041387.png" alt="Выбор автомобиля новый TUCSON" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Новый TUCSON</p>
                                         </div>
                                     </div>

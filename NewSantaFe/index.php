@@ -425,10 +425,10 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                     </li>
                 </ul>
                 <div class="dynamics__graph dynamics__graph--0">
-                    <img src="/images/santaFe/pics/3_performance/d1.png">
+                    <img alt="Средний расход топлива 1" src="/images/santaFe/pics/3_performance/d1.png">
                 </div>
                 <div class="dynamics__graph dynamics__graph--1">
-                    <img src="/images/santaFe/pics/3_performance/d2.png">
+                    <img alt="Средний расход топлива 2" src="/images/santaFe/pics/3_performance/d2.png">
                 </div>
             </section>
 
@@ -447,7 +447,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                 </div>
                 <div class="d-composition">
                     <div class="d-composition__icon">
-                        <img src="/images/santaFe/svg/performance_3.svg">
+                        <img alt="Система управления полным приводом HTRAC" src="/images/santaFe/svg/performance_3.svg">
                     </div>
                     <div class="d-composition__title">
                         Система управления полным приводом HTRAC.
@@ -619,7 +619,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/santaFe/svg/tech_11.svg">
+                                <img alt="Звуковой сигнал 1" src="/images/santaFe/svg/tech_11.svg">
                                 <div class="marker__text">
                                     Звуковой
                                     <br>сигнал
@@ -630,27 +630,27 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                 </div>
                 <div class="s-beep">
                     <div class="schema">
-                        <img data-src="/images/santaFe/pics/5_tech/scheme_1_1.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_2.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_3.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_4.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_5.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_6.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_7.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_8.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_9.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_10.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_11.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_12.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_13.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_14.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_15.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_16.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_17.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_18.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_19.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_20.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_21.jpg" alt="">
+                        <img data-src="/images/santaFe/pics/5_tech/scheme_1_1.jpg" alt="Безопасный выезд с парковки задним ходом 1">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_2.jpg" alt="Безопасный выезд с парковки задним ходом 2">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_3.jpg" alt="Безопасный выезд с парковки задним ходом 3">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_4.jpg" alt="Безопасный выезд с парковки задним ходом 4">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_5.jpg" alt="Безопасный выезд с парковки задним ходом 5">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_6.jpg" alt="Безопасный выезд с парковки задним ходом 6">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_7.jpg" alt="Безопасный выезд с парковки задним ходом 7">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_8.jpg" alt="Безопасный выезд с парковки задним ходом 7">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_9.jpg" alt="Безопасный выезд с парковки задним ходом 8">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_10.jpg" alt="Безопасный выезд с парковки задним ходом 9">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_11.jpg" alt="Безопасный выезд с парковки задним ходом 10">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_12.jpg" alt="Безопасный выезд с парковки задним ходом 11">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_13.jpg" alt="Безопасный выезд с парковки задним ходом 12">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_14.jpg" alt="Безопасный выезд с парковки задним ходом 13">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_15.jpg" alt="Безопасный выезд с парковки задним ходом 14">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_16.jpg" alt="Безопасный выезд с парковки задним ходом 15">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_17.jpg" alt="Безопасный выезд с парковки задним ходом 16">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_18.jpg" alt="Безопасный выезд с парковки задним ходом 17">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_19.jpg" alt="Безопасный выезд с парковки задним ходом 18">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_20.jpg" alt="Безопасный выезд с парковки задним ходом 19">
+                        <img class="schema__animate" data-src="/images/santaFe/pics/5_tech/scheme_1_21.jpg" alt="Безопасный выезд с парковки задним ходом 20">
                     </div>
                     <div class="safety__title">
                         Безопасный выезд с парковки задним ходом.
@@ -694,7 +694,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/santaFe/svg/tech_21.svg">
+                                <img alt="Блокировка дверей 1" src="/images/santaFe/svg/tech_21.svg">
                                 <div class="marker__text">
                                     Блокировка
                                     <br>дверей
@@ -716,7 +716,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                 </div>
                 <div class="s-back">
                     <div class="s-back__img">
-                        <img src="/images/santaFe/pics/5_tech/tech_scheme_2.jpg" alt="">
+                        <img src="/images/santaFe/pics/5_tech/tech_scheme_2.jpg" alt="Система распознавания пассажиров сзади">
                         <div class="s-back__circle s-back__circle--1"></div>
                         <div class="s-back__circle s-back__circle--2"></div>
                         <div class="s-back__circle s-back__circle--3"></div>
@@ -737,7 +737,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/santaFe/svg/tech_31.svg">
+                                <img alt="Обнаружен пассажир 1" src="/images/santaFe/svg/tech_31.svg">
                                 <div class="marker__text">
                                     Обнаружен
                                     <br>пассажир

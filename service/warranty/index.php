@@ -41,38 +41,38 @@ $APPLICATION->SetTitle("Гарантия");
                                     <div class="warranty-common">
                                       <p class="warranty-common__title">Общая гарантия</p>
                                       <p class="warranty-common__info"><span class="calculate__tab-value">5</span><span class="calculate__tab-unit">лет</span><span class="calculate__tab-value"> / </span><span class="calculate__tab-value">150 000</span><span class="calculate__tab-unit">км пробега</span></p>
-                                      <img src="/images/service/warranty/warranty-info-image-1.jpg" alt="">
+                                      <img src="/images/service/warranty/warranty-info-image-1.jpg" alt="Общая гарантия">
                                     </div>
                             -->
                             <div class="calculate__slider">
                                 <div class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide car-active" data-model="Creta">
-                                            <img src="/storage/cars/1561041417.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041417.png" alt="Гарантийный период Creta" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Creta</p>
                                         </div>
                                         <div class="swiper-slide " data-model="H-1">
-                                            <img src="/storage/cars/1561041426.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041426.png" alt="Гарантийный период H-1" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">H-1</p>
                                         </div>
                                         <div class="swiper-slide " data-model="i30N">
-                                            <img src="/storage/cars/1561041440.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041440.png" alt="Гарантийный период i30N" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">i30N</p>
                                         </div>
                                         <div class="swiper-slide " data-model="Solaris">
-                                            <img src="/storage/cars/1561041395.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041395.png" alt="Гарантийный период Solaris" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Solaris</p>
                                         </div>
                                         <div class="swiper-slide " data-model="Sonata">
-                                            <img src="/storage/cars/1561041410.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041410.png" alt="Гарантийный период SONATA" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">SONATA</p>
                                         </div>
                                         <div class="swiper-slide " data-model="NewSantaFe">
-                                            <img src="/storage/cars/1561041379.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041379.png" alt="Гарантийный период новый SANTA FE" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Новый SANTA FE</p>
                                         </div>
                                         <div class="swiper-slide " data-model="NewTucson">
-                                            <img src="/storage/cars/1561041387.png" alt="" class="swiper-slide__img">
+                                            <img src="/storage/cars/1561041387.png" alt="Гарантийный период новый TUCSON" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Новый TUCSON</p>
                                         </div>
                                     </div>
@@ -1171,7 +1171,7 @@ $APPLICATION->SetTitle("Гарантия");
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright-note">
-                                <img src="/images/service/warranty/note.svg" alt="" class="copyright-note-img">
+                                <img src="/images/service/warranty/note.svg" alt="ООО Хендэ Мотор СНГ" class="copyright-note-img">
                                 ООО «Хендэ&nbsp;Мотор&nbsp;СНГ» продлевает срок ограниченной гарантии, распространяющейся исключительно на&nbsp;механизмы двигателя и&nbsp;детали коробки передач Автомобиля, за&nbsp;исключением навесного оборудования, до&nbsp;5&nbsp;лет или 120&nbsp;000&nbsp;км пробега (в&nbsp;зависимости от&nbsp;того, что наступит ранее) при&nbsp;наличии на&nbsp;Автомобиль Сертификата ограниченной гарантии.
                             </div>
                         </div>

@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("bodyworks");
 					<div class="swiper-container swiper-advantages">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/speed.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/speed.svg" alt="Любой уровень сложности" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Любой уровень сложности
 								</p>
@@ -40,7 +40,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/man.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/man.svg" alt="Квалифицированный персонал" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Квалифицированный персонал
 								</p>
@@ -49,7 +49,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/wheel.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/wheel.svg" alt="Оригинальные запчасти со склада официального дистрибьютора" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Оригинальные запчасти
 								</p>
@@ -58,7 +58,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/tech_1.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/tech_1.svg" alt="Все виды работ выполняются на самом современном оборудовании" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Современное оборудование
 								</p>
@@ -67,7 +67,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/tech_2.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/tech_2.svg" alt="Тесное сотрудничество с мировыми производителями" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Соблюдение технологии
 								</p>
@@ -76,7 +76,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/calculator.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/calculator.svg" alt="Четкое объяснение стоимости работ" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Прозрачная стоимость
 								</p>
@@ -85,7 +85,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/star.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/star.svg" alt="Гарантия на выполненные работы" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Гарантия на выполненные работы
 								</p>
@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/clock_1.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/clock_1.svg" alt="Экономия Вашего времени" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Экономия Вашего времени
 								</p>
@@ -103,7 +103,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</p>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/shield.svg" alt="" class="swiper-slide__img">
+ <img src="/images/service/bodyworks/shield.svg" alt="Широкий спектр страховых компаний" class="swiper-slide__img">
 								<p class="swiper-slide__title">
 									 Широкий спектр страховых компаний
 								</p>
@@ -135,7 +135,7 @@ $APPLICATION->SetTitle("bodyworks");
 					<div class="swiper-container swiper-repair">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/car.png" alt="" class="swiper-car__img">
+ <img src="/images/service/bodyworks/car.png" alt="Своя кузовная станция 1" class="swiper-car__img">
 								<div class="repair__item repair__item--active" data-item="1">
 									<div class="repair__item-name">
 										 Капот
@@ -194,7 +194,7 @@ $APPLICATION->SetTitle("bodyworks");
 								</div>
 							</div>
 							<div class="swiper-slide">
- <img src="/images/service/bodyworks/car2.png" alt="" class="swiper-car__img">
+ <img src="/images/service/bodyworks/car2.png" alt="Своя кузовная станция 2" class="swiper-car__img">
 								<div class="repair__item repair__item--active" data-item="5">
 									<div class="repair__item-name">
 										 Бампер задний
@@ -316,7 +316,7 @@ $APPLICATION->SetTitle("bodyworks");
 			<div class="col-md-12">
 				<div class="service-inner">
 					<div class="service-left">
- <img src="/images/service/bodyworks/fix.svg" alt="" class="service__img">
+ <img src="/images/service/bodyworks/fix.svg" alt="Записаться на сервис" class="service__img">
 						<div class="service-block">
 							<h3 class="service-title">Записаться на сервис?</h3>
 							<p class="service-text">
@@ -335,7 +335,7 @@ $APPLICATION->SetTitle("bodyworks");
 			<div class="row">
 				<div class="col-md-12">
 					<div class="note-block">
- <img src="/images/service/warranty/note.svg" alt="" class="note-img">
+ <img src="/images/service/warranty/note.svg" alt="Стоимость носит ознакомительный характер" class="note-img">
 						Указанная стоимость носит ознакомительный характер и&nbsp;позволяет ориентировочно оценить некоторые виды работ по&nbsp;кузовному ремонту для&nbsp;легковых автомобилей Hyundai. Вы сможете получить точную стоимость услуг только после проведения оценки повреждений автомобиля и&nbsp;определения требуемого перечня восстановительных работ в&nbsp;официальном дилерском центре Hyundai
 					</div>
 				</div>

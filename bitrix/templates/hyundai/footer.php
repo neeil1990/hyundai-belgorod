@@ -978,7 +978,7 @@ src="https://cars.hyundai-belgorod.ru/widgets/jumpToCars.js"></script>
         webvisor:true
    });
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/49157044" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/49157044" style="position:absolute; left:-9999px;" alt="Yandex.Metrika" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 

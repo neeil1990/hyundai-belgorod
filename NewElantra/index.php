@@ -256,10 +256,10 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                     </li>
                 </ul>
                 <div class="dynamics__graph dynamics__graph--0">
-                    <img src="/images/cars/elantra/pics/engine_1.png">
+                    <img alt="Средний расход топлива 1" src="/images/cars/elantra/pics/engine_1.png">
                 </div>
                 <div class="dynamics__graph dynamics__graph--1">
-                    <img src="/images/cars/elantra/pics/engine_2.png">
+                    <img alt="Средний расход топлива 2" src="/images/cars/elantra/pics/engine_2.png">
                 </div>
             </section>
 
@@ -276,7 +276,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 </div>
                 <div class="d-composition">
                     <div class="d-composition__icon">
-                        <img src="/images/cars/elantra/svg/performance.svg">
+                        <img alt="6-ступенчатая АКПП и МКПП" src="/images/cars/elantra/svg/performance.svg">
                     </div>
                     <div class="d-composition__title">
                         6-ступенчатая<br> АКПП и МКПП.
@@ -429,7 +429,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_1.svg">
+                                <img alt="Звуковой сигнал 1" src="/images/cars/elantra/svg/tech_1.svg">
                                 <div class="marker__text">
                                     Звуковой
                                     <br>сигнал
@@ -440,7 +440,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 </div>
                 <div class="s-beep">
                     <div class="schema">
-                        <img data-src="/images/cars/elantra/pics/tech_scheme_1.jpg" alt="">
+                        <img data-src="/images/cars/elantra/pics/tech_scheme_1.jpg" alt=" Система помощи при парковке">
                     </div>
                     <div class="safety__title">
                         Система помощи при&nbsp;парковке.
@@ -483,7 +483,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_2.svg">
+                                <img alt="Передача видео 1" src="/images/cars/elantra/svg/tech_2.svg">
                                 <div class="marker__text">
                                     Передача
                                     <br>видео
@@ -505,32 +505,32 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 </div>
                 <div class="s-back">
                     <div class="s-back__img">
-                        <img data-src="/images/cars/elantra/pics/tech/tech_scheme_3_1.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_2.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_3.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_4.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_5.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_6.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_7.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_8.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_9.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_10.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_11.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_12.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_13.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_14.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_15.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_16.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_17.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_18.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_19.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_20.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_21.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_22.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_23.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_24.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_25.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_26.jpg" alt="">
+                        <img data-src="/images/cars/elantra/pics/tech/tech_scheme_3_1.jpg" alt="Система мониторинга слепых зон 1">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_2.jpg" alt="Система мониторинга слепых зон 2">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_3.jpg" alt="Система мониторинга слепых зон 3">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_4.jpg" alt="Система мониторинга слепых зон 4">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_5.jpg" alt="Система мониторинга слепых зон 5">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_6.jpg" alt="Система мониторинга слепых зон 6">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_7.jpg" alt="Система мониторинга слепых зон 7">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_8.jpg" alt="Система мониторинга слепых зон 8">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_9.jpg" alt="Система мониторинга слепых зон 9">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_10.jpg" alt="Система мониторинга слепых зон 10">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_11.jpg" alt="Система мониторинга слепых зон 11">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_12.jpg" alt="Система мониторинга слепых зон 12">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_13.jpg" alt="Система мониторинга слепых зон 13">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_14.jpg" alt="Система мониторинга слепых зон 14">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_15.jpg" alt="Система мониторинга слепых зон 15">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_16.jpg" alt="Система мониторинга слепых зон 16">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_17.jpg" alt="Система мониторинга слепых зон 17">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_18.jpg" alt="Система мониторинга слепых зон 18">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_19.jpg" alt="Система мониторинга слепых зон 19">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_20.jpg" alt="Система мониторинга слепых зон 20">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_21.jpg" alt="Система мониторинга слепых зон 21">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_22.jpg" alt="Система мониторинга слепых зон 22">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_23.jpg" alt="Система мониторинга слепых зон 23">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_24.jpg" alt="Система мониторинга слепых зон 24">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_25.jpg" alt="Система мониторинга слепых зон 25">
+                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_26.jpg" alt="Система мониторинга слепых зон 26">
                     </div>
                     <div class="s-back__description">
                         <div class="safety__title">
@@ -547,7 +547,7 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                         <div class="marker__circle2"></div>
                         <div class="marker__center">
                             <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_3.svg">
+                                <img alt="Датчик движения 1" src="/images/cars/elantra/svg/tech_3.svg">
                                 <div class="marker__text">
                                     Датчик
                                     <br>движения

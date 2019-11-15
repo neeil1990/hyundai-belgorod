@@ -151,7 +151,7 @@ $APPLICATION->SetTitle("H-1");
                 </div>
                 <div class="d-composition">
                     <div class="d-composition__icon">
-                        <img src="/images/cars/h1/svg/performance_3.svg">
+                        <img alt="6-ступенчатая МКПП" src="/images/cars/h1/svg/performance_3.svg">
                     </div>
                     <div class="d-composition__title">
                         6-ступенчатая МКПП

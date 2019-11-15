@@ -65,7 +65,7 @@ $APPLICATION->SetTitle("Программа Старт");
                                     <li class="about__item">
                                         <div class="about__back">
                                             <div class="about__migel">
-                                                <img src="/images/start/pics/1.png" alt="">
+                                                <img src="/images/start/pics/1.png" alt="Как работает СТАРТ">
                                             </div>
                                         </div>
                                         <div class="about__icon">
