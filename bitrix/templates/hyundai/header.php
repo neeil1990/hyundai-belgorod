@@ -182,6 +182,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                         </a>
                                                                     </li>
                                                                     <li class="showroom__car showroom__car">
+                                                                        <a href="/NewSonata" class="d-car" aria-label="NEWSONATA">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">Новая СОНАТА</h5>
+                                                                                <div class="d-car__name">/ SONATA</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 1 725 000 ₽</div>
+                                                                            <div class="d-car__m-name">SONATA</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1574242069.png" alt="Новая SONATA">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="showroom__car showroom__car">
                                                                         <a href="/NewElantra" class="d-car" aria-label="NEWELANTRA">
                                                                             <div class="d-car__top-line">
                                                                                 <h5 class="d-car__title">Новая ЭЛАНТРА</h5>

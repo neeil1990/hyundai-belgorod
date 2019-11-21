@@ -9,3 +9,4 @@ bitrix/cache/*
 bitrix/stack_cache/*
 access/*
 bitrix/html_pages/*
+ajax/upImg.php

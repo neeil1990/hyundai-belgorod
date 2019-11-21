@@ -5,6 +5,35 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="slider__body js-main-slider owl-carousel">
+
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1574246641_mob.jpg [(max-width: 640px)] | /storage/banners/1574246641.jpg">
+                                <a class="slider__link" href="/NewSonata/"  aria-label="Новая Hyundai SONATA.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">Новая Hyundai SONATA.</h2>
+                                        <div class="slider__subtitle df-banner-subline">Искусственный интеллект. Истинные чувства.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                от 1 725 000
+                                                &nbsp;₽														</div>
+
+                                            <div>
+                                                Покупка только онлайн
+                                            </div>
+
+                                            <div class="blue-panel__more">
+                                                Забронировать!
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
 					 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569994678_mob.jpg [(max-width: 640px)] | /storage/banners/1569994678.jpg">
                                 <a class="slider__link" href="https://mobility.hyundai.ru/tariffs/?utm_medium=referral&utm_source=hyundai.ru&utm_campaign=main_banner&_ga=2.67679641.945624496.1574067259-96980108.1555415333"  aria-label="Hyundai Mobility.">
                              
