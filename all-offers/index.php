@@ -70,6 +70,32 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>-->
+						      <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
+                                <a href="/promo/suv-winter2020/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1572595076.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Кроссоверы Hyunday. С тобой заодно.</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+						     <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
+                                <a href="/promo/suv-rock/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1570619970.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>TUCSON и SANTA FE Rock Edition</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/solaris_super_series" class="special-item__link">
@@ -83,19 +109,7 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
-                            <div class="special-item">
-                                <a href="/start" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Покупателям</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/609ef8839c9e9834efa0e2ac95efadf2_start_new.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Финансовая программа Старт.<br>Гибкие условия, взнос от 0%</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                  
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/cska_sponsorship" class="special-item__link">

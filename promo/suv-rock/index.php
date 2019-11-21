@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("TUCSON и SANTA FE Rock Edition.");
                             </svg>
                         </a>
                         <div class="main-img">
-                            <div class="main-img-inner lazyload lazypreview" data-bgset="/storage/special_offers/banner_1569995301.jpg [(max-width: 640px)] | /storage/special_offers/banner_1569995346.jpg"></div>
+                            <div class="main-img-inner lazyload lazypreview" data-bgset="/storage/special_offers/bannerm_1570620194.jpg [(max-width: 640px)] | /storage/special_offers/banner_1570619970.jpg"></div>
                         </div>
                     </div>
                 </div>
