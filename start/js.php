@@ -1,3 +1,4 @@
-<script src="/js/start/libs.js?id=860fdc15f3d9f9188415"></script>
-<script src="/js/start/start.js?id=9cc949a4d9305f524204"></script>
-<script src="/js/start/calc.js?id=6795f1a44e3c741bed8d"></script>
+<script src="/js/lazypreview.js?id=12ad41ccdaca74f79107"></script>
+<script src="/js/start/libs.js?id=d05be81a19389679654a"></script>
+<script src="/js/start/start.js?id=9e9a24bd26acbf33aec4"></script>
+<script src="/js/start/calc.js?id=fd7dabec4062080767f9"></script>
