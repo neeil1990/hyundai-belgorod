@@ -168,11 +168,7 @@
                     </a>
                     <nav class="footer-bottom__nav" role="navigation">
                         <ul class="footer-bottom__menu">
-                            <li class="footer-bottom__item">
-                                <a href="/sitemap" class="footer-bottom__link">
-                                    Карта сайта
-                                </a>
-                            </li>
+                      
                             <li class="footer-bottom__item">
                                 <a href="/Legal" class="footer-bottom__link">
                                     Юридическая информация
