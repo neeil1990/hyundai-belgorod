@@ -104,12 +104,12 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                         <a href="http://sonata.hyundai.ru/" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">140 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">180 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">100 000 &#8381;</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -133,7 +133,7 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">85 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">75 000 &#8381;</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -152,12 +152,12 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                         <a href="/Creta" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">60 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">30 000 &#8381;</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">75 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">55 000 &#8381;</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -176,12 +176,12 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                         <a href="/Elantra" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">30 000 &#8381;</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">95 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">55 000 &#8381;</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -209,7 +209,7 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
 
                     </div>
                     <div class="carslider-inner-single-img">
-                        <img src="/local/templates/hyundai_2017/img/TLr_Ara_Blue_1280_11.png">
+                        <img src="/local/templates/hyundai_2017/img/trade_in_new_tucson.png">
                     </div>
                     <a href="/test-drive" class="carslider-inner-single-button buttontd">
                         <span>Тест-драйв</span>
@@ -219,6 +219,46 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                     </a>
                 </div>
 
+				
+				
+				
+				
+			   <div class="carslider-inner-single">
+                    <div class="carslider-inner-single-title h-1">H-1</div>
+                    <div class="carslider-inner-single-desc h-1">
+                        <a href="/H-1" class="carslider-inner-single-desc-link">описание модели</a>
+
+                        <div class="carslider-inner-single-desc-tit">Выгода</div>
+                        <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                        <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">100 000 &#8381;</div>
+
+                    </div>
+                    <div class="carslider-inner-single-img">
+                        <img src="/local/templates/hyundai_2017/img/trade_in_h1.png">
+                    </div>
+                    <a href="/test-drive" class="carslider-inner-single-button buttontd">
+                        <span>Тест-драйв</span>
+                    </a>
+                    <a href="/configurator?car_id=30" class="carslider-inner-single-button buttonkonf">
+                        <span>Конфигуратор</span>
+                    </a>
+                </div>	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
             </div>
             <div class="carslider-button buttonprev"></div>
             <div class="carslider-button buttonnext"></div>

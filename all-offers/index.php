@@ -99,7 +99,7 @@ $APPLICATION->SetTitle("all-offers");
 						
 						  <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
-                                <a href="/promo/start/" class="special-item__link">
+                                <a href="/start/" class="special-item__link">
                                     <div class="special-item-label">
                                         <p class="df-text-input-14px">Покупателям</p>
                                     </div>
