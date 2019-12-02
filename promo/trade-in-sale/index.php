@@ -38,45 +38,7 @@ $APPLICATION->SetTitle("Скидки на покупку нового Hyundai");
                             <p class="offer-terms__text">Hyundai i30 N: 300 000 ₽<br />Hyundai SOLARIS: 40 000 ₽<br />Hyundai CRETA: 30 000 ₽<br />Hyundai SONATA: 120 000 ₽<br />Hyundai TUCSON: 100 000 ₽<br />Hyundai SANTA FE: 130 000 ₽<br /><br /></p>
                             <p class="offer-terms__text">Подробности уточняйте в&nbsp;<a class="df-link" href="/contacts/" target="_blank" rel="noopener">официальных дилерских центрах Hyundai.</a></p></div>
                     </div>
-                    <div class="product-info">
-                        <div class="container">
-                            <div class="row">
-                                <div class="product-info-mobile col-sm-12">
-                                    <div class="product-info-title">
-                                        <h3>i30 N</h3>
-                                    </div>
-                                    <div class="product-info-price">
-                                        <h5>2 200 000 ₽</h5>
-                                    </div>
-                                </div>
-                                <div class="product-info-img col-md-6 col-sm-12">
-                                    <img src="/storage/cars/1561041440.png" alt="">
-                                </div>
-                                <div class="col-md-6 col-sm-12">
-                                    <div class="product-info-title">
-                                        <h3>i30 N</h3>
-                                    </div>
-                                    <div class="product-info-price">
-                                        <h5>2 200 000 ₽</h5>
-                                    </div>
-                                    <div class="product-info-buttons">
-                                        <button onclick="document.location.href='/i30N'" class="df-button df-button--small">О модели</button>
-                                        <button onclick="document.location.href='/configurator/car/28'" class="df-button df-button--small">Конфигуратор</button>
-                                        <button onclick="document.location.href='/test-drive/'" class="df-button df-button--small">Тест-драйв</button>
-                                        <button onclick="document.location.href='/configurator/car/28/#calculator'" class="df-button df-button--small">Расчет кредита</button>
-                                    </div>
-                                    <!--
-                                                  <a href="#" class="df-download-link">
-                                                    <svg>
-                                                      <use xlink:href="#download-link"></use>
-                                                    </svg>
-                                                    Скачать брошюру
-                                                  </a>
-                                    -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="product-info">
                         <div class="container">
                             <div class="row">

@@ -139,7 +139,20 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
-                     
+
+                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
+                            <div class="special-item">
+                                <a href="/promo/trade-in-sale" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Трейд-ин</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1568906599.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Выгода при покупке по программе Трейд-ин</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                       
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
                             <div class="special-item">
