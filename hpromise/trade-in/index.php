@@ -200,12 +200,12 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                         <a href="/Tucson" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">110 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">80 000 &#8381;</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">155 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">125 000 &#8381;</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -219,7 +219,30 @@ $APPLICATION->SetPageProperty("description", "HYUNDAI TRADE-IN - обменяй�
                     </a>
                 </div>
 
-				
+				<div class="carslider-inner-single">
+                    <div class="carslider-inner-single-title sonatanew">SonataNew</div>
+                    <div class="carslider-inner-single-desc sonatanew">
+                        <a href="/NewSonata" class="carslider-inner-single-desc-link">описание модели</a>
+
+                        <div class="carslider-inner-single-desc-tit">Выгода</div>
+                        <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
+
+
+                        <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">70 000 &#8381;</div>
+
+                    </div>
+                    <div class="carslider-inner-single-img">
+                        <img src="/local/templates/hyundai_2017/img/trade-in-new-hyundai-sonata.png">
+                    </div>
+                    <a href="/test-drive" class="carslider-inner-single-button buttontd">
+                        <span>Тест-драйв</span>
+                    </a>
+                    <a href="/configurator?car_id=30" class="carslider-inner-single-button buttonkonf">
+                        <span>Конфигуратор</span>
+                    </a>
+                </div>
 				
 				
 				

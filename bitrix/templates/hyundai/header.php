@@ -194,19 +194,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="/NewElantra" class="d-car" aria-label="NEWELANTRA">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">Новая ЭЛАНТРА</h5>
-                                                                                <div class="d-car__name">/ ELANTRA</div>
-                                                                            </div>
-                                                                            <div class="d-car__price">от 1 059 000 ₽</div>
-                                                                            <div class="d-car__m-name">ELANTRA</div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041448.png" alt="Новая ELANTRA">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
+                                                             
                                                                 </ul>
                                                             </li>
                                                             <li class="showroom__line">
@@ -235,6 +223,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                             <div class="d-car__m-name">SONATA</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041410.png" alt="SONATA">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+																	       <li class="showroom__car showroom__car">
+                                                                        <a href="/NewElantra" class="d-car" aria-label="NEWELANTRA">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">Новая ЭЛАНТРА</h5>
+                                                                                <div class="d-car__name">/ ELANTRA</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 1 059 000 ₽</div>
+                                                                            <div class="d-car__m-name">ELANTRA</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041448.png" alt="Новая ELANTRA">
                                                                             </div>
                                                                         </a>
                                                                     </li>
