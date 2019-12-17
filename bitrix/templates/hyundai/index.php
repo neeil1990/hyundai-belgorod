@@ -34,6 +34,53 @@
                                     </div>
                                 </a>
                             </li>
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1575461362_mob.jpg [(max-width: 640px)] | /storage/banners/1575461362.jpg">
+                                <a class="slider__link" href="/promo/halva" target=&quot;_blank&quot; aria-label="Честная авторассрочка.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title" style="color: #000;">Честная авторассрочка.</h2>
+                                        <div class="slider__subtitle df-banner-subline" style="color: #000;">С картой «Халва».</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                Переплата 0
+                                                &nbsp;₽														</div>
+
+                                            <div>
+                                                Срок рассрочки 12 или 18 мес.
+                                            </div>
+
+                                            <div>
+                                                В любом из ДЦ Hyundai
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1575032040_mob.jpg [(max-width: 640px)] | /storage/banners/1575032040.jpg">
+                                <a class="slider__link" href="/promo/solaris_super_series_2" target=&quot;_blank&quot; aria-label="SOLARIS Super Series II">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">SOLARIS Super Series II</h2>
+                                        <div class="slider__subtitle df-banner-subline">Уникальная комплектация!</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                Специальный пакет опций.
+                                            </div>
+
+                                            <div>
+                                                6 000
+                                                &nbsp;₽/мес.														</div>
+
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
 					 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569994678_mob.jpg [(max-width: 640px)] | /storage/banners/1569994678.jpg">
                                 <a class="slider__link" href="https://mobility.hyundai.ru/tariffs/?utm_medium=referral&utm_source=hyundai.ru&utm_campaign=main_banner&_ga=2.67679641.945624496.1574067259-96980108.1555415333"  aria-label="Hyundai Mobility.">
                              
